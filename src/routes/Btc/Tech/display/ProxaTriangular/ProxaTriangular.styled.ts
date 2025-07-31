@@ -8,7 +8,7 @@ export const ContentWrapper = styled.div`
 
 export const HeaderRight = styled.div`
   padding: 0px 20px 0px 60px;
-  flex: 2;
+  flex: 2.4;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -19,15 +19,18 @@ export const MainTitle = styled.h1`
   font-family: "Gotham", sans-serif;
   font-weight: 700;
   color: #00a16b;
-  font-size: clamp(18px, 3.4vw, 6.4rem);
+  font-size: clamp(18px, 3.8vw, 6.4rem);
   line-height: 1;
   margin-bottom: 12px;
+
+  sup {
+    font-size: 1.8vw;
+  }
 `;
 
 export const Trademark = styled.sup`
   position: absolute;
   font-weight: 700;
-
 `;
 
 export const Description = styled.ul`
@@ -35,7 +38,7 @@ export const Description = styled.ul`
   font-size: clamp(16px, 1.8vw, 2.4rem);
   color: #666666;
   line-height: 1.25;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   padding-inline-start: 4px;
   letter-spacing: -1px;
   padding-right: 12px;
@@ -43,7 +46,6 @@ export const Description = styled.ul`
   sup {
     font-size: 12px;
   }
-
 `;
 
 export const DiagramSection = styled.div`
@@ -51,7 +53,6 @@ export const DiagramSection = styled.div`
   align-items: center;
   gap: 30px;
   margin-bottom: 12px;
-
 `;
 
 export const AngleDemo = styled.div`
@@ -66,7 +67,6 @@ export const AngleDemo = styled.div`
     width: 100%;
     height: 100%;
   }
-
 
   @media screen and (min-width: 2300px) {
     width: 150px;
@@ -88,7 +88,6 @@ export const DiagramLabel = styled.span`
   color: #666666;
   text-align: center;
   margin-bottom: 5px;
-
 `;
 
 export const CrossSectionDiagram = styled.div`
@@ -96,10 +95,9 @@ export const CrossSectionDiagram = styled.div`
   margin-bottom: 10px;
 
   img {
-    width: 100%;
+    width: 95%;
     height: auto;
   }
-
 `;
 
 export const CrossSectionIcon = styled.div`
@@ -114,12 +112,11 @@ export const CrossSectionIcon = styled.div`
     width: 100%;
     height: 100%;
   }
-
 `;
 
 export const BenefitsList = styled.ul`
-    line-height: 1.35;
-    padding-inline-start: 20px;
+  line-height: 1.2;
+  padding-inline-start: 20px;
 `;
 
 export const BenefitItem = styled.li`
@@ -130,9 +127,8 @@ export const BenefitItem = styled.li`
   margin: 0;
 
   @media screen and (max-width: 1080px) {
-      font-size: clamp(14px, 1.4vw, 1.8rem);
+    font-size: clamp(14px, 1.4vw, 1.8rem);
   }
-
 `;
 
 export const HandImage = styled.div`
@@ -141,7 +137,6 @@ export const HandImage = styled.div`
   justify-content: flex-end;
   flex: 1;
   min-width: 0;
-
 
   img {
     width: auto;

@@ -13,18 +13,21 @@ export const HeaderRight = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 `;
 
 export const MainTitle = styled.h1`
   font-family: "Gotham", sans-serif;
   font-weight: 700;
   color: #00a16b;
-  font-size: clamp(18px, 4.2vw, 6.4rem);
+  font-size: clamp(18px, 3.8vw, 6.4rem);
   line-height: 1;
   margin-bottom: 20px;
   letter-spacing: -2px;
+  padding-right: 32px;
 
+  sup {
+    font-size: 1.8vw;
+  }
 `;
 
 export const Trademark = styled.sup`
@@ -34,17 +37,16 @@ export const Trademark = styled.sup`
 
 export const Description = styled.ul`
   font-family: "Gotham", sans-serif;
-  font-size: clamp(18px, 2vw,2.4rem);
+  font-size: clamp(18px, 1.8vw, 2.4rem);
   color: #666666;
-  line-height: 1.25;
+  line-height: 1.2;
   margin-bottom: 30px;
   letter-spacing: -1px;
-  padding-right: 64px;
+  padding-right: 104px;
 
   sup {
     font-size: 12px;
   }
-
 `;
 
 export const DiagramSection = styled.div`
@@ -52,7 +54,6 @@ export const DiagramSection = styled.div`
   align-items: center;
   gap: 30px;
   margin-bottom: 12px;
-
 `;
 
 export const AngleDemo = styled.div`
@@ -67,7 +68,6 @@ export const AngleDemo = styled.div`
     width: 100%;
     height: 100%;
   }
-
 `;
 
 export const CrossSectionWrapper = styled.div`
@@ -94,7 +94,6 @@ export const CrossSectionDiagram = styled.div`
     width: 90%;
     height: auto;
   }
-
 `;
 
 export const CrossSectionIcon = styled.div`
@@ -109,7 +108,6 @@ export const CrossSectionIcon = styled.div`
     width: 100%;
     height: 100%;
   }
-
 `;
 
 export const SoftPickImage = styled.div`
@@ -124,5 +122,4 @@ export const SoftPickImage = styled.div`
     width: auto;
     height: 100%;
   }
-
 `;

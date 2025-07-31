@@ -44,30 +44,38 @@ export default function Toothbrush() {
             <S.ContentLeft>
               <S.IntroTitleWrapper>
                 <S.IntroTitle>
-                  Gum <br />
-                  Interproximal
-                  <br /> Solutions
+                  Solutions
+                  <br />
+                  interdentaires
+                  <br />
+                  de GUM<sup>MD</sup>
                 </S.IntroTitle>
               </S.IntroTitleWrapper>
               <S.RecommendedWrapper>
                 <S.Recommended src={Col1Row2} />
                 <h3>
-                  Recommended
-                  <br /> By Canadian
-                  <br /> Dental&nbsp;Hygienists<sup>7</sup>
+                  Recommandée
+                  <br /> au&nbsp;Canada&nbsp;par&nbsp;les
+                  <br />
+                  hygiénistes&nbsp;dentaires
+                  <sup>7</sup>
                 </h3>
               </S.RecommendedWrapper>
               <S.LinksWrapper>
                 <S.StyledLink to="/btc/tech">
                   <S.LinkContent>
                     <S.LinkImg src={Technology2} />
-                    <S.LinkText>Technology</S.LinkText>
+                    <S.LinkText>
+                      Technologie
+                      <br />
+                      <br />
+                    </S.LinkText>
                   </S.LinkContent>
                 </S.StyledLink>
                 <S.StyledLink to="/btc/patient">
                   <S.LinkContent>
                     <S.LinkImg src={PatientNeeds2} />
-                    <S.LinkText>Patient Needs</S.LinkText>
+                    <S.LinkText>Besoins des patients</S.LinkText>
                   </S.LinkContent>
                 </S.StyledLink>
               </S.LinksWrapper>

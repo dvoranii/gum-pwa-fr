@@ -19,7 +19,7 @@ import BottomText from "../../components/BottomText/BottomText";
 const partnersNavItems = [
   {
     path: "/partners",
-    label: "VOS\u00A0PARTENAIRES\u00A0EN\u00A0SOINS",
+    label: "Vos\u00A0partenaires\u00A0en\u00A0soins",
     end: true,
   },
   { path: "/recommend", label: "Recommander" },
@@ -53,11 +53,19 @@ export default function Partners() {
       <S.Content>
         {isHomePage ? (
           <>
-            <ModuleTitle title={"Partners in Oral Care"} />
+            <ModuleTitle
+              title={"Partenaires en soins oraux"}
+              $marginBottom="0.4rem"
+            />
             <BulletList
               items={[
-                "Engineering superior products for specific patient needs",
-                "Supporting your goals as a dental professional.",
+                <>
+                  <span>
+                    GUM<sup>MD</sup> conçoit des produits supérieurs pour
+                    répondre aux besoins uniques des patients.
+                  </span>
+                </>,
+                "Nous soutenons vos objectifs de professionnel dentaire.",
               ]}
             />
 
@@ -74,42 +82,43 @@ export default function Partners() {
                     <S.GumLogo src={GumLogo} />
 
                     <S.GumTextWrapper>
-                      <h2>Transforming</h2>
+                      <h2>Transformation</h2>
                       <h3>
-                        Patient Experiences
-                        <br /> & Relationships
+                        des expériences et des
+                        <br /> relations des patients
                       </h3>
                     </S.GumTextWrapper>
                   </S.GumLogoCol>
 
                   <S.GraphicsCol>
-                    <S.ImgTextWrapper>
+                    <S.ImgTextWrapper $marginTop="-20px">
                       <img src={PatientImg} alt="" />
                       <S.ColTextWrapper>
                         <h4>Patient</h4>
                         <p>
-                          Creating experiences that can transform patients'
-                          relationship with hygiene.
+                          Création d’expériences qui peuvent transformer la
+                          relation des patients avec l’hygiène.
                         </p>
                       </S.ColTextWrapper>
                     </S.ImgTextWrapper>
-                    <S.ImgTextWrapper>
+                    <S.ImgTextWrapper $marginTop="-20px">
                       <img src={ProfessionalImg} alt="" />
                       <S.ColTextWrapper>
-                        <h4>Professional</h4>
+                        <h4>Professionnel</h4>
                         <p>
-                          Engineering superior products designed for unique
-                          patient needs.
+                          Conception de produits supérieurs qui comblent les
+                          besoins uniques des patients.
                         </p>
                       </S.ColTextWrapper>
                     </S.ImgTextWrapper>
                     <S.ImgTextWrapper>
                       <img src={PatAndProf} alt="" />
                       <S.ColTextWrapper>
-                        <h4>Patient & Professional</h4>
+                        <h4>Patient et professionnel</h4>
                         <p>
-                          Building trust through recommendations that both
-                          professional and patient can count on.
+                          Instauration de la confiance par des recommandations
+                          sur lesquelles le professionnel et le patient peuvent
+                          compter.
                         </p>
                       </S.ColTextWrapper>
                     </S.ImgTextWrapper>
@@ -127,9 +136,10 @@ export default function Partners() {
             <BottomText
               lines={[
                 <>
-                  Earning our #1 recommended<sup>7</sup> Status Every Day
+                  Mériter chaque jour notre statut de la marque la plus
+                  recommandée<sup>7</sup>;
                 </>,
-                "- this is our driving purpose.",
+                "voilà notre raison d’être.",
               ]}
             />
           </>
