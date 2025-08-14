@@ -1,23 +1,27 @@
-import StringFlossSlide from '../StringFloss';
-import ProductImage from '../../../../../../assets/btc/patient/recommendations/StringFloss/3210-Floss.webp';
+import StringFlossSlide from "../StringFloss";
+import ProductImage from "../../../../../../assets/btc/patient/recommendations/StringFloss/3210-Floss.webp";
 
 export default function EasyThreadFloss() {
   return (
     <StringFlossSlide
-      title="EasyThread®"
-      subtitle="FLOSS"
+      title="FIL DENTAIRE"
+      subtitle={
+        <>
+          EasyThread<sup>MD</sup>
+        </>
+      }
       topImage={ProductImage}
       topImageMarginBottom="0"
-      contentPadding='0 0 0 4.2rem'
-      bulletItemsFontSize='clamp(16px, 1.9vw, 1.8rem)'
-      contentMarginTop='-20px'
+      contentPadding="0 0 0 4.2rem"
+      bulletItemsFontSize="clamp(16px, 1.9vw, 1.8rem)"
+      contentMarginTop="-20px"
       bullets={[
-        { lines: ["Stiff threader sections provide easy",
-                  "access to hard-to-clean spaces",
-                  "without irritating the gums."
-        ]},
-        { lines: ["Double-ended threader sections to", 
-                  "maximize cleaning with each strand."] }
+        {
+          text: `Sections dotées d’enfileur de fil dentaire rigide intégré qui facilitent l’accès aux espaces difficiles à nettoyer sans irriter les gencives.`,
+        },
+        {
+          text: `Sections dotées d’enfileur à deux extrémités pour maximiser le nettoyage avec chaque passage de fil.`,
+        },
       ]}
     />
   );

@@ -1,20 +1,21 @@
 import * as S from "./SoftPicks.styles";
 import { BulletPoint } from "../../../../../types/BulletPoint";
+import { JSX } from "react";
 
 type ResponsiveValue = {
   default: string;
   small?: string;
-}
-
+};
 
 type SoftPicksSlideProps = {
-  title: string;
+  title: string | JSX.Element;
   subtitle: string;
   subtitleSize?: string | ResponsiveValue;
   sideImage: string;
   sideImageHeight?: string;
   bottomImage?: string;
-  bottomImageMargin?:string;
+  bottomImageMargin?: string;
+  bottomImageWidth?: string;
   bullets: BulletPoint[];
   gap?: string;
 };
@@ -27,13 +28,14 @@ export default function SoftPicksSlide({
   sideImageHeight,
   bottomImage,
   bottomImageMargin,
+  bottomImageWidth,
   bullets,
-  gap
+  gap,
 }: SoftPicksSlideProps) {
   return (
     <S.Container $gap={gap}>
       <S.ImgWrapper>
-        <S.MainImage 
+        <S.MainImage
           src={sideImage}
           alt={`${title} ${subtitle}`}
           $height={sideImageHeight}
@@ -48,9 +50,7 @@ export default function SoftPicksSlide({
           {bullets.map((bullet, index) => (
             <li key={index}>
               {bullet.lines ? (
-                bullet.lines.map((line, i) => (
-                  <span key={i}>{line}</span>
-                ))
+                bullet.lines.map((line, i) => <span key={i}>{line}</span>)
               ) : (
                 <span>{bullet.text}</span>
               )}
@@ -59,10 +59,11 @@ export default function SoftPicksSlide({
         </S.BulletList>
 
         {bottomImage && (
-          <S.ComparisonImage 
-            src={bottomImage} 
-            alt={`${title} comparison`} 
+          <S.ComparisonImage
+            src={bottomImage}
+            alt={`${title} comparison`}
             $marginLeft={bottomImageMargin}
+            $width={bottomImageWidth}
           />
         )}
       </S.ImgAndTextWrapper>

@@ -1,9 +1,9 @@
-// ProxabrushSlide.tsx
 import * as S from "./ProxabrushSlide.styles";
 import { BulletPoint } from "../../../../../types/BulletPoint";
+import { JSX } from "react";
 
 type ProxabrushSlideProps = {
-  title: string;
+  title: string | JSX.Element;
   subtitle: string;
   subtitleSize?: string;
   sideImage: string;
@@ -23,15 +23,15 @@ export default function ProxabrushSlide({
   bottomImage,
   bottomImageMarginLeft,
   bullets,
-  bulletMarginBottom
+  bulletMarginBottom,
 }: ProxabrushSlideProps) {
   return (
     <S.Container>
       <S.ImgWrapper>
-        <S.MainImage 
-        src={sideImage} 
-        alt={`${title} ${subtitle}`}
-        $height={sideImageHeight}
+        <S.MainImage
+          src={sideImage}
+          alt={`${title} ${subtitle}`}
+          $height={sideImageHeight}
         />
       </S.ImgWrapper>
 
@@ -43,9 +43,7 @@ export default function ProxabrushSlide({
           {bullets.map((bullet, index) => (
             <li key={index}>
               {bullet.lines ? (
-                bullet.lines.map((line, i) => (
-                  <span key={i}>{line}</span>
-                ))
+                bullet.lines.map((line, i) => <span key={i}>{line}</span>)
               ) : (
                 <span>{bullet.text}</span>
               )}
@@ -53,9 +51,9 @@ export default function ProxabrushSlide({
           ))}
         </S.BulletList>
 
-        <S.ComparisonImage 
-          src={bottomImage} 
-          alt={`${title} comparison`} 
+        <S.ComparisonImage
+          src={bottomImage}
+          alt={`${title} comparison`}
           $marginLeft={bottomImageMarginLeft}
         />
       </S.ImgAndTextWrapper>

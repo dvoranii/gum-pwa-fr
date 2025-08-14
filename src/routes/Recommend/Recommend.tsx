@@ -16,7 +16,7 @@ import BG3 from "../../assets/recommend/bg-3-text-removed.webp";
 
 import BGCircle1 from "../../assets/recommend/bg-1-circle-1.png";
 import BG2Circle1 from "../../assets/recommend/bg-2-circle-1.png";
-import BG2_3Circles from "../../assets/recommend/bg-2-3-circles.png";
+import BG2_3Circles from "../../assets/recommend/bg-2-3-circles.webp";
 
 type NavItem = {
   path: string;

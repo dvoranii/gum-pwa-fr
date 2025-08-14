@@ -18,10 +18,10 @@ const btcNavItems = [
   },
   { path: "/btc/tech", label: "Technologie" },
   { path: "/btc/patient", label: "Patient" },
-  { path: "/btc/floss", label: "Fil\u00A0Dentaire" },
-  { path: "/btc/flossers", label: "Porte-Fils\u00A0Dentaires" },
-  { path: "/btc/id-brushes", label: "Brossettes\u00A0Interdentaires" },
-  { path: "/btc/soft-picks", label: "Bâtonnets\u00A0Soft\u00A0Picks" },
+  { path: "/btc/floss", label: "Fil\u00A0dentaire" },
+  { path: "/btc/flossers", label: "Porte-fils\u00A0dentaires" },
+  { path: "/btc/id-brushes", label: "Brossettes\u00A0interdentaires" },
+  { path: "/btc/soft-picks", label: "Bâtonnets\u00A0soft\u00A0picks" },
   { path: "/recommend", label: "Recommander" },
 ];
 

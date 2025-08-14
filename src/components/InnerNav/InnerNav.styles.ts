@@ -26,7 +26,6 @@ export const NavTabs = styled.nav`
   justify-content: space-between;
   width: 100%;
   max-width: fit-content;
-  /* text-transform: uppercase; */
   background-color: ${colors.dotBGActive2};
 `;
 
@@ -38,14 +37,13 @@ export const TabLink = styled(NavLink)`
   white-space: nowrap;
   min-width: fit-content;
   flex: 0 1 auto;
-  padding: 0 0.35rem;
+  padding: 0 0.55rem;
   text-decoration: none;
   color: #ffffff;
   font-weight: 400;
   position: relative;
-  font-family: "Gotham", sans-serif;
-  font-style: normal;
-  font-size: clamp(0.65rem, 0.7vw, 1.85rem);
+  font-family: "Trade Gothic", "Gotham", sans-serif;
+  font-size: clamp(0.85rem, 0.7vw, 1.85rem);
   letter-spacing: 1px;
   -webkit-tap-highlight-color: transparent;
 

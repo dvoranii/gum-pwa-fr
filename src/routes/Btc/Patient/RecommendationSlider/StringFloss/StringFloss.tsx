@@ -1,10 +1,11 @@
 import * as S from "./StringFloss.styles";
 import { BulletPoint } from "../../../../../types/BulletPoint";
+import { JSX } from "react";
 
 type StringFlossSlideProps = {
   title: string;
   titleSize?: string;
-  subtitle: string;
+  subtitle: string | JSX.Element;
   subtitleSize?: string;
   topImage: string;
   topImageWidth?: string;
@@ -15,12 +16,12 @@ type StringFlossSlideProps = {
   bulletItemsFontSize?: string;
   isCombination?: boolean;
   secondTitle?: string;
-  secondSubtitle?: string;
-  combinationTitleSize?: string; 
+  secondSubtitle?: string | JSX.Element;
+  combinationTitleSize?: string;
   combinationSubtitleSize?: string;
   contentPadding?: string;
   contentMarginTop?: string;
-  containerMarginTop?:string;
+  containerMarginTop?: string;
 };
 
 export default function StringFlossSlide({
@@ -42,12 +43,12 @@ export default function StringFlossSlide({
   contentPadding,
   contentMarginTop,
   bulletItemsFontSize,
-  containerMarginTop
+  containerMarginTop,
 }: StringFlossSlideProps) {
   return (
     <S.Container $marginTop={containerMarginTop}>
       <S.TopImageWrapper $marginBottom={topImageMarginBottom}>
-        <S.MainImage 
+        <S.MainImage
           src={topImage}
           alt={`${title} ${subtitle}`}
           $width={topImageWidth}
@@ -59,14 +60,18 @@ export default function StringFlossSlide({
           <S.CombinationTitleWrapper>
             <S.TitlesWrapper>
               <S.Title $fontSize={combinationTitleSize}>{title}</S.Title>
-              <S.Subtitle $fontSize={combinationSubtitleSize}>{subtitle}</S.Subtitle>
+              <S.Subtitle $fontSize={combinationSubtitleSize}>
+                {subtitle}
+              </S.Subtitle>
             </S.TitlesWrapper>
-            
-            <S.PlusSign>+</S.PlusSign>
+
+            <S.PlusSign>et</S.PlusSign>
 
             <S.TitlesWrapper>
               <S.Title $fontSize={combinationTitleSize}>{secondTitle}</S.Title>
-              <S.Subtitle $fontSize={combinationSubtitleSize}>{secondSubtitle}</S.Subtitle>
+              <S.Subtitle $fontSize={combinationSubtitleSize}>
+                {secondSubtitle}
+              </S.Subtitle>
             </S.TitlesWrapper>
           </S.CombinationTitleWrapper>
         ) : (
@@ -76,13 +81,15 @@ export default function StringFlossSlide({
           </S.TitlesWrapper>
         )}
 
-        <S.BulletList $marginInlineStart={bulletMargin} $fontSize={bulletItemsFontSize} $listItemMarginBottom={listMarginBottom}>
+        <S.BulletList
+          $marginInlineStart={bulletMargin}
+          $fontSize={bulletItemsFontSize}
+          $listItemMarginBottom={listMarginBottom}
+        >
           {bullets.map((bullet, index) => (
             <li key={index}>
               {bullet.lines ? (
-                bullet.lines.map((line, i) => (
-                  <span key={i}>{line}</span>
-                ))
+                bullet.lines.map((line, i) => <span key={i}>{line}</span>)
               ) : (
                 <span>{bullet.text}</span>
               )}

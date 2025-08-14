@@ -1,30 +1,37 @@
-// StringFlossSlide/variants/ProWeaveAndEEZThru.tsx
-import StringFlossSlide from '../StringFloss';
-import ProductImage from '../../../../../../assets/btc/patient/recommendations/StringFloss/1815+840-Floss.webp';
+import StringFlossSlide from "../StringFloss";
+import ProductImage from "../../../../../../assets/btc/patient/recommendations/StringFloss/1815+840-Floss.webp";
 
 export default function ProWeaveAndEEZThru() {
   return (
     <StringFlossSlide
-      title="Pro-Weave®"
-      subtitle="DENTAL FLOSS"
-      secondTitle="EEZ-Thru®"
-      secondSubtitle="THREADERS"
+      title="FIL DENTAIRE"
+      subtitle={
+        <>
+          Pro-Weave<sup>MD</sup>
+        </>
+      }
+      secondTitle="PASSE-FIL DENTAIRE"
+      secondSubtitle={
+        <>
+          EEZ-THRU<sup>MD</sup>
+        </>
+      }
       topImage={ProductImage}
       topImageMarginBottom="1.2rem"
       isCombination={true}
-      combinationTitleSize="2.5rem"
-      combinationSubtitleSize="1.6rem"
-      bulletMargin='40px;'
+      combinationTitleSize="2.4rem"
+      combinationSubtitleSize="2rem"
+      bulletMargin="40px;"
       bullets={[
-        { lines: ["Woven design removes biofilm between ",
-                  "teeth and below the gumline."
-        ] },
-        { lines: [
-            "Versatile nylon loop helps thread floss",
-            "through spaces where most other",
-            "products cannot reach."
-          ] 
-        }
+        {
+          text: `Conception tissée qui élimine le biofilm entre
+les dents et sous la ligne gingivale.`,
+        },
+        {
+          text: `Boucle de nylon polyvalente qui aide à insérer le fil dentaire
+dans les espaces interdentaires non accessibles à la plupart
+des autres produits.`,
+        },
       ]}
     />
   );

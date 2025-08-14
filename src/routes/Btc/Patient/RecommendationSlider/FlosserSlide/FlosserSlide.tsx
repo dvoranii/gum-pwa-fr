@@ -1,14 +1,16 @@
 import * as S from "./FlosserSlide.styles";
 import { BulletPoint } from "../../../../../types/BulletPoint";
+import { JSX } from "react";
 
 type FlosserSlideProps = {
-  title: string;
-  titleSize?: string; 
-  subtitle: string;
+  title: string | JSX.Element;
+  titleSize?: string;
+  subtitle: string | JSX.Element;
   subtitleSize?: string;
+  subtitleMarginTop?: string;
   sideImage: string;
   sideImageHeight?: string;
-  bottomImage?: string; 
+  bottomImage?: string;
   bottomImageWidth?: string;
   bullets: BulletPoint[];
 };
@@ -18,16 +20,17 @@ export default function FlosserSlide({
   titleSize,
   subtitle,
   subtitleSize,
+  subtitleMarginTop,
   sideImage,
   sideImageHeight,
   bottomImage,
   bullets,
-  bottomImageWidth
+  bottomImageWidth,
 }: FlosserSlideProps) {
   return (
     <S.Container>
       <S.ImgWrapper>
-        <S.MainImage 
+        <S.MainImage
           src={sideImage}
           alt={`${title} ${subtitle}`}
           $height={sideImageHeight}
@@ -35,16 +38,16 @@ export default function FlosserSlide({
       </S.ImgWrapper>
 
       <S.ImgAndTextWrapper>
-      <S.Title $fontSize={titleSize}>{title}</S.Title>
-      <S.Subtitle $fontSize={subtitleSize}>{subtitle}</S.Subtitle>
+        <S.Title $fontSize={titleSize}>{title}</S.Title>
+        <S.Subtitle $fontSize={subtitleSize} $marginTop={subtitleMarginTop}>
+          {subtitle}
+        </S.Subtitle>
 
         <S.BulletList>
           {bullets.map((bullet, index) => (
             <li key={index}>
               {bullet.lines ? (
-                bullet.lines.map((line, i) => (
-                  <span key={i}>{line}</span>
-                ))
+                bullet.lines.map((line, i) => <span key={i}>{line}</span>)
               ) : (
                 <span>{bullet.text}</span>
               )}
@@ -53,10 +56,10 @@ export default function FlosserSlide({
         </S.BulletList>
 
         {bottomImage && (
-          <S.ComparisonImage 
+          <S.ComparisonImage
             $width={bottomImageWidth}
-            src={bottomImage} 
-            alt={`${title} comparison`} 
+            src={bottomImage}
+            alt={`${title} comparison`}
           />
         )}
       </S.ImgAndTextWrapper>

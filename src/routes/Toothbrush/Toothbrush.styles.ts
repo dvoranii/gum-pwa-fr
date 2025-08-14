@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-import { colors } from '../../constants/colors';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import { colors } from "../../constants/colors";
 
 export const Content = styled.div`
   height: 93%;
@@ -18,9 +18,7 @@ export const BrushBG = styled.div`
   width: 100%;
   box-shadow: 0px 0px 12px rgba(54, 54, 54, 0.12);
   height: 82vh;
-    
 `;
-
 
 export const ContentLeft = styled.div`
   width: 100%;
@@ -30,9 +28,7 @@ export const ContentLeft = styled.div`
   height: 100%;
   z-index: 99;
   flex: 1;
-
 `;
-
 
 export const ContentRight = styled.div`
   height: 100%;
@@ -41,18 +37,16 @@ export const ContentRight = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1;
-  flex:1;
+  flex: 1;
 `;
 
-
 export const BrushesImg = styled.img`
-  width: 85%; 
-  height: auto; 
+  width: 80%;
+  height: auto;
   object-fit: contain;
-  max-height: 100%; 
-  margin-left: -54px;
+  max-height: 100%;
+  margin-left: -36px;
   margin-top: 1.2rem;
-
 `;
 
 export const IntroTitleWrapper = styled.div`
@@ -69,6 +63,10 @@ export const IntroTitle = styled.h1`
   font-size: 3.4rem;
   line-height: 0.9;
   letter-spacing: -3px;
+
+  sup {
+    font-size: 28px;
+  }
 `;
 
 export const RecommendedWrapper = styled.div`
@@ -104,10 +102,9 @@ export const LinksWrapper = styled.div`
   width: 65%;
 `;
 
-
 export const StyledLink = styled(Link)`
   display: flex;
-  justify-content:  flex-start;
+  justify-content: flex-start;
   text-decoration: none;
 `;
 
