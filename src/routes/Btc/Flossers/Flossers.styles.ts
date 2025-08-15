@@ -146,7 +146,11 @@ export const Row = styled.div`
   display: contents;
 `;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+  sup {
+    font-size: 6%;
+  }
+`;
 
 interface TitleListWrapperProps {
   $paddingTop?: string;
