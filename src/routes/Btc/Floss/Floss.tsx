@@ -371,7 +371,7 @@ export default function BtcFloss() {
               <S.InfoGrid
                 $marginTop="0"
                 $paddingTop="0.4rem"
-                $gridCols="2fr 1fr"
+                $gridCols="2fr 1.2fr"
                 $width="60%"
               >
                 <S.InfoGridRow>

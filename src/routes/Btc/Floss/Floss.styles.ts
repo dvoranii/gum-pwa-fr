@@ -158,7 +158,7 @@ export const ListContainer = styled.div<ListContainerProps>`
   }
 
   sup {
-    font-size: 8px;
+    font-size: 6px;
   }
 `;
 
@@ -196,6 +196,9 @@ export const InfoGridRow = styled.div`
 
 export const Column = styled.div``;
 export const Column2 = styled.div`
+  sup {
+    font-size: 6px;
+  }
   @media screen and (max-width: 1080px) {
     font-size: clamp(10px, 0.8vw, 1.2rem);
   }
