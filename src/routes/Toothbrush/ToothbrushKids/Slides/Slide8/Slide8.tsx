@@ -17,6 +17,8 @@ const Slide8 = () => (
       }}
       useBulletPoints={true}
       showImprintText={true}
+      brushSpecsWrapperWidth="100%"
+      brushSpecsGridCols="1fr 1.2fr 1.8fr 1.3fr"
       minHeight="168px"
       diagramWidth="80%"
       diagramMarginBottom="1.2rem"
@@ -59,6 +61,9 @@ const Slide8 = () => (
         marginTop: "0",
       }}
       useBulletPoints={true}
+      imprintPaddingTop="3.4rem"
+      brushSpecsWrapperWidth="100%"
+      brushSpecsGridCols="1fr 1.2fr 1.8fr 1.3fr"
       showImprintText={true}
       minHeight="168px"
       diagramWidth="80%"

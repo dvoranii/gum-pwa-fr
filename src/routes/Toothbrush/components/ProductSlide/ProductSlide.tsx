@@ -10,7 +10,10 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
   highlightText,
   showAntibacterialBadge = false,
   imprintColors = [],
+  imprintPaddingTop,
   specs = [],
+  brushSpecsWrapperWidth,
+  brushSpecsGridCols,
   isSingleColumn = false,
   showImprintText = true,
   textWrapperMarginTop,
@@ -93,7 +96,7 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
 
           <S.ImprintSection>
             <S.ImprintAndBadgeWrapper>
-              <S.ImprintLeftColumn>
+              <S.ImprintLeftColumn $paddingTop={imprintPaddingTop}>
                 {showImprintText ? (
                   <S.ImprintTextWrapper>
                     <S.ImprintText>MODÈLE PERSONNALISABLE</S.ImprintText>
@@ -129,10 +132,13 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
             </S.ImprintAndBadgeWrapper>
           </S.ImprintSection>
 
-          <S.BrushSpecsWrapper>
+          <S.BrushSpecsWrapper $width={brushSpecsWrapperWidth}>
             {Array.isArray(specs) &&
               specs.map((row: SpecItem[], rowIndex: number) => (
-                <S.BrushSpecsGrid key={`row-${rowIndex}`}>
+                <S.BrushSpecsGrid
+                  key={`row-${rowIndex}`}
+                  $gridCols={brushSpecsGridCols}
+                >
                   {row.map((item, colIndex) => (
                     <S.SpecItem key={colIndex}>
                       {rowIndex === 0 && item.label && (

@@ -210,10 +210,15 @@ export const ImprintAndBadgeWrapper = styled.div`
   padding-top: 1.2rem;
 `;
 
-export const ImprintLeftColumn = styled.div`
+interface ImprintLeftColumnProps {
+  $paddingTop?: string;
+}
+export const ImprintLeftColumn = styled.div<ImprintLeftColumnProps>`
   display: flex;
   flex-direction: column;
   flex: 1;
+
+  ${({ $paddingTop }) => ($paddingTop ? `padding-top: ${$paddingTop}` : "")};
 `;
 
 export const ColorCircles = styled.div`
@@ -312,12 +317,16 @@ export const BrushSpecsWrapper = styled.div<BrushSpecsWrapperProps>`
   }
 `;
 
-export const BrushSpecsGrid = styled.div`
+interface BrushSpecsGridProps {
+  $gridCols?: string;
+}
+export const BrushSpecsGrid = styled.div<BrushSpecsGridProps>`
   display: grid;
-  grid-template-columns: 1fr 1.3fr 1.3fr 1.3fr;
+  grid-template-columns: ${(props) =>
+    props.$gridCols || "1fr 1.3fr 1.3fr 1.3fr"};
   gap: 0.5rem;
   place-items: start;
-  width: 80%;
+  width: 90%;
 
   &:nth-child(2) {
     margin-top: 0.3rem;
