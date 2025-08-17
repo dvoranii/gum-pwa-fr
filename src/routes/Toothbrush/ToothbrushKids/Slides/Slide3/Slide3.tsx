@@ -13,7 +13,7 @@ const Slide3 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       diagramWidth="86%"
       minHeight="246px"
@@ -24,22 +24,24 @@ const Slide3 = () => (
       showImprintText={false}
       title={
         <>
-        Crayola<TitleLight>™</TitleLight> PIP-SQUEAKS<TitleLight>™</TitleLight>
+          <TitleLight>Brosse à dents</TitleLight>
+          <br />
+          Crayola<sup>MC</sup> PIP-SQUEAKS<sup>MC</sup>
         </>
       }
       description={[
-        "Soft bristles are gentle on young teeth and gums",
-        "Narrow, tapered brush head makes maneuvering in small mouths easier",
-        "Suction cup base holds the toothbrush upright which helps keep bristles clean",
+        "Les soies souples de cette brosse sont douces pour les dents et les gencives des enfants",
+        "La tête étroite et elée de la brosse est conçue pour faciliter le maniement dans les petites bouches",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
       ]}
       imprintColors={[["#fcb041"], ["#c91690"], ["#00aeee"], ["#22b785"]]}
       specs={[
         [
-        { label: "Item", value: "232" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "19" }
-        ]
+          { label: "Article", value: "232" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "19" },
+        ],
       ]}
     />
     <ProductSlide
@@ -48,7 +50,7 @@ const Slide3 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       diagramWidth="86%"
       brushImgWidth="90%"
@@ -59,23 +61,33 @@ const Slide3 = () => (
       textWrapperPaddingRight="3.4rem"
       title={
         <>
-         Crayola<TitleLight>™</TitleLight> MARKER<TitleLight>™</TitleLight>
+          <TitleLight>Brosse à dents</TitleLight>
+          <br />
+          Crayola<sup>MC</sup> MARQUEUR
         </>
       }
       description={[
-        "Raised tip bristles clean hard-to-reach back teeth",
-        "Slim handle design provides an ergonomic hold and easier grip for small hands",
-        "Suction cup base holds the toothbrush upright which helps to keep bristles clean",  
-     ]}
-      imprintColors={[["#00ace6"], ["#8261aa"], ["#ed1b3b"], ["#f88f1f"],  ["#f6ee31"],  ["#aad04d"]]}
+        "Les soies plus longues situées à l’extrémité facilitent le nettoyage des dents diciles à atteindre à l’arrière de la bouche",
+        "La forme ergonomique du manche étroit facilite son maniement par de petites mains",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
+      ]}
+      imprintColors={[
+        ["#00ace6"],
+        ["#8261aa"],
+        ["#ed1b3b"],
+        ["#f88f1f"],
+        ["#f6ee31"],
+        ["#aad04d"],
+      ]}
       showImprintText={false}
       specs={[
         [
-        { label: "Item", value: "227" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "25" }]
-        ]}
+          { label: "Article", value: "227" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "25" },
+        ],
+      ]}
     />
   </>
 );

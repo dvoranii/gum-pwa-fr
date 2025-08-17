@@ -68,7 +68,9 @@ export const IntroTitle = styled.h1`
   letter-spacing: -3px;
 
   sup {
-    font-size: 28px;
+    font-size: 16px;
+    vertical-align: 26px;
+    letter-spacing: -1px;
   }
 `;
 

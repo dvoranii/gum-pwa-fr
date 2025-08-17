@@ -8,7 +8,7 @@ export const ContentWrapper = styled.div`
 
 export const HeaderRight = styled.div`
   padding: 60px 40px 40px 60px;
-  flex: 2;
+  flex: 2.8;
   min-width: 0;
 `;
 
@@ -16,8 +16,14 @@ export const MainTitle = styled.h1`
   font-family: "Gotham", sans-serif;
   font-weight: 700;
   color: #00a16b;
-  font-size: clamp(18px, 4vw, 6.4rem);
+  font-size: clamp(18px, 3.5vw, 6.4rem);
   line-height: 1;
+
+  sup {
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: 18px;
+  }
 `;
 
 export const Trademark = styled.sup`
@@ -36,6 +42,9 @@ export const Description = styled.ul`
   padding-top: 1.2rem;
   padding-right: 4px;
 
+  sup {
+    font-size: 10px;
+  }
 `;
 
 export const DiagramSection = styled.div`
@@ -43,7 +52,6 @@ export const DiagramSection = styled.div`
   align-items: center;
   gap: 30px;
   margin-bottom: 1.2rem;
-
 `;
 
 export const AngleDemo = styled.div`
@@ -74,15 +82,13 @@ export const DiagramLabel = styled.span`
   color: #666666;
   text-align: center;
   margin-bottom: 5px;
-
 `;
 
 export const CrossSectionDiagram = styled.div`
   display: flex;
-  margin-bottom: 10px;
 
   img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 `;
@@ -99,12 +105,11 @@ export const CrossSectionIcon = styled.div`
     width: 100%;
     height: 100%;
   }
-
 `;
 
 export const BenefitsList = styled.ul`
-    line-height: 1.35;
-    padding-inline-start: 20px;
+  line-height: 1.35;
+  padding-inline-start: 20px;
 `;
 
 export const BenefitItem = styled.li`
@@ -113,6 +118,10 @@ export const BenefitItem = styled.li`
   color: #00a16b;
   font-weight: 600;
   margin: 0;
+
+  sup {
+    font-size: 8px;
+  }
 `;
 
 export const HandImage = styled.div`
@@ -123,10 +132,11 @@ export const HandImage = styled.div`
   min-width: 0;
 
   img {
+    overflow: visible;
     width: auto;
     height: 100%;
     max-width: 100%;
     aspect-ratio: 211 / 475;
+    object-fit: cover;
   }
-
 `;

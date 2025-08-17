@@ -15,35 +15,38 @@ export default function SensitiveCleanSlide() {
         <S.TextAndImgWrapper>
           <S.TitlesWrapper>
             <S.Title $fontSize="clamp(24px, 6vw, 3.2rem)" $letterSpacing="-2px">
-              Sensitive Clean
+              TECHNIQUE<sup>MD</sup>
             </S.Title>
-            <S.Subtitle>TECHNIQUE®</S.Subtitle>
+            <S.Subtitle>Sensitive Clean</S.Subtitle>
           </S.TitlesWrapper>
 
           <S.BulletList
             $letterSpace="-0.8px"
-            $paddingRight="1.6rem;"
+            $paddingRight="1.2rem;"
             $lineHeight="1.2"
           >
             <li>
               <span>
-                6x better clean with ultra-soft bristles<sup>17</sup>.
+                Nettoyage 6x plus efficace avec des soies ultra-souples
+                <sup>17</sup>.
               </span>
             </li>
             <li>
-              <span>Specially designed for sensitivity.</span>
-            </li>
-            <li>
-              <span>Extremely tapered bristles are very fine in diameter.</span>
+              <span>Spécialement conçues pour la sensibilité.</span>
             </li>
             <li>
               <span>
-                Now with Antibacterial Bristles<sup>16</sup>.
+                Les soies extrêmement effilées ont un diamètre très fin.
+              </span>
+            </li>
+            <li>
+              <span>
+                Maintenant avec des brins antibactériens<sup>16</sup>.
               </span>
             </li>
           </S.BulletList>
 
-          <S.ContentImageWrapper $marginTop="0">
+          <S.ContentImageWrapper $marginTop="0" $marginLeft="1.2rem">
             <S.ContentImage
               $width="90%"
               src={ContentImage}

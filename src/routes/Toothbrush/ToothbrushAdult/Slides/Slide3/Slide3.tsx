@@ -13,35 +13,41 @@ const Slide3 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       textWrapperPaddingRight="1rem"
       imgMinWidth="54px"
       title={
         <>
-        COMPLETE&nbsp;CARE&nbsp;<TitleLight>TECHNIQUE®</TitleLight>
+          <TitleLight>
+            TECHNIQUE<sup>MD</sup>
+          </TitleLight>{" "}
+          COMPLETE CARE
         </>
       }
       description={[
-        "Raised bristles at the tip provide greater access to posterior regions and clean hard-to-reach surfaces.",
+        `Les soies plus longues situées à l’extrémité
+          de la brosse facilitent l’accès aux surfaces
+          diciles à atteindre à l’arrière de la bouche.`,
         <>
-         Dome Trim® bristles are clinically designed to clean below the gumline.<sup>1,3</sup>
-        </>
+          Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
+          nettoyer sous la ligne gingivale.<sup>1,3</sup>
+        </>,
       ]}
       imprintColors={[["#fec60a"], ["#f1592a"], ["#8dc63e"], ["#00a2e4"]]}
       specs={[
         [
-        { label: "Item #", value: "591" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "30" }
+          { label: "Article", value: "591" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "30" },
         ],
-        [{value: "559"},
-        {value: "Ultra Soft"},
-        {value: "Compact"},
-        {value: "30"}
-
-        ]
+        [
+          { value: "559" },
+          { value: "Ultra Soft" },
+          { value: "Compact" },
+          { value: "30" },
+        ],
       ]}
     />
     <ProductSlide
@@ -50,33 +56,37 @@ const Slide3 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       imgMinWidth="54px"
       title={
         <>
-        <TitleLight>DOME</TitleLight> TRIM®
+          <TitleLight>DOME</TitleLight> TRIM<sup>MD</sup>
         </>
       }
       description={[
         <>
-        Dome Trim® bristles clinically designed to clean below the gumline.<sup>1,2</sup>
-        </>]}
+          Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
+          nettoyer sous la ligne gingivale.
+          <sup>1,2</sup>
+        </>,
+      ]}
       imprintColors={[["#ae2181"], ["#2f3192"], ["#f79633"], ["#f15157"]]}
       showImprintText={false}
       specs={[
         [
-        { label: "Item", value: "457" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "30" }],
-        [{value: "459"},
-        {value: "Ultra Soft"},
-        {value: "Compact"},
-        {value: "30"}
-
-        ]
-        ]}
+          { label: "Article", value: "457" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "30" },
+        ],
+        [
+          { value: "459" },
+          { value: "Ultrasouple" },
+          { value: "Compacte" },
+          { value: "30" },
+        ],
+      ]}
     />
   </>
 );

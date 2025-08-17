@@ -13,7 +13,7 @@ const Slide1 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       textWrapperMarginTop="-24px"
       textWrapperPaddingRight="3.8rem"
@@ -22,19 +22,19 @@ const Slide1 = () => (
       useBulletPoints={true}
       showImprintText={false}
       description={[
-        "Extra-small head designed for baby's mouth",
-        "Ultra-soft feathered bristles are very gentle for baby gums around erupting primary teeth",
-        "Effective access to pits and fissures where first cavities may start",
-        "The longer handle and steady grip facilitates parent's hold of the toothbrush",
+        "Très petite tête conçue pour la bouche des bébés",
+        `Soies à micro-extrémités souples et douces pour les gencives d'un bébé qui fait ses premières dents`,
+        `Accès facilité dans les puits et fissures, là où les premières caries peuvent se former`,
+        `Le long manche et la prise ferme aident le parent à manier la brosse à dents`,
       ]}
       imprintColors={[["#f37c8e"], ["#ffd703"], ["#42bfa4"], ["#1b97d4"]]}
       specs={[
         [
-        { label: "Item", value: "213" },
-        { label: "Texture", value: "Ultra Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "11" }
-        ]
+          { label: "Article", value: "213" },
+          { label: "Texture", value: "Ultrasouple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "11" },
+        ],
       ]}
     />
     <ProductSlide
@@ -44,26 +44,27 @@ const Slide1 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       textWrapperMarginTop="-24px"
       useBulletPoints={true}
       minHeight="190px"
       description={[
-        "Soft bristles gently remove plaque",
-        "Center bristles help emphasize a smaller amount of toothpaste for kids",
-        "Ergonomic handle with thumb pad for stable, comfortable grip",
-        "Suction cup base holds the toothbrush upright which helps to keep bristles clean",  
-     ]}
+        "Soies souples éliminant la plaque ecacement et en douceur",
+        "Les soies du centre aident à mesurer la quantité de dentifrice adéquate",
+        "Manche ergonomique avec appui pour le pouce facilitant la prise en main",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
+      ]}
       imprintColors={[["#8d75b4"], ["#eb5d8d"], ["#8fca6b"], ["#36c1cd"]]}
       showImprintText={false}
       specs={[
         [
-        { label: "Item", value: "901" },
-        { label: "Texture", value: "Ultra Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "19" }]
-        ]}
+          { label: "Article", value: "901" },
+          { label: "Texture", value: "Ultrasouple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "19" },
+        ],
+      ]}
     />
   </>
 );

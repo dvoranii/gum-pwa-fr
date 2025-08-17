@@ -13,37 +13,39 @@ export default function EnamelCleanSlide() {
           />
         </S.ToothbrushImageWrapper>
         <S.TextAndImgWrapper>
-          <S.TitlesWrapper>
+          <S.TitlesWrapper $marginBottom="0">
             <S.Title $fontSize="clamp(24px, 6vw, 3.2rem)" $letterSpacing="-2px">
-              Enamel Clean
+              TECHNIQUE<sup>MD</sup>
             </S.Title>
-            <S.Subtitle>TECHNIQUE®</S.Subtitle>
+            <S.Subtitle>Enamel Clean</S.Subtitle>
           </S.TitlesWrapper>
 
           <S.BulletList
             $letterSpace="-0.8px"
-            $paddingRight="3.9rem;"
+            $paddingRight="2rem;"
             $lineHeight="1.2"
           >
             <li>
               <span>
-                Micro-feathering splits each bristle into several fine tips.
+                La technologie micro-filamentée divise chaque soie en plusieurs
+                pointes fines.
               </span>
             </li>
             <li>
               <span>
-                70% more enamel clean compared end rounded bristle<sup>17</sup>.
+                La surface de l’émail nettoyée est 70 % plus grande que celle
+                d’une brosse dont les soies ont les bouts arrondis<sup>17</sup>.
               </span>
             </li>
             <li>
               <span>
-                Dome Trim® bristles are clinically designed to clean below the
-                gumline<sup>18,19</sup>.
+                Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
+                nettoyer souse<sup>18, 19</sup>.
               </span>
             </li>
           </S.BulletList>
 
-          <S.ContentImageWrapper $marginTop="1.2rem">
+          <S.ContentImageWrapper $marginTop="0.4rem" $marginLeft="1.2rem">
             <S.ContentImage
               $width="60%"
               src={ContentImage}
