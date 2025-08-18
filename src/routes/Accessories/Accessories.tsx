@@ -40,26 +40,26 @@ export default function Accessories() {
             <FlickityCarousel
               options={flickityOptions}
               $customStyles={{
-                viewportHeight: "68vh",
+                viewportHeight: "78vh",
                 dotPosition: {
                   bottom: "-6vw",
                   right: "24px",
                 },
               }}
             >
-              <S.Slide>
+              <S.Slide $top="10%">
                 <S.Row>
                   <S.RowWrapperInner $gap={"1.2rem"}>
                     <S.TextWrapper>
                       <h2>
-                        Orthodontic <span>Wax</span>
+                        <span>Cire</span> ORTHODONTIQUE
                       </h2>
                       <S.ListContainer>
                         <ul>
-                          <li>Clear wax adheres to orthodontic appliances</li>
                           <li>
-                            Available in unflavoured (723) and mint (724)
-                            <br /> in a portable container
+                            Cire transparente qui adhère aux
+                            <br /> appareils orthodontiques pour aider
+                            <br /> à soulager les tissus irrités
                           </li>
                         </ul>
                       </S.ListContainer>
@@ -69,8 +69,8 @@ export default function Accessories() {
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
                   <S.MetaDataWrapper $width={"45%"}>
-                    <p>723 Orthodontic Wax w/Vitamin E</p>
-                    <p>24/box</p>
+                    <p>723 Cire orthodontique avec vitamine E</p>
+                    <p>24/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca"
@@ -81,18 +81,22 @@ export default function Accessories() {
                 <S.Row>
                   <S.RowWrapperInner $gap={"1.2rem"}>
                     <S.TextWrapper>
-                      <h2>Travel Caps</h2>
+                      <h2>CAPUCHONS DE VOYAGE</h2>
                       <S.ListContainer>
                         <ul>
                           <li>
-                            Help make your patients' away-from-home
-                            <br /> oral care more portable and convenient
+                            Rendez les soins buccaux de vos patients en
+                            déplacement plus pratiques et plus portatifs
                           </li>
                           <li>
-                            Antibacterial coating keeps toothbrush
-                            <br /> cleaner between uses
+                            Le revêtement antibactérien garde les brosses à
+                            dents plus propres entre les utilisations
+                            <sup>1</sup>
                           </li>
-                          <li>Fit most toothbrush styles</li>
+                          <li>
+                            Conviennent à la plupart des modèles de brosses à
+                            dents
+                          </li>
                         </ul>
                       </S.ListContainer>
                     </S.TextWrapper>
@@ -101,8 +105,8 @@ export default function Accessories() {
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
                   <S.MetaDataWrapper $width={"30%"}>
-                    <p>152 Travel Caps</p>
-                    <p>12/box</p>
+                    <p>152 Capuchons de voyage</p>
+                    <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca"
@@ -116,19 +120,19 @@ export default function Accessories() {
                   <S.RowWrapperInner $gap="2.4rem">
                     <S.TextWrapper>
                       <h2>
-                        Simulator
+                        SIMULATEUR
                         <br />
-                        <span>Handle & Refills</span>
+                        <span>MANCHE ET RECHARGES</span>
                       </h2>
                       <S.ListContainer>
                         <ul>
                           <li>
-                            Rubber tip stimulator for gingival massage and
-                            interproximal cleaning
+                            L’embout en caoutchouc sert à masser les gencives et
+                            à nettoyer les espaces interproximaux
                           </li>
                           <li>
-                            Slender angled neck for easy maneuverability around
-                            arches
+                            Le col élancé et en angle assure une bonne
+                            maniabilité partout dans la bouche
                           </li>
                         </ul>
                       </S.ListContainer>
@@ -138,12 +142,12 @@ export default function Accessories() {
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
                   <S.MetaDataWrapper $width={"386px"}>
-                    <p>600 Handle</p>
-                    <p>12/bag</p>
+                    <p>600 Manche</p>
+                    <p>12/sac</p>
                   </S.MetaDataWrapper>
                   <S.MetaDataWrapper $width={"546px"}>
-                    <p>601 Refills</p>
-                    <p>12 Packs with 3 Refills each</p>
+                    <p>601 Recharges</p>
+                    <p>12 paquets avec 3 recharges</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca"
@@ -152,24 +156,28 @@ export default function Accessories() {
                   />
                 </S.Row>
                 <S.Row>
-                  <S.RowWrapperInner $gap="1.2rem">
+                  <S.RowWrapperInner $gap="1.2rem" $paddingBottom="0.8rem">
                     <S.TextWrapper>
                       <h2>
-                        <span>2-in-1</span> Tongue Cleaner
+                        GRATTE-LANGUE <span>2 en 1</span>
                       </h2>
                       <S.ListContainer>
                         <ul>
                           <li>
-                            Two rows of bristles reach into tiny grooves on the
-                            tongue's surface to dislodge bacteria and food
-                            particles
+                            Ce gratte-langue possède deux rangées de soies qui
+                            atteignent les petits creux et plis de la surface de
+                            la langue pour déloger les bactéries et les résidus
+                            alimentaires
                           </li>
                           <li>
-                            Two rows of serrated scrapers gently remove bacteria
-                            and food particles while cleaning the tongue's
-                            surface
+                            Ce gratte-langue possède deux rangées de grattoirs
+                            qui enlèvent doucement les bactéries et les résidus
+                            alimentaires tout en nettoyant la surface de la
+                            langue
                           </li>
-                          <li>Narrow head reduces gag reflex</li>
+                          <li>
+                            La tête étroite réduit le réflexe de haut-le-cœur
+                          </li>
                         </ul>
                       </S.ListContainer>
                     </S.TextWrapper>
@@ -178,8 +186,8 @@ export default function Accessories() {
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
                   <S.MetaDataWrapper $width={"45%"}>
-                    <p>760 2-in-1 Tongue Cleaner</p>
-                    <p>12/box</p>
+                    <p>760 Gratte-langue</p>
+                    <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca"

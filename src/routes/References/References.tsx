@@ -84,18 +84,14 @@ export default function References() {
 
             <p>
               18. Microbiological and Clinical Alterations from using Butler GUM
-              toothbrushes.
-              <br />
-              Reynolds,H.S.,& J.J. Zambon. J Dent Res, Vol. 76, p. 233, ID 1753
-              (IADR Abstracts) 1997.
+              toothbrushes. Reynolds,H.S.,& J.J. Zambon. J Dent Res, Vol. 76, p.
+              233, ID 1753 (IADR Abstracts) 1997.
             </p>
 
             <p>
               19. Butler "GUM" Toothbrushes -A Microbiological and Clinical
-              Study.
-              <br />
-              Reynolds,H.S.,& J.J. Zambon. J Dent Res, Vol. 77, p. 287, ID 1452
-              (IADR Abstracts) 1998.
+              Study. Reynolds,H.S.,& J.J. Zambon. J Dent Res, Vol. 77, p. 287,
+              ID 1452 (IADR Abstracts) 1998.
             </p>
 
             <p>20. DOF-0057</p>

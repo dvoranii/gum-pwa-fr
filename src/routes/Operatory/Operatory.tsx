@@ -29,40 +29,39 @@ export default function Operatory() {
                   <S.ImgWrapper1>
                     <img src={MonsterzLogo} />
                   </S.ImgWrapper1>
-                  <small>Ideal for kids and adults alike</small>
+                  <small>Idéal pour les enfants et les adultes</small>
                   <S.ListContainer>
                     <ul>
                       <li>
-                        Unique variety pack offering (45 doses with 15 units of
-                        each flavour)
+                        Assortiment unique (45 doses avec 15 unités de chaque
+                        saveur)
                       </li>
                       <li>
-                        Proven flavours with Adults & Kids (Mint, Strawberry,
-                        Cherry)
+                        Saveurs éprouvées par les adultes et les enfants
+                        (menthe, fraise, cerise)
                       </li>
                       <li>
-                        Contains Sodium Fluoride 5.0% W/W (equivalent to 2.26%
-                        Fluoride)
+                        Contient du fluorure de sodium à 5,0 % W/W (équivalent à
+                        2,26 % d'ions de fluorure)
                       </li>
                       <li>
-                        Available in individual, 0.4 ml unit-dose sealed trays
-                        (includes brush)
+                        Disponible en plateaux unidoses de 0,4 ml, scellés
+                        individuellement avec applicateur
                       </li>
-                      <li>Smooth & Clear appearance after application</li>
-                      <li>Gluten-free, BPA-free, sweetened with xylitol</li>
+                      <li>Apparence lisse et claire après l'application</li>
+                      <li>Sans gluten, sans BPA, sucré avec du xylitol</li>
                       <li>
-                        Fast-release fluoride & delivers effective fluoride
-                        uptake in
-                        <br /> lesioned enamel
+                        Libération rapide du fluorure et ore une absorption
+                        ecace du fluorure dans l'émail déminéralisé
                       </li>
                     </ul>
                   </S.ListContainer>
                 </S.Row1>
                 <S.Row2>
                   <S.Row2Inner>
-                    <p>1219 Variety Pack (Cherry, Mint & Strawberry)</p>
+                    <p>1219 Boite assortie (cerise, menthe et fraise)</p>
                     <S.TextImgWrapper>
-                      <p>45/box</p>
+                      <p>45/boite</p>
                       <S.ImgWrapper2>
                         <img src={Fruits} />
                       </S.ImgWrapper2>
