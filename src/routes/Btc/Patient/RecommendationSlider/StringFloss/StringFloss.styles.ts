@@ -67,7 +67,7 @@ export const Subtitle = styled.h3<SubtitleProps>`
   letter-spacing: -1px;
 
   sup {
-    font-size: 20px;
+    font-size: 12px;
   }
 `;
 
@@ -101,7 +101,7 @@ export const BulletList = styled.ul<BulletListProps>`
     }
 
     sup {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 `;

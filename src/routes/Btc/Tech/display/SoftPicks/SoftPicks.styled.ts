@@ -26,14 +26,11 @@ export const MainTitle = styled.h1`
   padding-right: 32px;
 
   sup {
-    font-size: 1.8vw;
+    font-size: 12px;
+    vertical-align: 24px;
   }
 `;
 
-export const Trademark = styled.sup`
-  position: absolute;
-  font-weight: 700;
-`;
 
 export const Description = styled.ul`
   font-family: "Gotham", sans-serif;
@@ -45,7 +42,7 @@ export const Description = styled.ul`
   padding-right: 104px;
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 

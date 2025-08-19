@@ -33,7 +33,8 @@ export const MainTitle = styled.h1`
   padding-left: 16px;
 
   sup {
-    font-size: 1.8vw;
+    font-size: 12px;
+    vertical-align: 22px;
   }
 `;
 
@@ -49,7 +50,7 @@ export const Description = styled.ul`
   padding-right: 80px;
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 
@@ -91,6 +92,10 @@ export const TextWrapper = styled.div`
     color: ${colors.black};
     font-family: "Gotham", sans-serif;
     font-size: clamp(16px, 1.2vw, 1.8rem);
+
+    sup {
+      font-size: 10px;
+    }
   }
 `;
 export const ImgWrapper = styled.div`

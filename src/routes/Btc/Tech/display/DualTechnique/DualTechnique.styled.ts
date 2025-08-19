@@ -25,7 +25,8 @@ export const MainTitle = styled.h1`
   line-height: 1;
 
   sup {
-    font-size: 1.8vw;
+    font-size: 12px;
+    vertical-align: 22px;
   }
 `;
 
@@ -41,7 +42,7 @@ export const Description = styled.ul`
   padding-right: 70px;
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   li:nth-child(2) {

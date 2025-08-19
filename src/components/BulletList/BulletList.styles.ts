@@ -22,6 +22,7 @@ export const ListItem = styled.li`
   }
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
+    vertical-align: 12px;
   }
 `;

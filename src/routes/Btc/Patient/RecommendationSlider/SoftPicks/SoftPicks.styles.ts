@@ -41,7 +41,8 @@ export const Title = styled.h2`
   padding-top: 2.4rem;
 
   sup {
-    font-size: 20px;
+    font-size: 12px;
+    vertical-align: 24px;
   }
 
   @media screen and (max-width: 1080px) {
@@ -99,7 +100,7 @@ export const BulletList = styled.ul`
     }
 
     sup {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 `;

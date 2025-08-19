@@ -104,7 +104,7 @@ export const ListContainer = styled.div`
         color: ${colors.black};
         padding: 0 0 1.2rem 0;
         list-style: none;
-        line-height: 1.4;
+        line-height: 1.2;
         font-weight: 400;
 
         li {

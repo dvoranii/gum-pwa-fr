@@ -68,7 +68,7 @@ export default function Accessories() {
                       <img src={Slide1Row1Img} />
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
-                  <S.MetaDataWrapper $width={"45%"}>
+                  <S.MetaDataWrapper $width={"50%"}>
                     <p>723 Cire orthodontique avec vitamine E</p>
                     <p>24/boite</p>
                   </S.MetaDataWrapper>
@@ -104,7 +104,7 @@ export default function Accessories() {
                       <img src={Slide1Row2Img} />
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
-                  <S.MetaDataWrapper $width={"30%"}>
+                  <S.MetaDataWrapper $width={"50%"}>
                     <p>152 Capuchons de voyage</p>
                     <p>12/boite</p>
                   </S.MetaDataWrapper>
@@ -141,7 +141,7 @@ export default function Accessories() {
                       <img src={Slide2Row1Img} />
                     </S.ImgWrapper>
                   </S.RowWrapperInner>
-                  <S.MetaDataWrapper $width={"386px"}>
+                  <S.MetaDataWrapper $width={"372px"}>
                     <p>600 Manche</p>
                     <p>12/sac</p>
                   </S.MetaDataWrapper>
