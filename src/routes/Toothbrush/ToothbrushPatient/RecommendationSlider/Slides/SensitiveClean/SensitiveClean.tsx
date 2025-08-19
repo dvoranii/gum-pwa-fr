@@ -27,8 +27,8 @@ export default function SensitiveCleanSlide() {
           >
             <li>
               <span>
-                Nettoyage 6x plus efficace avec des soies ultra-souples
-                <sup>17</sup>.
+                Nettoyage 6x plus efficace avec des soies ultra-souples.
+                <sup>17</sup>
               </span>
             </li>
             <li>
@@ -41,7 +41,7 @@ export default function SensitiveCleanSlide() {
             </li>
             <li>
               <span>
-                Maintenant avec des brins antibactériens<sup>16</sup>.
+                Maintenant avec des brins antibactériens.<sup>16</sup>
               </span>
             </li>
           </S.BulletList>

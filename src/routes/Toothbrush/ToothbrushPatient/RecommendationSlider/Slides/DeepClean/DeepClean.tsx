@@ -26,12 +26,12 @@ export default function DeepCleanSlide() {
             </li>
             <li>
               <span>
-                Élimination de plaque 10x plus efficace<sup>15</sup>.
+                Élimination de plaque 10x plus efficace.<sup>15</sup>
               </span>
             </li>
             <li>
               <span>
-                Maintenant avec des brins antibactériens<sup>16</sup>.
+                Maintenant avec des brins antibactériens.<sup>16</sup>
               </span>
             </li>
           </S.BulletList>

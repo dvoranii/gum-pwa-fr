@@ -26,11 +26,15 @@ export const SlideContainer = styled.div<SlideContainerProps>`
 `;
 export const BrushAndTextWrapper = styled.div``;
 
-export const Column = styled.div`
+
+interface ColumnProps {
+  $gap?: string;
+}
+export const Column = styled.div<ColumnProps>`
   flex: 1 1 33.333%;
   min-width: 0;
   display: flex;
-  gap: 0.5rem;
+  gap: ${(props) => props.$gap || "0.5rem"};
   height: 100%;
 `;
 

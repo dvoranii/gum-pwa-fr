@@ -22,9 +22,9 @@ export const MainTitle = styled.h1`
   padding-top: 2.4rem;
 
   sup {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    vertical-align: 20px;
+    vertical-align: 22px;
   }
 `;
 
@@ -39,7 +39,7 @@ export const Description = styled.ul`
   padding-right: 43.3px;
 
   sup {
-    font-size: 14px;
+    font-size: 10px;
   }
 `;
 
@@ -62,7 +62,7 @@ export const ColLeftList = styled.ul`
     padding-right: 4px;
 
     sup {
-      font-size: 6px;
+      font-size: 8px;
     }
   }
 `;

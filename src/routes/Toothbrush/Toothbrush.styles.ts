@@ -65,8 +65,8 @@ export const IntroTitle = styled.h1`
   letter-spacing: -3px;
 
   sup {
-    font-size: 16px;
-    vertical-align: 26px;
+    font-size: 12px;
+    vertical-align: 30px;
     letter-spacing: -1px;
   }
 `;
@@ -86,7 +86,7 @@ export const RecommendedWrapper = styled.div`
     margin-left: 1.2rem;
 
     sup {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 `;

@@ -19,9 +19,9 @@ export const MainTitle = styled.h1`
   padding-top: 1.4rem;
 
   sup {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    vertical-align: 14px;
+    vertical-align: 16px;
   }
 `;
 
@@ -36,7 +36,7 @@ export const Description = styled.ul`
   padding-right: 60px;
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 

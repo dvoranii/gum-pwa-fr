@@ -22,8 +22,8 @@ export default function DeepCleanFloss() {
         {
           text: (
             <>
-              Fil dentaire qui se dilate pour éliminer 2x plus de plaque
-              <sup>10</sup>.
+              Fil dentaire qui se dilate pour éliminer 2x plus de plaque.
+              <sup>10</sup>
             </>
           ),
         },

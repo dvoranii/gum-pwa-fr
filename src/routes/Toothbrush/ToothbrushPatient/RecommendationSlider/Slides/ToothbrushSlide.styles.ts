@@ -171,7 +171,7 @@ export const BulletList = styled.ul<BulletListProps>`
   }
 
   sup {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 

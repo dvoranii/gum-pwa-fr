@@ -34,13 +34,13 @@ export default function EnamelCleanSlide() {
             <li>
               <span>
                 La surface de l’émail nettoyée est 70 % plus grande que celle
-                d’une brosse dont les soies ont les bouts arrondis<sup>17</sup>.
+                d’une brosse dont les soies ont les bouts arrondis.<sup>17</sup>
               </span>
             </li>
             <li>
               <span>
                 Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-                nettoyer souse<sup>18, 19</sup>.
+                nettoyer souse.<sup>18, 19</sup>
               </span>
             </li>
           </S.BulletList>

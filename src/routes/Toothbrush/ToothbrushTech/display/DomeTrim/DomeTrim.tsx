@@ -12,8 +12,8 @@ export default function TaperedBristles() {
         </S.MainTitle>
         <S.Description>
           <li>
-            Il est cliniquement prouvé que les soies douces Dome TrimMD
-            nettoient sous la gencive<sup>18, 19</sup>, là où commence la
+            Il est cliniquement prouvé que les soies douces Dome Trim<sup>MD</sup>
+            &nbsp;nettoient sous la gencive<sup>18, 19</sup>, là où commence la
             maladie parodontale. La structure en dôme des soies favorise le
             maintien de l&#39;angle recommandé de 45° lors de l&#39;utilisation
             de la technique modifiée de Bass.
@@ -27,8 +27,7 @@ export default function TaperedBristles() {
             Offert sur les brosses à dents Technique<sup>MD</sup> Soins
             complets, Technique<sup>MD</sup> Soins sensibles, Technique
             <sup>MD</sup> Classique, Super Tip<sup>MD</sup>, Dome Trim
-            <sup>MD</sup>, GUM Bright Care<sup>MC</sup>, Enamel Clean Technique
-            <sup>MD</sup>
+            <sup>MD</sup>, GUM Bright Care<sup>MC</sup>, Enamel Clean Technique.<sup>MD</sup>
           </li>
         </S.ColLeftList>
       </S.ColumnLeft>

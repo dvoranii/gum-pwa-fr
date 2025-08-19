@@ -19,14 +19,14 @@ export default function DualDefenceFloss() {
         {
           text: (
             <>
-              Élimine 2x plus de plaque<sup>10</sup>.
+              Élimine 2x plus de plaque.<sup>10</sup>
             </>
           ),
         },
         {
           text: (
             <>
-              Couvre une surface 30% plus grande<sup>11</sup>.
+              Couvre une surface 30% plus grande.<sup>11</sup>
             </>
           ),
         },

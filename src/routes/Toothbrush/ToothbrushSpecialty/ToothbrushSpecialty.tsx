@@ -68,6 +68,8 @@ export default function ToothbrushAdult() {
                     <br />
                     <br />
                     <br />
+                    <br />
+                    
                   </S.TextWrapper>
                   <BrushSpecsWrapper $width="100%">
                     <S.BrushSpecsGrid>
@@ -225,7 +227,7 @@ export default function ToothbrushAdult() {
 
         <S.CarouselSlide>
           <S.SlideContainer $columns={2} $width="80%" $colGap="0">
-            <S.Column>
+            <S.Column $gap="1.2rem">
               <BrushImgWrapper $containerWidth="50%" $brushImgHeight="83%">
                 <img src={TravelBrushImage} alt="Travel toothbrush" />
               </BrushImgWrapper>
@@ -234,7 +236,7 @@ export default function ToothbrushAdult() {
                   <S.DiagramsWrapper $marginBottom="0.4rem" $width="75%">
                     <img src={TravelBrushDiagram} alt="Travel brush diagram" />
                   </S.DiagramsWrapper>
-                  <S.TextWrapper $paddingRight="4.7rem" $listFontSize="1.1rem">
+                  <S.TextWrapper $paddingRight="3.2rem" $listFontSize="1.1rem">
                     <h2>
                       <TitleLight>Brosse à dents</TitleLight>
                       <br />
@@ -260,7 +262,7 @@ export default function ToothbrushAdult() {
                     <br />
                     <br />
                   </S.TextWrapper>
-                  <BrushSpecsWrapper $width="65%">
+                  <BrushSpecsWrapper $width="85%">
                     <S.BrushSpecsGrid $gap="0">
                       {" "}
                       {/* New specialized grid */}
@@ -306,7 +308,7 @@ export default function ToothbrushAdult() {
             </S.Column>
 
             {/* Right Column - Denture Brush */}
-            <S.Column>
+            <S.Column $gap="1.2rem">
               <BrushImgWrapper
                 $containerWidth="50%"
                 $brushImgHeight="83%"
@@ -322,7 +324,7 @@ export default function ToothbrushAdult() {
                       alt="Denture brush diagram"
                     />
                   </S.DiagramsWrapper>
-                  <S.TextWrapper $paddingRight="6.2rem" $listFontSize="1.1rem">
+                  <S.TextWrapper $paddingRight="3.2rem" $listFontSize="1.1rem">
                     <h2>
                       <TitleLight>Brosse à dents</TitleLight>
                       <br />
@@ -340,8 +342,11 @@ export default function ToothbrushAdult() {
                         personnes ayant une dextérité limitée
                       </li>
                     </ul>
+                    <br/>
+                    <br/>
+                    
                   </S.TextWrapper>
-                  <BrushSpecsWrapper $width="65%">
+                  <BrushSpecsWrapper $width="85%">
                     <S.BrushSpecsGrid $gap="0">
                       <SpecItem>
                         <SpecLabel>Article</SpecLabel>

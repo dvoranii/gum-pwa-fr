@@ -19,15 +19,15 @@ export default function EcoCleanFlosser() {
         {
           text: (
             <>
-              Le fil dentaire texturé efficace élimine 2x plus de plaque
-              <sup>10</sup>.
+              Le fil dentaire texturé efficace élimine 2x plus de plaque.
+              <sup>10</sup>
             </>
           ),
         },
         {
           text: (
             <>
-              Conçu pour résister à l’effilochage ou au bris<sup>12</sup>.
+              Conçu pour résister à l’effilochage ou au bris.<sup>12</sup>
             </>
           ),
         },

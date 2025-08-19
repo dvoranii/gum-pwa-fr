@@ -26,8 +26,8 @@ export default function ProWeaveFloss() {
           text: (
             <>
               Processus d’entrelacement qui produit un fil dentaire résistant et
-              lisse conçu pour ne pas s’effilocher, se briser ou se déformer
-              <sup>13</sup>.
+              lisse conçu pour ne pas s’effilocher, se briser ou se déformer.
+              <sup>13</sup>
             </>
           ),
         },

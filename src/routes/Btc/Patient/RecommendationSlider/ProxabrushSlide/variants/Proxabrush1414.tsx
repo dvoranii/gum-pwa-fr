@@ -18,7 +18,7 @@ export default function Proxabrush1414() {
           text: (
             <>
               Les soies de forme triangulaire éliminent 25% plus de plaque
-              dentaire que les soies rondes conventionnelles<sup>8</sup>.
+              dentaire que les soies rondes conventionnelles.<sup>8</sup>
             </>
           ),
         },
@@ -27,7 +27,7 @@ export default function Proxabrush1414() {
         {
           text: (
             <>
-              Soies antibactériennes<sup>9</sup>.
+              Soies antibactériennes.<sup>9</sup>
             </>
           ),
         },

@@ -135,6 +135,7 @@ export const GumInterproximalSolution = styled.div<GumInterproximalSolutionProps
 
     sup {
       font-size: 10px;
+      letter-spacing: 0;
     }
   }
 `;

@@ -14,6 +14,7 @@ export const Title = styled.h1<TitleProps>`
   ${({ $marginBottom }) => $marginBottom && `margin-bottom: ${$marginBottom};`}
 
   sup {
-    font-size: 18px;
+    font-size: 12px;
+    vertical-align: 14px;
   }
 `;

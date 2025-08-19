@@ -22,7 +22,7 @@ export default function ComfortSlideFlosser() {
         {
           text: (
             <>
-              Prise souple et légère qui utilise 20% moins de plastique
+              Prise souple et légère qui utilise 20% moins de plastique.
               <sup>13</sup>
             </>
           ),

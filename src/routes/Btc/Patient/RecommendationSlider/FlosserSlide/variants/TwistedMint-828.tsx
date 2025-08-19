@@ -18,22 +18,22 @@ export default function TwistedMintFlosser() {
         {
           text: (
             <>
-              Élimine 2x plus de plaque<sup>10</sup>.
+              Élimine 2x plus de plaque.<sup>10</sup>
             </>
           ),
         },
         {
           text: (
             <>
-              Couvre une surface 30% plus grande<sup>11</sup>.
+              Couvre une surface 30% plus grande.<sup>11</sup>
             </>
           ),
         },
         {
           text: (
             <>
-              Prise souple et légère qui utilise 20% moins de plastique
-              <sup>13</sup>.
+              Prise souple et légère qui utilise 20% moins de plastique.
+              <sup>13</sup>
             </>
           ),
         },
