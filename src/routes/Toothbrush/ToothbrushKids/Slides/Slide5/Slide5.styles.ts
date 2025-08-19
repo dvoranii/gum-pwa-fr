@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 import { colors } from "../../../../../constants/colors";
 
 export const SecondColumnWrapper = styled.div`
@@ -14,7 +14,7 @@ export const TopImageWrapper = styled.div`
   img {
     width: 75%;
     height: auto;
-    margin-top:2rem;
+    margin-top: 2rem;
   }
 `;
 
@@ -27,21 +27,25 @@ export const ContentWrapper = styled.div`
 export const TextContent = styled.div`
   margin-bottom: 0.2rem;
   padding-right: 4.2rem;
-  
+
   h2 {
     font-family: "Gotham", sans-serif;
     color: ${colors.primary};
     margin-bottom: 0.4rem;
     font-size: 1.25rem;
   }
-  
+
   ul {
-    padding-left: 1.2rem; 
+    padding-left: 1.2rem;
     font-family: "Gotham", sans-serif;
     color: ${colors.black};
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.3;
+  }
+
+  sup {
+    font-size: 8px;
   }
 `;
 
@@ -69,11 +73,15 @@ export const SpecItem = styled.div`
   font-family: "Gotham", sans-serif;
   color: ${colors.black};
   font-size: 0.8rem;
-  
+
+  sup {
+    font-size: 6px;
+  }
+
   &:first-child {
     text-align: left;
   }
-  
+
   &:last-child {
     text-align: center;
   }

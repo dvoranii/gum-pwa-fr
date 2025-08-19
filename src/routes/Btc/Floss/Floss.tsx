@@ -37,31 +37,37 @@ export default function BtcFloss() {
                 <img src={Slide1Floss1} />
               </S.ImgWrapper>
               <S.ColumnTitle>FIL DENTAIRE Comfort Slide</S.ColumnTitle>
-              {/* <small>(formerly known as EEZ-THRU)®</small>  */}
+              <small>
+                (anciennement EEZ-THRU<sup>MD</sup>)
+              </small>
               <S.ListContainer>
                 <ul>
                   <li>
-                    Fil dentaire soyeux et non collant qui glisse sans effort.
+                    Fil dentaire non collant qui glisse facilement entre les
+                    zones de contact, même les plus étroites, et sous la ligne
+                    gingivale.
                   </li>
-                  <li>Construction robuste en monofilament.</li>
-                  <li>Fini satiné qui est doux et léger.</li>
+                  <li>
+                    Grâce à son monofilament, il est incroyablement robuste.
+                  </li>
+                  <li>Son fini satiné est lisse et doux pour les gencives.</li>
                 </ul>
 
                 <S.InfoGrid>
                   <S.InfoGridRow>
                     <S.Column>2010 Comfort Slide</S.Column>
                     <S.Column>3.6m</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2014 Comfort Slide Mint</S.Column>
+                    <S.Column>2014 Comfort Slide Menthe</S.Column>
                     <S.Column>3.6m</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2006 Comfort Slide Mint</S.Column>
+                    <S.Column>2006 Comfort Slide Menthe</S.Column>
                     <S.Column>2x40m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>12/sac</S.Column>
                   </S.InfoGridRow>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
@@ -75,30 +81,37 @@ export default function BtcFloss() {
               <S.ImgWrapper $width={"85%"}>
                 <img src={Slide1Floss2} />
               </S.ImgWrapper>
-              <S.ColumnTitle>FIL DENTAIRE TORSADÉ Dual-Defense</S.ColumnTitle>
+              <S.ColumnTitle>
+                FIL DENTAIRE TORSADÉ Dual-Defense<sup>MD</sup>
+              </S.ColumnTitle>
               <S.ListContainer>
                 <ul>
-                  <li>Fil dentaire torsadé, saveur de menthe fraîche.</li>
                   <li>
-                    Élimine <span>2x plus de plaque</span>
-                    <sup>10</sup>
+                    Fil texturé et torsadé à saveur de thé vert à la menthe.
                   </li>
                   <li>
-                    Couvre une surface <span>30% plus</span> grande<sup>11</sup>
-                    .
+                    Déloge 2 fois plus de plaque<sup>1</sup>.
+                  </li>
+                  <li>
+                    Couvre <span>30 % plus</span> de surface dentaire
+                    <sup>2</sup>.
                   </li>
                 </ul>
 
                 <S.InfoGrid>
                   <S.InfoGridRow>
-                    <S.Column>2008 Dual-Defence Waxed Mint</S.Column>
+                    <S.Column>
+                      2008 Dual-Defence<sup>MD</sup> Ciré
+                    </S.Column>
                     <S.Column>3.6mm</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2008C Dual-Defence Waxed Mint</S.Column>
+                    <S.Column>
+                      2008C Dual-Defence<sup>MD</sup> Ciré menthe
+                    </S.Column>
                     <S.Column>2x35m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>12/sac</S.Column>
                   </S.InfoGridRow>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
@@ -120,31 +133,32 @@ export default function BtcFloss() {
               <S.ImgWrapper $width={"85%"}>
                 <img src={Slide2Floss1} />
               </S.ImgWrapper>
-              <S.ColumnTitle>FIL DENTAIRE Deep Clean Expanding</S.ColumnTitle>
+              <S.ColumnTitle>Deep Clean Fil Expanding</S.ColumnTitle>
               <S.ListContainer>
                 <ul>
                   <li>
-                    Mince et facile à insérer entre les zones de contact
-                    étroites.
+                    Mince et facile d'insertion, même dans les contacts serrés.
                   </li>
                   <li>
-                    Fil dentaire qui se dilate pour éliminer{" "}
-                    <span>2x plus de plaque</span>
-                    <sup>10</sup>.
+                    Le fil prend de l'expansion pendant son utilisation pour
+                    retirer <span>2 fois plus</span> de plaque<sup>1</sup>.
                   </li>
-                  <li>Plusieurs filaments et fibres texturées.</li>
+                  <li>
+                    Son fil à plusieurs filaments et à fibres texturées ore un
+                    nettoyage exceptionnel
+                  </li>
                 </ul>
 
                 <S.InfoGrid>
                   <S.InfoGridRow>
-                    <S.Column>2010 Comfort Slide</S.Column>
+                    <S.Column>2030 Deep Clean Fil Expanding Ciré</S.Column>
                     <S.Column>3.6m</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2014 Comfort Slide Mint</S.Column>
-                    <S.Column>3.6m</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>2030T Deep Clean Fil Expanding Ciré</S.Column>
+                    <S.Column>2x40 m</S.Column>
+                    <S.Column>12/sac</S.Column>
                   </S.InfoGridRow>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
@@ -166,45 +180,60 @@ export default function BtcFloss() {
               <S.ColumnTitle>
                 FIL DENTAIRE Pro-Weave<sup>MD</sup>
               </S.ColumnTitle>
-              {/* <small>(formerly known as BUTLERWEAVE)®</small> */}
+              <small>
+                (anciennement BUTLERWEAVE<sup>MD</sup>)
+              </small>
               <S.ListContainer>
                 <ul>
                   <li>
-                    Conception tissée qui élimine le biofilm entre les dents et
-                    sous la ligne gingivale.
+                    Déloge <span>2 fois plus</span> de plaque<sup>1</sup>.
                   </li>
                   <li>
-                    Processus d’entrelacement qui produit un fil dentaire
-                    résistant et lisse conçu pour ne pas s’effilocher, se briser
-                    ou se déformer<sup>13</sup>.
+                    Son tissage unique permet de retirer ecacement le biofilm
+                    entre les dents et sous la gencive.
+                  </li>
+                  <li>
+                    Le processus d'entrelacement unique produit un fil solide et
+                    lisse qui ne s'eloche pas, ne casse pas et ne s'aaisse pas
+                    <sup>3</sup>.
                   </li>
                 </ul>
 
                 <S.InfoGrid>
                   <S.InfoGridRow>
-                    <S.Column>2008 Dual-Defence Waxed Mint</S.Column>
-                    <S.Column>3.6mm</S.Column>
-                    <S.Column>144/box</S.Column>
+                    <S.Column>
+                      1115 PRO-WEAVE<sup>MD</sup> Ciré
+                    </S.Column>
+                    <S.Column>3.6m</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2008C Dual-Defence Waxed Mint</S.Column>
-                    <S.Column>2x35m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>
+                      1815 PRO-WEAVE<sup>MD</sup> Ciré menthe
+                    </S.Column>
+                    <S.Column>3.6m</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2008C Dual-Defence Waxed Mint</S.Column>
-                    <S.Column>2x35m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>
+                      1415 PRO-WEAVE<sup>MD</sup> Ciré Tutti Frutti
+                    </S.Column>
+                    <S.Column>3.6m</S.Column>
+                    <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2008C Dual-Defence Waxed Mint</S.Column>
-                    <S.Column>2x35m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>
+                      1140 PRO-WEAVE<sup>MD</sup> Ciré
+                    </S.Column>
+                    <S.Column>165 m</S.Column>
+                    <S.Column>12/sac</S.Column>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
-                    <S.Column>2008C Dual-Defence Waxed Mint</S.Column>
-                    <S.Column>2x35m</S.Column>
-                    <S.Column>12/bag</S.Column>
+                    <S.Column>
+                      1840 PRO-WEAVE<sup>MD</sup> Ciré menthe
+                    </S.Column>
+                    <S.Column>165 m</S.Column>
+                    <S.Column>12/sac</S.Column>
                   </S.InfoGridRow>
                   <ShopifyIcon
                     href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
@@ -228,9 +257,8 @@ export default function BtcFloss() {
               <S.ListContainer $flexGrow="0">
                 <ul>
                   <li>
-                    Fil mince, résistant à l’effilochage, pour nettoyer les
-                    espaces interdentaires étroits et sous la ligne gingivale
-                    <sup>13</sup>.
+                    Ce fil dentaire mince et résistant à l’elochage glisse
+                    aisément entre les dents serrées et sous la ligne gingivale.
                   </li>
                 </ul>
 
@@ -249,50 +277,58 @@ export default function BtcFloss() {
               </S.ListContainer>
             </S.SlideColumn1>
             <S.SlideColumn2>
-              <S.ImgWrapper $width={"80%"}>
+              <S.ImgWrapper $width={"70%"}>
                 <img src={Slide3Floss2} />
               </S.ImgWrapper>
               <S.ColumnTitle>
                 FIL DENTAIRE <span>Easy</span>Thread<sup>MD</sup>
               </S.ColumnTitle>
-              {/* <small>(formerly known as EEZ-THRU)®</small> */}
-              {/* <p>
-                GUM® EasyThread® Floss is designed to make flossing around
-                braces, bridges, and implants easy.
-              </p> */}
-              <S.ListContainer>
+              <p>
+                Le fil dentaire EasyThread<sup>MD</sup> de GUM<sup>MD</sup> est
+                conçu pour faciliter le passage du fil dentaire avec des
+                appareils orthodontiques, des ponts et des implants.
+              </p>
+              <S.ListContainer $marginTop="0px">
                 <ul>
                   <li>
-                    Sections dotées d’enfileur de fil dentaire rigide intégré
-                    qui facilitent l’accès aux espaces difficiles à nettoyer
-                    sans irriter les gencives.
+                    Des sections raides d'enfilage facilitent l'accès aux zones
+                    diciles à nettoyer sans irriter la gencive.
                   </li>
                   <li>
-                    Sections dotées d’enfileur à deux extrémités pour maximiser
-                    le nettoyage avec chaque passage de fil.
-                  </li>
-                  {/* <li>
-                    Features "puffy" floss designed for enhanced plaque removal
+                    Les sections d'enfilage aux deux bouts maximisent le
+                    nettoyage obtenu avec chaque fil.
                   </li>
                   <li>
-                    Innovative, hygienic packaging reduces tangles and waste
+                    En cours d’utilisation, le fil se gonfle pour enlever le
+                    plus de plaque possible.
                   </li>
                   <li>
-                    Office dispenser is rewindable to ensure just the right
-                    amount of floss is dispensed
-                  </li> */}
+                    Oert dans un distributeur novateur et hygiénique qui
+                    contribue à réduire les nœuds et les pertes.
+                  </li>
+                  <li>
+                    Le distributeur pour cabinet dentaire comporte un mécanisme
+                    de rembobinage qui permet de prélever uniquement la bonne
+                    longueur de fil.
+                  </li>
                 </ul>
 
-                <S.InfoGrid $gridCols="1.65fr 1fr" $paddingTop="0.4rem">
+                <S.InfoGrid $gridCols="1.45fr 1fr" $paddingTop="0.4rem">
                   <S.InfoGridRow>
-                    <S.Column2>3200 EasyThread® Floss Patient Packs</S.Column2>
-                    <S.Column2>1 pkg. / 100 env of 5</S.Column2>
+                    <S.Column2>
+                      3200 Fil dentaire EasyThread<sup>MD</sup>
+                      <br />
+                      Sachet pour patient
+                    </S.Column2>
+                    <S.Column2>1 boite / 100 sachets de 5</S.Column2>
                   </S.InfoGridRow>
                   <S.InfoGridRow>
                     <S.Column2>
-                      3210 EasyThread® Floss Office Dispensers
+                      3210 Distributeurs de fil dentaire
+                      <br />
+                      EasyThread<sup>MD</sup> pour la clinique
                     </S.Column2>
-                    <S.Column2>1 pkg. / 6 dispensers of 50</S.Column2>
+                    <S.Column2>1 boite / 6 distributeurs de 50</S.Column2>
                   </S.InfoGridRow>
                 </S.InfoGrid>
               </S.ListContainer>
@@ -314,7 +350,7 @@ export default function BtcFloss() {
                 <img src={Slide4Floss} />
               </S.ImgWrapper>
               <S.ColumnTitle>
-                PASSE-FIL DENTAIRE <span>EEZ-</span>THRU<sup>MD</sup>
+                ENFILEURS <span>EEZ-</span>THRU<sup>MD</sup>
               </S.ColumnTitle>
               <S.ListContainer
                 $flexGrow="0"
@@ -324,21 +360,25 @@ export default function BtcFloss() {
               >
                 <ul>
                   <li>
-                    Boucle de nylon polyvalente qui aide à insérer le fil
-                    dentaire dans les espaces interdentaires non accessibles à
-                    la plupart des autres produits.
+                    Boucle de nylon polyvalente qui aide à passer le fil là où
+                    la plupart des autres produits ne peuvent pénétrer, par
+                    exemple sous les ponts et les fils linguaux, entre deux
+                    couronnes attachées et autour des appareils d’orthodontie et
+                    des implants.
                   </li>
                 </ul>
               </S.ListContainer>
               <S.InfoGrid
                 $marginTop="0"
                 $paddingTop="0.4rem"
-                $gridCols="2fr 1fr"
+                $gridCols="2fr 1.2fr"
                 $width="60%"
               >
                 <S.InfoGridRow>
-                  <S.Column2>840 Eez-Thru® Floss Threaders</S.Column2>
-                  <S.Column2>1 box/ 100 env. of 5</S.Column2>
+                  <S.Column2>
+                    840 Enfileurs Eez-Thru<sup>MD</sup>
+                  </S.Column2>
+                  <S.Column2>1 boîte / 100 enveloppes de 5</S.Column2>
                 </S.InfoGridRow>
               </S.InfoGrid>
               <ShopifyIcon

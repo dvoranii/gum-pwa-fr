@@ -1,5 +1,5 @@
 // ProxabrushSizingChart.jsx
-import React from 'react';
+import React from "react";
 import * as S from "./ProxabrushSizingChart.styles";
 
 import MicroTightDiagram from "../../../../assets/btc/id-brushes/micro-tight-diagram.webp";
@@ -12,48 +12,48 @@ import ExtraWideDiagram from "../../../../assets/btc/id-brushes/extra-wide-diagr
 const ProxabrushSizingChart = () => {
   const brushSizes = [
     {
-      color: '#878ec7',
-      title: 'Micro Tight',
-      boxCode: '—',
-      bagCode: '1312B',
-      diagramImage: MicroTightDiagram
+      color: "#878ec7",
+      title: "Micro Petit",
+      boxCode: "—",
+      bagCode: "1312B",
+      diagramImage: MicroTightDiagram,
     },
     {
-      color: '#ed1c24',
-      title: 'Ultra Tight',
-      boxCode: '1314P',
-      bagCode: '1314B',
-      diagramImage: UltraTightDiagram
+      color: "#ed1c24",
+      title: "Très petit",
+      boxCode: "1314P",
+      bagCode: "1314B",
+      diagramImage: UltraTightDiagram,
     },
     {
-      color: '#68bd45',
-      title: 'Tight',
-      boxCode: '1414P',
-      bagCode: '1414B',
-      diagramImage: TightDiagram
+      color: "#68bd45",
+      title: "Petit",
+      boxCode: "1414P",
+      bagCode: "1414B",
+      diagramImage: TightDiagram,
     },
     {
-      color: '#ffd204',
-      title: 'Moderate',
-      boxCode: '1514P',
-      bagCode: '1514B',
+      color: "#ffd204",
+      title: "Moyen",
+      boxCode: "1514P",
+      bagCode: "1514B",
       hasArrow: false,
-      diagramImage: ModerateDiagram
+      diagramImage: ModerateDiagram,
     },
     {
-      color: '#00abd2',
-      title: 'Wide',
-      boxCode: '1614P',
-      bagCode: '1614B',
-      diagramImage: WideDiagram
+      color: "#00abd2",
+      title: "Large",
+      boxCode: "1614P",
+      bagCode: "1614B",
+      diagramImage: WideDiagram,
     },
     {
-      color: '#9a9795',
-      title: 'Extra Wide',
-      boxCode: '—',
-      bagCode: '1618B',
-      diagramImage: ExtraWideDiagram
-    }
+      color: "#9a9795",
+      title: "Extra Large",
+      boxCode: "—",
+      bagCode: "1618B",
+      diagramImage: ExtraWideDiagram,
+    },
   ];
 
   return (
@@ -74,26 +74,24 @@ const ProxabrushSizingChart = () => {
             <S.SizingHeaderCell key={index}>
               <S.SizingColorCircle $backgroundColor={size.color} />
               <S.SizingTitle>
-                {size.hasArrow && <S.SizingArrowIndicator>▶</S.SizingArrowIndicator>}
+                {size.hasArrow && (
+                  <S.SizingArrowIndicator>▶</S.SizingArrowIndicator>
+                )}
                 {size.title}
               </S.SizingTitle>
             </S.SizingHeaderCell>
           ))}
         </S.SizingTableHeader>
-        
+
         <S.SizingTableRow>
-          <S.SizingCellLeft>
-            Box (cello wrapped), 36/box
-          </S.SizingCellLeft>
+          <S.SizingCellLeft>Boite (emballage cello) 36/boîte</S.SizingCellLeft>
           {brushSizes.map((size, index) => (
             <S.SizingCell key={index}>{size.boxCode}</S.SizingCell>
           ))}
         </S.SizingTableRow>
-        
+
         <S.SizingTableRow>
-          <S.SizingCellLeft>
-            Bag (bulk), 50/bag
-          </S.SizingCellLeft>
+          <S.SizingCellLeft>Sac (vrac), 50/sac</S.SizingCellLeft>
           {brushSizes.map((size, index) => (
             <S.SizingCell key={index}>{size.bagCode}</S.SizingCell>
           ))}

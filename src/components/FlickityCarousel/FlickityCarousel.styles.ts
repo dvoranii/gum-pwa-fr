@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { colors } from '../../constants/colors';
+import styled from "styled-components";
+import { colors } from "../../constants/colors";
 
 interface CarouselWrapperProps {
   $customStyles?: {
@@ -25,17 +25,18 @@ export const CarouselWrapper = styled.div<CarouselWrapperProps>`
     width: 100%;
 
     .flickity-viewport {
-      height: ${props => props.$customStyles?.viewportHeight || '80vh'} !important;
+      height: ${(props) =>
+        props.$customStyles?.viewportHeight || "80vh"} !important;
     }
-    
+
     .flickity-page-dots {
       top: unset;
-      bottom: ${props => props.$customStyles?.dotPosition?.bottom || '-28px'};
-      right: ${props => props.$customStyles?.dotPosition?.right || '94px'};
+      bottom: ${(props) => props.$customStyles?.dotPosition?.bottom || "-28px"};
+      right: ${(props) => props.$customStyles?.dotPosition?.right || "94px"};
       left: unset;
       width: auto;
       text-align: right;
-      z-index: 10; 
+      z-index: 10;
 
       .dot {
         width: 16px;
@@ -43,7 +44,7 @@ export const CarouselWrapper = styled.div<CarouselWrapperProps>`
         opacity: 1 !important;
         background: ${colors.dotBG};
         margin: 0 6px;
-        
+
         &.is-selected {
           background: ${colors.dotBGActive};
         }
@@ -54,5 +55,4 @@ export const CarouselWrapper = styled.div<CarouselWrapperProps>`
       display: none;
     }
   }
-
 `;

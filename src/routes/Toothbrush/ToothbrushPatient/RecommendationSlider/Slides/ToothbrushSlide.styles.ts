@@ -56,6 +56,7 @@ export const ToothbrushImage = styled.img<ToothbrushImageProps>`
 interface ContentImageWrapperProps {
   $marginTop?: string;
   $justifyContent?: string;
+  $marginLeft?: string;
 }
 
 export const ContentImageWrapper = styled.div<ContentImageWrapperProps>`
@@ -64,6 +65,7 @@ export const ContentImageWrapper = styled.div<ContentImageWrapperProps>`
   justify-content: ${(props) => props.$justifyContent || "flex-start"};
   align-items: flex-start;
   margin-top: ${(props) => props.$marginTop || "1.2rem"};
+  ${(props) => props.$marginLeft && `margin-left: ${props.$marginLeft}`};
   width: 100%;
 `;
 
@@ -77,7 +79,6 @@ export const ContentImage = styled.img<ContentImageProps>`
   object-fit: contain;
 `;
 
-// Legacy styles for text-based slides (if needed)
 interface TopImageWrapperProps {
   $marginBottom?: boolean;
 }
@@ -114,12 +115,19 @@ interface TitleProps {
 export const Title = styled.h2<TitleProps>`
   font-family: "Gotham", sans-serif;
   font-weight: 600;
-  font-size: ${(props) => props.$fontSize || "clamp(24px, 6vw, 3.6rem)"};
+  font-size: ${(props) => props.$fontSize || "clamp(24px, 6vw, 3.2rem)"};
   color: ${colors.primary};
   letter-spacing: -3.5px;
   line-height: 0.8;
   padding-top: 0.7rem;
   letter-spacing: ${(props) => props.$letterSpacing || "-1px"};
+
+  sup {
+    font-size: 12px;
+    vertical-align: 28px;
+    letter-spacing: -1px;
+    margin-left: 1px;
+  }
 `;
 
 export const Subtitle = styled.h3`
@@ -127,8 +135,12 @@ export const Subtitle = styled.h3`
   font-weight: 400;
   font-size: clamp(18px, 4.3vw, 2.5rem);
   color: ${colors.primary};
-  text-transform: uppercase;
   letter-spacing: -1px;
+
+  sup {
+    font-size: 12px;
+    vertical-align: 18px;
+  }
 `;
 
 interface BulletListProps {
@@ -147,7 +159,7 @@ export const BulletList = styled.ul<BulletListProps>`
 
   li {
     font-family: "Gotham", sans-serif;
-    font-size: clamp(16px, 1.9vw, 1.8rem);
+    font-size: clamp(16px, 1.8vw, 1.8rem);
     color: ${colors.primary};
     font-weight: 500;
 
@@ -163,7 +175,10 @@ export const BulletList = styled.ul<BulletListProps>`
   }
 `;
 
-export const TitlesWrapper = styled.div`
-  margin-bottom: 0.4rem;
+interface TitlesWrapperProps {
+  $marginBottom?: string;
+}
+export const TitlesWrapper = styled.div<TitlesWrapperProps>`
+  margin-bottom: ${(props) => props.$marginBottom || "0.4rem"};
   margin-left: 0.6rem;
 `;

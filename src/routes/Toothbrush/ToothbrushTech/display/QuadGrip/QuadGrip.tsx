@@ -1,5 +1,5 @@
-import React from 'react';
-import * as S from './QuadGrip.styles';
+import React from "react";
+import * as S from "./QuadGrip.styles";
 
 import BrushHand from "../../../../../assets/toothbrush/tech/hand-brush.webp";
 import DiagramCrossSection from "../../../../../assets/toothbrush/tech/diagram-cross-section.webp";
@@ -7,33 +7,41 @@ import DiagramCrossSection from "../../../../../assets/toothbrush/tech/diagram-c
 export default function QuadGripDisplay() {
   return (
     <S.ContentWrapper>
-    <S.HeaderRight>
+      <S.HeaderRight>
         <S.MainTitle>
-        GUM Quad-Grip<S.Trademark>®</S.Trademark>
-        <br />
-        Thumb Pad
+          GUM<sup>MD</sup> Appuie-pouce Quad-Grip<sup>MD</sup> Thumb Pad
         </S.MainTitle>
         <S.Description>
-        <li>Designed to guide the hand to hold the brush at 45° in all quadrants so the bristles are properly positioned at the sulcus for optimal subgingival cleaning.</li>
+          <li>
+            Le manche Quad-Grip<sup>MD</sup> a été conçu pour aider à maintenir
+            les soies à un angle de 45°, peu importe où l&#39;on brosse, afin
+            qu&#39;elles soient toujours placées correctement dans le sillon
+            pour bien nettoyer sous la gencive.
+          </li>
         </S.Description>
-        
+
         <S.DiagramSection>
-        <S.CrossSectionWrapper>
+          <S.CrossSectionWrapper>
             <S.CrossSectionDiagram>
-            <img src={DiagramCrossSection} alt="Cross section front" />
+              <img src={DiagramCrossSection} alt="Cross section front" />
             </S.CrossSectionDiagram>
-        </S.CrossSectionWrapper>
+          </S.CrossSectionWrapper>
         </S.DiagramSection>
-        
+
         <S.BenefitsList>
-        <S.BenefitItem>Promotes the modified Bass technique.</S.BenefitItem>
-        <S.BenefitItem>Available on all Technique® toothbrushes.</S.BenefitItem>
+          <S.BenefitItem>
+            L&#39;appuie-pouce du manche Quad-Grip<sup>MD</sup> favorise la
+            technique de Bass modifiée.
+          </S.BenefitItem>
+          <S.BenefitItem>
+            Offert sur toutes les brosses Technique<sup>MD</sup>.
+          </S.BenefitItem>
         </S.BenefitsList>
-    </S.HeaderRight>
-    
-    <S.HandImage>
+      </S.HeaderRight>
+
+      <S.HandImage>
         <img src={BrushHand} alt="Hand holding toothbrush" />
-    </S.HandImage>
+      </S.HandImage>
     </S.ContentWrapper>
   );
 }

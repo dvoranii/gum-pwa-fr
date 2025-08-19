@@ -13,7 +13,7 @@ const Slide4 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       diagramMarginBottom="0.2rem"
       diagramWidth="85%"
@@ -25,25 +25,29 @@ const Slide4 = () => (
       showImprintText={false}
       title={
         <>
-        Crayola<TitleLight>™</TitleLight> TIMER LIGHT
+          <TitleLight>Brosse à dents à</TitleLight> MINUTERIE
+          <br />
+          CLIGNOTANTE Crayola<sup>MC</sup>
         </>
       }
       description={[
-        "Flashing, one-minute timer light helps kids know when to switch arches and encourages longer brushing time",
+        "La brosse à dents clignote pendant une minute pour aider les enfants à savoir quand il est temps de changer d'arche de dents et les encourager à se brosser les dents plus longtemps",
         <>
-         Dome Trim® bristles are clinically designed to clean below the gumline<sup>1,2</sup>
+          Les soies Dome Trim<sup>MC</sup> sont cliniquement conçues pour
+          nettoyer sous la gencive
+          <sup>1,2</sup>
         </>,
-        "Suction cup base holds the toothbrush upright which helps keep bristles clean",
-        "Non-replaceable LED battery",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
+        "Pile à DEL non remplaçable",
       ]}
       imprintColors={[["#8dc63e"], ["#f14f68"], ["#00aeee"], ["#fcb041"]]}
       specs={[
         [
-        { label: "Item", value: "202" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "29" }
-        ]
+          { label: "Article", value: "202" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "29" },
+        ],
       ]}
     />
     <ProductSlide
@@ -52,7 +56,7 @@ const Slide4 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       diagramWidth="85%"
       brushImgWidth="88%"
@@ -63,25 +67,29 @@ const Slide4 = () => (
       useBulletPoints={true}
       title={
         <>
-         Crayola<TitleLight>™</TitleLight> DEEP CLEAN
+          <TitleLight>Brosse à dents</TitleLight>
+          <br />
+          Crayola<sup>MC</sup> DEEP CLEAN
         </>
       }
       description={[
         <>
-            Ultra-soft Deep Clean bristles allow for better reach in between teeth for better cleaning<sup>3</sup>
+          Les soies Deep Clean ultrasouples se glissent entre les dents et le
+          long de la gencive pour un meilleur nettoyage<sup>3</sup>
         </>,
-        "Thumb grip and triangular-shaped handle offer control and encourage brushing at a 45° angle",
-        "Suction cup base holds the toothbrush upright which helps keep bristles clean",  
-     ]}
+        "L'appuie-pouce et le manche triangulaire permettent une meilleure prise et facilitent le brossage à 45 degrés",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
+      ]}
       imprintColors={[["#0075ba"], ["#f15921"], ["#80c241"], ["#9163aa"]]}
       showImprintText={false}
       specs={[
         [
-        { label: "Item", value: "234" },
-        { label: "Texture", value: "Ultra Soft" },
-        { label: "Size", value: "Compact" },
-        { label: "Tufts", value: "25" }]
-        ]}
+          { label: "Article", value: "234" },
+          { label: "Texture", value: "Ultrasouple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "25" },
+        ],
+      ]}
     />
   </>
 );

@@ -1,12 +1,12 @@
 import { styled } from "styled-components";
 
 export const ContentWrapper = styled.div`
-    display: flex;
+  display: flex;
 `;
 
 export const ColumnLeft = styled.div`
-    max-width: 62%;
-    padding: 40px 0 40px 50px;
+  max-width: 62%;
+  padding: 40px 0 40px 50px;
 `;
 
 export const MainTitle = styled.h1`
@@ -17,6 +17,12 @@ export const MainTitle = styled.h1`
   line-height: 1;
   padding-right: 25px;
   padding-top: 1.4rem;
+
+  sup {
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: 14px;
+  }
 `;
 
 export const Description = styled.ul`
@@ -24,7 +30,7 @@ export const Description = styled.ul`
   font-size: clamp(16px, 1.5vw, 2.4rem);
   color: #666666;
   line-height: 1.2;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   padding-inline-start: 6px;
   padding-top: 0.8rem;
   padding-right: 60px;
@@ -32,44 +38,46 @@ export const Description = styled.ul`
   sup {
     font-size: 12px;
   }
-
 `;
 
 export const ColLeftImgWrapper = styled.div`
-    img {
-        width: 90%;
-    }
+  img {
+    width: 90%;
+  }
 `;
 
 export const ColLeftList = styled.ul`
-    font-family: 'Gotham', sans-serif;
-    margin-top: 1.2rem;
-    padding-inline-start: 20px;
+  font-family: "Gotham", sans-serif;
+  margin-top: 1.2rem;
+  padding-inline-start: 20px;
 
-    li {
-        font-size: clamp(16px, 1.4vw, 2.4rem);
-        color: #00a16b;
-        font-weight: 600;
+  li {
+    font-size: clamp(16px, 1.4vw, 2.4rem);
+    color: #00a16b;
+    font-weight: 600;
+
+    sup {
+      font-size: 6px;
     }
+  }
 `;
 
 export const ColumnRight = styled.div`
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
 `;
 
-export const BristlesDiagramWrapper= styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+export const BristlesDiagramWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
-    img {
-        width: 90%;
-        height: auto;
-        padding-top: 1.2rem;
-    }
-
+  img {
+    width: 90%;
+    height: auto;
+    padding-top: 1.2rem;
+  }
 `;

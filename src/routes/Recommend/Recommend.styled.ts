@@ -39,7 +39,7 @@ export const RecommendText = styled.cite`
   font-style: normal;
 
   sup {
-    font-size: 12px;
+    font-size: 8px;
   }
 `;
 

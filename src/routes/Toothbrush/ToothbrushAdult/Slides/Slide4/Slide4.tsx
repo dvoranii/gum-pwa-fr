@@ -1,7 +1,6 @@
 import Brush1_ToothAndTongue from "../../../../../assets/toothbrush/Adult/Slide4/Brush-toothAndTongue.webp";
 import Diagrams_ToothAndTongue from "../../../../../assets/toothbrush/Adult/Slide4/circle-diagram-tooth&tongue.webp";
 import { ProductSlide } from "../../../components/ProductSlide/ProductSlide";
-import { DescriptionBold, TitleLight } from "../../../components/ProductSlide/ProductSlide.styles";
 
 const Slide4 = () => (
   <>
@@ -11,28 +10,31 @@ const Slide4 = () => (
       shopifyIconProps={{
         href: "https://www.shopify.com/ca",
         width: "30px",
-        marginTop: "0"
+        marginTop: "0",
       }}
       imgMinWidth="57px"
-      title={
-        <>
-        TOOTH&nbsp;&&nbsp;TONGUE&nbsp;<TitleLight>Toothbrush</TitleLight>
-        </>
-      }
+      title={<>DENTS et LANGUE</>}
       description={[
         <>
-            Designed with <DescriptionBold>40% more bristles</DescriptionBold><sup>3</sup> to gently and effectively clean between teeth without irritating gums.
+          Avec 40 % de poils en plus3, pour nettoyer ecacement et en douceur les
+          espaces interdentaires sans irriter les gencives. Un nettoyeur de
+          langue avec grattoirs striés pour améliorer le nettoyage et aider à
+          réduire la mauvaise haleine.
         </>,
-        "Tongue cleaner with ridged scrapers improves cleaning and helps reduce bad breath."
       ]}
-      imprintColors={[["#02adee", "#007bc5"], ["#f9ae68","#f1592a"], ["#a8cf87","#6c8d42"], ["#f295be", "#ec4699"]]}
+      imprintColors={[
+        ["#02adee", "#007bc5"],
+        ["#f9ae68", "#f1592a"],
+        ["#a8cf87", "#6c8d42"],
+        ["#f295be", "#ec4699"],
+      ]}
       specs={[
         [
-        { label: "Item #", value: "394" },
-        { label: "Texture", value: "Soft" },
-        { label: "Size", value: "Full" },
-        { label: "Tufts", value: "46" }
-        ]
+          { label: "Article", value: "394" },
+          { label: "Texture", value: "Souple" },
+          { label: "Taille", value: "Full" },
+          { label: "Touffes", value: "46" },
+        ],
       ]}
       isSingleColumn={true}
     />

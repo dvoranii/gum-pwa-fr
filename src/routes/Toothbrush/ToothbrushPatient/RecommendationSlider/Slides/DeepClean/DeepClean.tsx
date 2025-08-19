@@ -14,27 +14,29 @@ export default function DeepCleanSlide() {
         </S.ToothbrushImageWrapper>
         <S.TextAndImgWrapper>
           <S.TitlesWrapper>
-            <S.Title $letterSpacing="-4px">Deep Clean</S.Title>
-            <S.Subtitle>TECHNIQUE®</S.Subtitle>
+            <S.Title $letterSpacing="-4px">
+              TECHNIQUE<sup>MD</sup>
+            </S.Title>
+            <S.Subtitle>Deep Clean</S.Subtitle>
           </S.TitlesWrapper>
 
-          <S.BulletList $lineHeight="1.2">
+          <S.BulletList $lineHeight="1.2" $paddingRight="0">
             <li>
-              <span>Extremely Tapered Bristles</span>
+              <span>Soies extrêmement effilées.</span>
             </li>
             <li>
               <span>
-                10x better plaque removal<sup>15</sup>.
+                Élimination de plaque 10x plus efficace<sup>15</sup>.
               </span>
             </li>
             <li>
               <span>
-                Now with Antibacterial Bristles<sup>16</sup>.
+                Maintenant avec des brins antibactériens<sup>16</sup>.
               </span>
             </li>
           </S.BulletList>
 
-          <S.ContentImageWrapper>
+          <S.ContentImageWrapper $marginTop="0.8rem" $marginLeft="1.2rem">
             <S.ContentImage
               $width="70%"
               src={ContentImage}

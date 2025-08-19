@@ -15,9 +15,9 @@ export default function CompleteCare595Slide() {
         <S.TextAndImgWrapper>
           <S.TitlesWrapper>
             <S.Title $fontSize="clamp(24px, 6vw, 3.2rem)" $letterSpacing="-2px">
-              Complete Care
+              TECHNIQUE<sup>MD</sup>
             </S.Title>
-            <S.Subtitle>TECHNIQUE®</S.Subtitle>
+            <S.Subtitle>Complete Care</S.Subtitle>
           </S.TitlesWrapper>
 
           <S.BulletList
@@ -27,12 +27,12 @@ export default function CompleteCare595Slide() {
           >
             <li>
               <span>
-                Raised bristles at tip providing greater access to posterior
-                regions.
+                Soies surélevées situées à l’extrémité de la brosse qui
+                facilitent l’accès aux zones postérieures.
               </span>
             </li>
             <li>
-              <span>Clean hard-to-reach surfaces.</span>
+              <span>Nettoyage des surfaces difficiles d’accès.</span>
             </li>
           </S.BulletList>
 

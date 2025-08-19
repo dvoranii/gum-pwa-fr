@@ -1,4 +1,3 @@
-
 import { styled } from "styled-components";
 import { colors } from "../../constants/colors";
 
@@ -22,12 +21,14 @@ export const Row = styled.div`
 
 export const TextWrapper = styled.div`
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   h2 {
     color: ${colors.primary};
     font-family: "Gotham", sans-serif;
     font-weight: 600;
     font-size: clamp(18px, 1.8vw, 2.4rem);
-    text-transform: uppercase;
 
     span {
       font-weight: 300;
@@ -37,19 +38,19 @@ export const TextWrapper = styled.div`
 
 interface RowWrapperInnerProps {
   $gap?: string;
+  $paddingBottom?: string;
 }
 
 export const RowWrapperInner = styled.div<RowWrapperInnerProps>`
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid ${colors.black};
-  padding-bottom: 2.4rem;
+  padding-bottom: ${(props) => props.$paddingBottom || "2.4rem"};
   gap: ${(props) => props.$gap};
 `;
 
 interface MetaDataWrapperProps {
   $width?: string;
-
 }
 
 export const MetaDataWrapper = styled.div<MetaDataWrapperProps>`
@@ -60,7 +61,7 @@ export const MetaDataWrapper = styled.div<MetaDataWrapperProps>`
   p {
     font-family: "Gotham", sans-serif;
     font-weight: 300;
-    font-size:clamp(16px, 1.2vw, 1.4rem);
+    font-size: clamp(16px, 1.2vw, 1.4rem);
     color: ${colors.black};
     margin-top: 0.4rem;
   }
@@ -73,15 +74,18 @@ interface ImgWrapperProps {
 
 export const ImgWrapper = styled.div<ImgWrapperProps>`
   display: flex;
-  flex: ${(props) => props.$flex ? props.$flex: "1"};
+  flex: ${(props) => (props.$flex ? props.$flex : "1")};
   align-items: flex-end;
 
   img {
-    width: ${(props) => props.$width ? props.$width : "90%"};
+    width: ${(props) => (props.$width ? props.$width : "90%")};
   }
 `;
 
-export const Slide = styled.div`
+interface SlideProps {
+  $top?: string;
+}
+export const Slide = styled.div<SlideProps>`
   width: 100%;
   padding: 12px 32px;
   height: 68vh;
@@ -90,17 +94,16 @@ export const Slide = styled.div`
   align-items: center;
   justify-content: space-around;
   gap: 1.4rem;
-
+  top: ${(props) => props.$top || "0"};
 `;
 
 export const ListContainer = styled.div`
-    ul {
-        font-family: 'Gotham', sans-serif;
-        font-size:clamp(16px, 1.4vw, 2.2rem);
-        color: ${colors.black};
-        padding: 0.4rem 0;
-        line-height: 1;
-        margin-inline-start: 24px;
-
-   }
+  ul {
+    font-family: "Gotham", sans-serif;
+    font-size: clamp(16px, 1.4vw, 2.2rem);
+    color: ${colors.black};
+    padding: 0.4rem 0;
+    line-height: 1;
+    margin-inline-start: 24px;
+  }
 `;
