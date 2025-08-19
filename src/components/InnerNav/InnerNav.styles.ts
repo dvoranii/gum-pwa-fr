@@ -44,7 +44,7 @@ export const TabLink = styled(NavLink)`
   position: relative;
   font-family: "Trade Gothic", "Gotham", sans-serif;
   font-size: clamp(0.85rem, 0.7vw, 1.85rem);
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   -webkit-tap-highlight-color: transparent;
 
   &.active {

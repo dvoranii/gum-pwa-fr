@@ -333,7 +333,7 @@ export default function OralSystemicLink() {
                         <S.ResultParagraph $paddingTop="0" $fontSize="2vw">
                           Le diabète touche un adulte sur 10<sup>5</sup>. La
                           parodontite augmente le risque de
-                          complications&nbsp;liées&nbsp;au&nbsp;diabète
+                          complications&nbsp;liées<br/>au&nbsp;diabète
                           <sup>6</sup>.
                         </S.ResultParagraph>
                       </S.ResultDescriptionInner>

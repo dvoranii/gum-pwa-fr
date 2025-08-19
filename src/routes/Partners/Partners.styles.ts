@@ -124,7 +124,7 @@ export const GraphicsCol = styled.div`
   min-width: 0;
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 0.7rem;
 
   @media screen and (min-width: 2300px) {
     width: 64%;
@@ -172,9 +172,9 @@ export const ColTextWrapper = styled.div`
 
   & > p {
     line-height: 1;
-    letter-spacing: -1px;
+    letter-spacing: -0.6px;
     padding-top: 0.25rem;
-    font-size: clamp(1rem, 1.5vw, 2.2rem);
+    font-size: clamp(1rem, 1.4vw, 2.2rem);
     font-weight: 500;
   }
 `;

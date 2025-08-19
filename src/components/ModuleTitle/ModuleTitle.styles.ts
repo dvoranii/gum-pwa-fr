@@ -7,8 +7,8 @@ export const Title = styled.h1<TitleProps>`
   font-family: "Gotham", sans-serif;
   font-weight: 700;
   color: #00a16b;
-  font-size: 2.2rem;
-  letter-spacing: -3px;
+  font-size: 2.1rem;
+  letter-spacing: -2px;
   margin-left: 12px;
   user-select: none;
   ${({ $marginBottom }) => $marginBottom && `margin-bottom: ${$marginBottom};`}
