@@ -14,7 +14,7 @@ export default function ProxaTriangular() {
         <S.Description>
           <li>
             Soies de forme triangulaire qui éliminent 25% plus de plaque
-            dentaire que les soies rondes conventionnelles<sup>8</sup>.
+            dentaire que les soies rondes conventionnelles.<sup>8</sup>
           </li>
         </S.Description>
 

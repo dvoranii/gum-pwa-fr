@@ -18,8 +18,8 @@ export default function DualTechnique() {
             </li>
             <li>
               Fil dentaire torsadé à la menthe sur la tête à angle qui élimine
-              2x plus plaque<sup>10</sup> et couvre une surface 30% plus grande
-              <sup>11</sup>.
+              2x plus plaque<sup>10</sup> et couvre une surface 30% plus grande.
+              <sup>11</sup>
             </li>
           </S.Description>
           <S.ImgWrapper>

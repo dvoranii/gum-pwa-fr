@@ -36,23 +36,24 @@ export const SlideColumn1 = styled.div`
       font-size: 10px;
     }
 
+
+    span.bold-menthe {
+      font-weight: 900 !important;
+    }
+
     span:nth-of-type(1) {
       font-weight: 600;
-      text-transform: none;
     }
 
     span:nth-of-type(2) {
-      text-transform: uppercase;
       font-weight: 400;
     }
 
     span:nth-of-type(3) {
-      text-transform: uppercase;
       font-weight: 600;
     }
 
     span:nth-of-type(4) {
-      text-transform: uppercase;
       font-weight: 900;
     }
   }

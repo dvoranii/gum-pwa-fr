@@ -23,11 +23,11 @@ export default function BtcFlossers() {
             <S.SlideColumn1>
               <S.TitleListWrapper>
                 <h4>
-                  <span>PORTE-FIL</span>{" "}
+                  <span>PORTE-FIL Eco</span>{" "}
                   <span>
-                    Eco Clean<sup>MD</sup>
+                     CLEAN<sup>MD</sup>
                   </span>{" "}
-                  <span>MENTHE</span>
+                  <span className="bold-menthe">MENTHE</span>
                 </h4>
                 <S.ListContainer>
                   <ul>
@@ -45,11 +45,7 @@ export default function BtcFlossers() {
               </S.TitleListWrapper>
               <S.TitleListWrapper>
                 <h4>
-                  <span>PORTE-FIL</span> <span>Twisted</span>{" "}
-                  <span>
-                    {" "}
-                    Mint<sup>MC</sup>
-                  </span>
+                  <span>PORTE-FIL Twisted</span> <span> Mint<sup>MC</sup></span>{" "}
                 </h4>
                 <S.ListContainer>
                   <ul>
@@ -66,7 +62,7 @@ export default function BtcFlossers() {
               </S.TitleListWrapper>
               <S.TitleListWrapper>
                 <h4>
-                  <span>PORTE-FIL</span> <span>Insertion</span>{" "}
+                  <span>PORTE-FIL</span> <span>INSERTION</span>{" "}
                   <span>Facile</span> <span>MENTHE</span>
                 </h4>
                 <S.ListContainer>

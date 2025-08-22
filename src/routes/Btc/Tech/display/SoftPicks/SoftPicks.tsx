@@ -15,7 +15,7 @@ export default function ProxaTriangular() {
           <li>Manche courbé long pour une meilleure manipulation.</li>
           <li>
             Cliniquement prouvé pour éliminer 22% de plaque en plus que le
-            brossage seul<sup>23</sup>.
+            brossage seul.<sup>23</sup>
           </li>
         </S.Description>
 

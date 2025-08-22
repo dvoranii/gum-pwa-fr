@@ -15,7 +15,7 @@ export default function DualDefence() {
           <S.Description>
             <li>Fil dentaire torsadé à la menthe.</li>
             <li>
-              Élimine 2x plus de plaque<sup>10</sup>.
+              Élimine 2x plus de plaque.<sup>10</sup>
             </li>
           </S.Description>
           <S.ImgTextWrapper>
