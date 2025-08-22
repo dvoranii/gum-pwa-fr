@@ -35,7 +35,7 @@ export default function SulcusBrush() {
           text: (
             <span>
               Deux angles pour accéder à la ligne gingivale linguale{" "}
-              <GreenMarker>(A)</GreenMarker> et à la ligne gingivale buccale
+              <GreenMarker>(A)</GreenMarker> et à la ligne gingivale buccale{" "}
               <GreenMarker>(B)</GreenMarker> gumlines.
             </span>
           ),
