@@ -147,7 +147,7 @@ export const ImgWrapper1 = styled.div`
   justify-content: center;
 
   img {
-    width: 90%;
+    width: 105%;
     object-fit: contain;
   }
 

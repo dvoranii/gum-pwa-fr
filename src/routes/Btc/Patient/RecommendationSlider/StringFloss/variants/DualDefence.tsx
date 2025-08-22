@@ -15,7 +15,7 @@ export default function DualDefenceFloss() {
       bulletItemsFontSize="clamp(16px, 1.8vw, 1.8rem)"
       bulletMargin="8px"
       bullets={[
-        { text: "Fil dentaire torsadé, saveur de menthe fraîche." },
+        { text: <>Fil dentaire torsadé, saveur de<br/> menthe fraîche.</> },
         {
           text: (
             <>

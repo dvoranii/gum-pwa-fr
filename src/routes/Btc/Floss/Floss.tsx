@@ -90,11 +90,11 @@ export default function BtcFloss() {
                     Fil texturé et torsadé à saveur de thé vert à la menthe.
                   </li>
                   <li>
-                    Déloge 2 fois plus de plaque<sup>1</sup>.
+                    Déloge 2 fois plus de plaque.<sup>1</sup>
                   </li>
                   <li>
-                    Couvre <span>30 % plus</span> de surface dentaire
-                    <sup>2</sup>.
+                    Couvre <span>30 % plus</span> de surface dentaire.
+                    <sup>2</sup>
                   </li>
                 </ul>
 
@@ -141,11 +141,11 @@ export default function BtcFloss() {
                   </li>
                   <li>
                     Le fil prend de l'expansion pendant son utilisation pour
-                    retirer <span>2 fois plus</span> de plaque<sup>1</sup>.
+                    retirer <span>2 fois plus</span> de plaque.<sup>1</sup>
                   </li>
                   <li>
                     Son fil à plusieurs filaments et à fibres texturées ore un
-                    nettoyage exceptionnel
+                    nettoyage exceptionnel.
                   </li>
                 </ul>
 
@@ -186,7 +186,7 @@ export default function BtcFloss() {
               <S.ListContainer>
                 <ul>
                   <li>
-                    Déloge <span>2 fois plus</span> de plaque<sup>1</sup>.
+                    Déloge <span>2 fois plus</span> de plaque.<sup>1</sup>
                   </li>
                   <li>
                     Son tissage unique permet de retirer ecacement le biofilm
@@ -194,8 +194,8 @@ export default function BtcFloss() {
                   </li>
                   <li>
                     Le processus d'entrelacement unique produit un fil solide et
-                    lisse qui ne s'eloche pas, ne casse pas et ne s'aaisse pas
-                    <sup>3</sup>.
+                    lisse qui ne s'eloche pas, ne casse pas et ne s'aaisse pas.
+                    <sup>3</sup>
                   </li>
                 </ul>
 

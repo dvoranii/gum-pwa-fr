@@ -20,7 +20,7 @@ export default function ProWeaveFloss() {
       bulletMargin="2px"
       bullets={[
         {
-          text: "Conception tissée qui élimine le biofilm entre les dents et sous la ligne gingivale.",
+          text: <>Conception tissée qui élimine le biofilm entre<br/> les dents et sous la ligne gingivale.</>,
         },
         {
           text: (

@@ -34,7 +34,7 @@ export default function QuadGripDisplay() {
             technique de Bass modifiée.
           </S.BenefitItem>
           <S.BenefitItem>
-            Offert sur toutes les brosses Technique.<sup>MD</sup>
+            Offert sur toutes les brosses Technique<sup>MD</sup>.
           </S.BenefitItem>
         </S.BenefitsList>
       </S.HeaderRight>

@@ -49,8 +49,8 @@ export default function BtcIDBrushes() {
                       <ul>
                         <li>
                           Les soies triangulaires délogent jusqu'à 25 % plus de
-                          plaque que les soies rondes traditionnelles
-                          <sup>1</sup>.
+                          plaque que les soies rondes traditionnelles.
+                          <sup>1</sup>
                         </li>
                         <li>
                           Nettoyage facile des dents arrière grâce au manche
@@ -62,8 +62,8 @@ export default function BtcIDBrushes() {
                         </li>
                         <li>
                           La brossette demeure propre entre les utilisations
-                          grâce à ses soies antibactériennes
-                          <sup>2</sup>.
+                          grâce à ses soies antibactériennes.
+                          <sup>2</sup>
                         </li>
                       </ul>
                     </S.ListContainer>
@@ -146,19 +146,19 @@ export default function BtcIDBrushes() {
                     <ul>
                       <li>
                         Les soies triangulaires délogent 25 % plus de plaque que
-                        les soies rondes traditionnelles<sup>1</sup>
+                        les soies rondes traditionnelles.<sup>1</sup>
                       </li>
                       <li>
                         La tête à angle aide les patients à atteindre les
-                        surfaces interdentaires diciles d'accès
+                        surfaces interdentaires diciles d'accès.
                       </li>
                       <li>
                         La forme de petit cylindre (3012) permet à la brossette
                         de s'insérer dans des espaces aussi petits que 0,9 mm,
                         la forme conique (3014) s'insère dans des espaces ne
-                        mesurant que 1,2 mm
+                        mesurant que 1,2 mm.
                       </li>
-                      <li>Vient avec un boîtier de voyage</li>
+                      <li>Vient avec un boîtier de voyage.</li>
                     </ul>
                   </S.ListContainer>
                 </S.TextWrapper>
@@ -239,8 +239,8 @@ export default function BtcIDBrushes() {
                         </li>
                         <li>
                           Les soies triangulaires délogent jusqu'à 25 % plus de
-                          plaque que les soies rondes traditionnelles
-                          <sup>1</sup>.
+                          plaque que les soies rondes traditionnelles.
+                          <sup>1</sup>
                         </li>
                       </ul>
                     </S.ListContainer>
@@ -330,7 +330,7 @@ export default function BtcIDBrushes() {
                     </li>
                     <li>
                       Soies antibactériennes souples qui procurent un nettoyage
-                      ecace et tout en douceur<sup>2</sup>.
+                      ecace et tout en douceur.<sup>2</sup>
                     </li>
                     <li>
                       Les deux têtes à angle facilitent l’accès à toutes les

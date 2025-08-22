@@ -34,11 +34,11 @@ export default function BtcFlossers() {
                     <li>
                       Le fil dentaire texturé élimine ecacement 2 fois plus de
                       plaque<sup>2</sup> et est conçu pour résister à l'elochage
-                      et au bris<sup>5</sup>.
+                      et au bris.<sup>5</sup>
                     </li>
                     <li>
                       Manche léger fabriqué à partir de matériaux à base de
-                      plantes
+                      plantes.
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -58,8 +58,8 @@ export default function BtcFlossers() {
                       <sup>2</sup> et couvre 30 % plus de surface dentaire.
                     </li>
                     <li>
-                      Prise souple et légère avec 20 % moins de plastique
-                      <sup>4</sup>.
+                      Prise souple et légère avec 20 % moins de plastique.
+                      <sup>4</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -76,8 +76,8 @@ export default function BtcFlossers() {
                       contacts les plus serrés et tout en douceur.
                     </li>
                     <li>
-                      Prise souple et légère avec 20 % de plastique en moins
-                      <sup>4</sup>.
+                      Prise souple et légère avec 20 % de plastique en moins.
+                      <sup>4</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -91,12 +91,12 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Du fil dentaire durable enduit de vitamine E et de fluor
-                      est conçu pour résister à l'elochage et au bris
-                      <sup>5</sup>.
+                      est conçu pour résister à l'elochage et au bris.
+                      <sup>5</sup>
                     </li>
                     <li>
-                      Prise souple et légère avec 20 % de plastique en moins
-                      <sup>4</sup>.
+                      Prise souple et légère avec 20 % de plastique en moins.
+                      <sup>4</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -110,12 +110,12 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Le fil dentaire texturé élimine ecacement 2 fois plus de
-                      plaque2 et est conçu pour résister à l'elochage et au bris
-                      <sup>5</sup>.
+                      plaque2 et est conçu pour résister à l'elochage et au bris.
+                      <sup>5</sup>
                     </li>
                     <li>
-                      Prise souple et légère qui utilise 20 % moins de plastique
-                      <sup>13</sup>.
+                      Prise souple et légère qui utilise 20 % moins de plastique.
+                      <sup>13</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -184,8 +184,8 @@ export default function BtcFlossers() {
                     </li>
                     <li>
                       Fil dentaire robuste conçu pour glisser facilement entre
-                      les dents et résister à l'elochage ou à la rupture
-                      <sup>5</sup>.
+                      les dents et résister à l'elochage ou à la rupture.
+                      <sup>5</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -207,8 +207,8 @@ export default function BtcFlossers() {
                     </li>
                     <li>
                       Fil dentaire torsadé du côté incliné qui élimine 2 fois
-                      plus de plaque2 et couvre 30 % plus de surface dentaire
-                      <sup>3</sup>.
+                      plus de plaque2 et couvre 30 % plus de surface dentaire.
+                      <sup>3</sup>
                     </li>
                   </ul>
                 </S.ListContainer>

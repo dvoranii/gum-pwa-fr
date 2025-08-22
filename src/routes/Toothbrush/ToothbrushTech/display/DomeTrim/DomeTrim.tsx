@@ -27,7 +27,7 @@ export default function TaperedBristles() {
             Offert sur les brosses à dents Technique<sup>MD</sup> Soins
             complets, Technique<sup>MD</sup> Soins sensibles, Technique
             <sup>MD</sup> Classique, Super Tip<sup>MD</sup>, Dome Trim
-            <sup>MD</sup>, GUM Bright Care<sup>MC</sup>, Enamel Clean Technique.<sup>MD</sup>
+            <sup>MD</sup>, GUM Bright Care<sup>MC</sup>, Enamel Clean Technique<sup>MD</sup>.
           </li>
         </S.ColLeftList>
       </S.ColumnLeft>

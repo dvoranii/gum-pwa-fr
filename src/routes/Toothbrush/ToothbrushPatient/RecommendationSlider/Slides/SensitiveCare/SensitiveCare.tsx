@@ -27,7 +27,7 @@ export default function SensitiveCareSlide() {
           >
             <li>
               <span>
-                Manche Quad-Grip MD unique et soies Dome Trim<sup>MD</sup>{" "}
+                Manche Quad-Grip<sup>MD</sup> unique et soies Dome Trim<sup>MD</sup>{" "}
                 combinés aux soies ultra-souples.
               </span>
             </li>

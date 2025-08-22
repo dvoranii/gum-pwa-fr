@@ -16,7 +16,7 @@ const Slide4 = () => (
       title={<>DENTS et LANGUE</>}
       description={[
         <>
-          Avec 40 % de poils en plus3, pour nettoyer ecacement et en douceur les
+          Avec 40 % de poils en plus<sup>3</sup>, pour nettoyer ecacement et en douceur les
           espaces interdentaires sans irriter les gencives. Un nettoyeur de
           langue avec grattoirs striés pour améliorer le nettoyage et aider à
           réduire la mauvaise haleine.
