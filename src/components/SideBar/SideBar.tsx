@@ -99,7 +99,6 @@ export default function SideBar() {
               <S.NavButton
                 to={item.path}
                 className={isActive ? "active" : ""}
-                // onPointerDown={() => playSound(NavTapSound)}
               >
                 <S.NavIcon
                   src={isActive ? item.activeIcon : item.inactiveIcon}
