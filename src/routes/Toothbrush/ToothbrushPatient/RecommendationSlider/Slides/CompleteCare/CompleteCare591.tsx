@@ -37,9 +37,9 @@ export default function CompleteCare591Slide() {
             </li>
           </S.BulletList>
 
-          <S.ContentImageWrapper $marginTop="1.8rem">
+          <S.ContentImageWrapper $marginTop="2.4rem">
             <S.ContentImage
-              $width="72%"
+              $width="75%"
               src={ContentImage}
               alt="Complete Care Technique features and benefits"
             />

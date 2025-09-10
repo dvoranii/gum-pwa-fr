@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const ContainerOuter = styled.div`
   display: flex;
@@ -14,7 +13,7 @@ export const HeaderLeft = styled.div`
   display: flex;
   flex-direction: column;
   width: 20vh;
-
+  user-select: none;
 `;
 
 export const SideIcon = styled.div`
@@ -25,11 +24,11 @@ export const SideIcon = styled.div`
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  
+
   img {
     position: absolute;
     height: auto;
-    max-width: 100%; 
+    max-width: 100%;
   }
 `;
 
@@ -48,5 +47,5 @@ export const TechContainer = styled.div`
 export const MainContent = styled.div`
   width: 100%;
   overflow: hidden;
+  user-select: none;
 `;
-

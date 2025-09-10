@@ -33,7 +33,6 @@ export const TextAndImgWrapper = styled.div`
   flex-direction: column;
   flex: 1;
   height: 100%;
-  overflow: hidden;
 `;
 
 export const ToothbrushImageWrapper = styled.div`
@@ -49,7 +48,6 @@ interface ToothbrushImageProps {
 export const ToothbrushImage = styled.img<ToothbrushImageProps>`
   width: auto;
   height: ${(props) => props.$height || "58vh"};
-  max-height: 500px;
   object-fit: contain;
 `;
 

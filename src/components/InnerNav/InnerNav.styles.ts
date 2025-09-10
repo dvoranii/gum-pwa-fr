@@ -50,4 +50,8 @@ export const TabLink = styled(NavLink)`
   &.active {
     background-color: #018384;
   }
+
+  @media screen and (max-width: 1080px) {
+    font-size: clamp(0.75rem, 0.7vw, 1.85rem);
+  }
 `;

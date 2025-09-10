@@ -1,6 +1,7 @@
 import * as S from "./InnerNav.styles";
 import GumLogo from "../../assets/gum-logo.svg";
 import { useLocation } from "react-router-dom";
+import { REMOUNT_EVENT } from "../../hooks/useRemount";
 
 interface NavItem {
   path: string;
@@ -16,24 +17,23 @@ interface InnerNavProps {
 export default function InnerNav({ navItems }: InnerNavProps) {
   const location = useLocation();
 
-  const handleTabPointerDown = (e: React.PointerEvent, path: string) => {
+  const handleLinkClick = (e: React.MouseEvent, path: string) => {
     if (location.pathname === path) {
       e.preventDefault();
-      window.location.reload();
+      window.dispatchEvent(new CustomEvent(REMOUNT_EVENT));
     }
   };
 
   return (
     <S.NavTabsOuter>
       <S.GumLogoWrapper>
-        <img src={GumLogo} alt="GUM Logo" />
+        <img src={GumLogo} alt="GUM Logo" />{" "}
       </S.GumLogoWrapper>
       <S.NavTabs>
         {navItems.map((item) => {
           const isActive = item.end
             ? location.pathname === item.path
             : location.pathname.startsWith(`${item.path}/`);
-
           const to =
             item.path === "/recommend"
               ? {
@@ -41,7 +41,6 @@ export default function InnerNav({ navItems }: InnerNavProps) {
                   state: { from: location.pathname },
                 }
               : item.path;
-
           return (
             <S.TabLink
               key={item.path}
@@ -53,7 +52,7 @@ export default function InnerNav({ navItems }: InnerNavProps) {
               }
               end={item.end}
               className={isActive ? "active" : ""}
-              onPointerDown={(e) => handleTabPointerDown(e, item.path)}
+              onClick={(e) => handleLinkClick(e, item.path)}
             >
               {item.label}
             </S.TabLink>

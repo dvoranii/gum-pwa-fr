@@ -46,7 +46,7 @@ export default function SensitiveCleanSlide() {
             </li>
           </S.BulletList>
 
-          <S.ContentImageWrapper $marginTop="0" $marginLeft="1.2rem">
+          <S.ContentImageWrapper $marginTop="1.2rem" $marginLeft="0.2rem">
             <S.ContentImage
               $width="90%"
               src={ContentImage}
