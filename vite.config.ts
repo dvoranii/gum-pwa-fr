@@ -40,6 +40,7 @@ export default defineConfig({
         "fonts/Gotham-UltraIta.otf",
         "fonts/Gotham-XLight.otf",
         "fonts/Gotham-XLightIta.otf",
+        "fonts/TradeGothic.otf",
       ],
       workbox: {
         // This is the correct way to handle specific SPA routes.
