@@ -55,6 +55,13 @@ export default function OralSystemicLink() {
     pageDots: true,
     contain: true,
     cellAlign: "center",
+    on: {
+      ready: function (this: Flickity) {
+        setTimeout(() => {
+          this.resize();
+        }, 100);
+      },
+    },
   };
 
   const toggleBaseImg = (e: React.PointerEvent) => {
