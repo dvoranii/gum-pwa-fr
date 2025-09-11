@@ -50,7 +50,7 @@ const Slide1 = () => (
       useBulletPoints={true}
       minHeight="190px"
       description={[
-        "Soies souples éliminant la plaque ecacement et en douceur",
+        "Soies souples éliminant la plaque efficacement et en douceur",
         "Les soies du centre aident à mesurer la quantité de dentifrice adéquate",
         "Manche ergonomique avec appui pour le pouce facilitant la prise en main",
         "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",

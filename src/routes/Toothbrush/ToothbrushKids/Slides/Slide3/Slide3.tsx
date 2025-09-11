@@ -31,7 +31,7 @@ const Slide3 = () => (
       }
       description={[
         "Les soies souples de cette brosse sont douces pour les dents et les gencives des enfants",
-        "La tête étroite et elée de la brosse est conçue pour faciliter le maniement dans les petites bouches",
+        "La tête étroite et effilée de la brosse est conçue pour faciliter le maniement dans les petites bouches",
         "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
       ]}
       imprintColors={[["#fcb041"], ["#c91690"], ["#00aeee"], ["#22b785"]]}

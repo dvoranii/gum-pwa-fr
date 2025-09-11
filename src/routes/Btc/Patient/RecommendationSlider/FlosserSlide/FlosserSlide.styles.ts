@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   gap: 1.8rem;
+  overflow: hidden;
 `;
 
 export const ImgWrapper = styled.div`
@@ -43,10 +44,6 @@ export const Title = styled.h2<TitleProps>`
   sup {
     font-size: 12px;
     vertical-align: 20px;
-  }
-
-  @media screen and (max-width: 1080px) {
-    font-size: clamp(24px, 6vw, 2.8rem);
   }
 `;
 

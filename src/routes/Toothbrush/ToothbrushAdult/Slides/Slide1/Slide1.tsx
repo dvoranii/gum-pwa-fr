@@ -29,8 +29,8 @@ const Slide1 = () => (
       }
       description={[
         <>
-          Les soies extrêmement elées nettoient jusqu'à 2,7 mm dans le sillon et
-          jusqu'à 1,4 cm le long des gencives et entre les dents.<sup>1</sup>
+          Les soies extrêmement effilées nettoient jusqu'à 2,7 mm dans le sillon
+          et jusqu'à 1,4 cm le long des gencives et entre les dents.<sup>1</sup>
         </>,
         <>
           <DescriptionBold>
@@ -73,10 +73,10 @@ const Slide1 = () => (
           <sup>6</sup> avec soies ultrasouples spécialement conçues pour la
           sensibilité.
         </>,
-        `Les soies ultra-elées de la brosse à dents sont
+        `Les soies ultra-effilées de la brosse à dents sont
         très fines et donc très douces pour les dents et
         les gencives sensibles, tout en nettoyant
-        ecacement sous les gencives.`,
+        efficacement sous les gencives.`,
       ]}
       showAntibacterialBadge={true}
       imprintColors={[["#d692a9"], ["#54b6b3"], ["#5a9ac4"], ["#b3b3e0"]]}

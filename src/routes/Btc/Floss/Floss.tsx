@@ -144,7 +144,7 @@ export default function BtcFloss() {
                     retirer <span>2 fois plus</span> de plaque.<sup>1</sup>
                   </li>
                   <li>
-                    Son fil à plusieurs filaments et à fibres texturées ore un
+                    Son fil à plusieurs filaments et à fibres texturées pour un
                     nettoyage exceptionnel.
                   </li>
                 </ul>
@@ -189,12 +189,13 @@ export default function BtcFloss() {
                     Déloge <span>2 fois plus</span> de plaque.<sup>1</sup>
                   </li>
                   <li>
-                    Son tissage unique permet de retirer ecacement le biofilm
+                    Son tissage unique permet de retirer efficacement le biofilm
                     entre les dents et sous la gencive.
                   </li>
                   <li>
                     Le processus d'entrelacement unique produit un fil solide et
-                    lisse qui ne s'eloche pas, ne casse pas et ne s'aaisse pas.
+                    lisse qui ne s'effiloche pas, ne casse pas et ne s’affaise
+                    pas.
                     <sup>3</sup>
                   </li>
                 </ul>
@@ -257,7 +258,7 @@ export default function BtcFloss() {
               <S.ListContainer $flexGrow="0">
                 <ul>
                   <li>
-                    Ce fil dentaire mince et résistant à l’elochage glisse
+                    Ce fil dentaire mince et résistant à l’effilochage glisse
                     aisément entre les dents serrées et sous la ligne gingivale.
                   </li>
                 </ul>
@@ -292,7 +293,7 @@ export default function BtcFloss() {
                 <ul>
                   <li>
                     Des sections raides d'enfilage facilitent l'accès aux zones
-                    diciles à nettoyer sans irriter la gencive.
+                    difficile à nettoyer sans irriter la gencive.
                   </li>
                   <li>
                     Les sections d'enfilage aux deux bouts maximisent le
@@ -303,7 +304,7 @@ export default function BtcFloss() {
                     plus de plaque possible.
                   </li>
                   <li>
-                    Oert dans un distributeur novateur et hygiénique qui
+                    Offert dans un distributeur novateur et hygiénique qui
                     contribue à réduire les nœuds et les pertes.
                   </li>
                   <li>

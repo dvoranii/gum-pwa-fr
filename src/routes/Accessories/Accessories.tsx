@@ -23,7 +23,6 @@ const flickityOptions = {
   prevNextButtons: true,
   pageDots: true,
   contain: true,
-  cellAlign: "center",
 };
 
 export default function Accessories() {
@@ -42,7 +41,7 @@ export default function Accessories() {
               $customStyles={{
                 viewportHeight: "78vh",
                 dotPosition: {
-                  bottom: "-6vw",
+                  bottom: "0",
                   right: "24px",
                 },
               }}

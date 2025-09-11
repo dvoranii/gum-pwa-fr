@@ -25,16 +25,16 @@ export default function BtcFlossers() {
                 <h4>
                   <span>PORTE-FIL Eco</span>{" "}
                   <span>
-                     CLEAN<sup>MD</sup>
+                    CLEAN<sup>MD</sup>
                   </span>{" "}
                   <span className="bold-menthe">MENTHE</span>
                 </h4>
                 <S.ListContainer>
                   <ul>
                     <li>
-                      Le fil dentaire texturé élimine ecacement 2 fois plus de
-                      plaque<sup>2</sup> et est conçu pour résister à l'elochage
-                      et au bris.<sup>5</sup>
+                      Le fil dentaire texturé élimine efficacement 2 fois plus
+                      de plaque<sup>2</sup> et est conçu pour résister à
+                      l'elochage et au bris.<sup>5</sup>
                     </li>
                     <li>
                       Manche léger fabriqué à partir de matériaux à base de
@@ -45,7 +45,11 @@ export default function BtcFlossers() {
               </S.TitleListWrapper>
               <S.TitleListWrapper>
                 <h4>
-                  <span>PORTE-FIL Twisted</span> <span> Mint<sup>MC</sup></span>{" "}
+                  <span>PORTE-FIL Twisted</span>{" "}
+                  <span>
+                    {" "}
+                    Mint<sup>MC</sup>
+                  </span>{" "}
                 </h4>
                 <S.ListContainer>
                   <ul>
@@ -87,7 +91,7 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Du fil dentaire durable enduit de vitamine E et de fluor
-                      est conçu pour résister à l'elochage et au bris.
+                      est conçu pour résister à l'effilochage et au bris.
                       <sup>5</sup>
                     </li>
                     <li>
@@ -106,11 +110,13 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Le fil dentaire texturé élimine ecacement 2 fois plus de
-                      plaque2 et est conçu pour résister à l'elochage et au bris.
+                      plaque2 et est conçu pour résister à l'effilochage et au
+                      bris.
                       <sup>5</sup>
                     </li>
                     <li>
-                      Prise souple et légère qui utilise 20 % moins de plastique.
+                      Prise souple et légère qui utilise 20 % moins de
+                      plastique.
                       <sup>13</sup>
                     </li>
                   </ul>

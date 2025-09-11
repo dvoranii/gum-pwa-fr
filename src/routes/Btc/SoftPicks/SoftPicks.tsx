@@ -33,7 +33,7 @@ export default function BtcSoftPicks() {
             <p>
               Les fibres de caoutchouc flexibles à saveur de menthe fraîche
               s’insèrent en douceur entre les dents pour éliminer les aliments
-              et la plaque de façon sûre et ecace.
+              et la plaque de façon sûre et efficace.
             </p>
           </S.TextContainer>
           <S.ImgWrapper1>

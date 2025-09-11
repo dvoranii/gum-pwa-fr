@@ -173,7 +173,7 @@ export default function OralSystemicLink() {
                             $fontSize="clamp(2.4rem, 3.8vw, 2.8rem)"
                             $paddingRight="0.7rem"
                           >
-                            La parodontite est la sixième plus courante aection
+                            La parodontite est la sixième plus courante action
                             médicale mondiale.
                           </S.SlideTitle>
                           <S.SlideCitation $paddingLeft="1.2rem">

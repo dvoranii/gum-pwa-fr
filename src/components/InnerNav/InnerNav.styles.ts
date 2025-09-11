@@ -42,7 +42,7 @@ export const TabLink = styled(NavLink)`
   color: #ffffff;
   position: relative;
   font-family: "Trade Gothic", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: clamp(0.85rem, 0.7vw, 1.85rem);
   letter-spacing: 0.5px;
   -webkit-tap-highlight-color: transparent;
