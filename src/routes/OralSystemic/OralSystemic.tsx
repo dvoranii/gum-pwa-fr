@@ -29,7 +29,7 @@ const oralSystemicNavItems = [
   {
     path: "/oral-systemic",
     label:
-      "LinkLe\u00A0lien\u00A0entre\u00A0la\u00A0santé\u00A0buccodentaire\u00A0et\u00A0la\u00A0santé\u00A0générale",
+      "Link\u00A0Le\u00A0lien\u00A0entre\u00A0la\u00A0santé\u00A0buccodentaire\u00A0et\u00A0la\u00A0santé\u00A0générale",
     end: true,
   },
   { path: "/recommend", label: "Recommander" },
@@ -333,7 +333,9 @@ export default function OralSystemicLink() {
                         <S.ResultParagraph $paddingTop="0" $fontSize="2vw">
                           Le diabète touche un adulte sur 10<sup>5</sup>. La
                           parodontite augmente le risque de
-                          complications&nbsp;liées<br/>au&nbsp;diabète
+                          complications&nbsp;liées
+                          <br />
+                          au&nbsp;diabète
                           <sup>6</sup>.
                         </S.ResultParagraph>
                       </S.ResultDescriptionInner>
