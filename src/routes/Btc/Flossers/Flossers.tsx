@@ -33,8 +33,8 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Le fil dentaire texturé élimine efficacement 2 fois plus
-                      de plaque<sup>2</sup> et est conçu pour résister à
-                      l'elochage et au bris.<sup>5</sup>
+                      de plaque<sup>10</sup> et est conçu pour résister à
+                      l'elochage et au bris.<sup>13</sup>
                     </li>
                     <li>
                       Manche léger fabriqué à partir de matériaux à base de
@@ -55,11 +55,11 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Fil dentaire torsadé qui élimine 2 fois plus de plaque
-                      <sup>2</sup> et couvre 30 % plus de surface dentaire.
+                      <sup>10</sup> et couvre 30 % plus de surface dentaire.
                     </li>
                     <li>
                       Prise souple et légère avec 20 % moins de plastique.
-                      <sup>4</sup>
+                      <sup>12</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -77,7 +77,7 @@ export default function BtcFlossers() {
                     </li>
                     <li>
                       Prise souple et légère avec 20 % de plastique en moins.
-                      <sup>4</sup>
+                      <sup>12</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -92,11 +92,11 @@ export default function BtcFlossers() {
                     <li>
                       Du fil dentaire durable enduit de vitamine E et de fluor
                       est conçu pour résister à l'effilochage et au bris.
-                      <sup>5</sup>
+                      <sup>13</sup>
                     </li>
                     <li>
                       Prise souple et légère avec 20 % de plastique en moins.
-                      <sup>4</sup>
+                      <sup>12</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -110,14 +110,14 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Le fil dentaire texturé élimine ecacement 2 fois plus de
-                      plaque2 et est conçu pour résister à l'effilochage et au
+                      plaque<sup>10</sup> et est conçu pour résister à l'effilochage et au
                       bris.
-                      <sup>5</sup>
+                      <sup>13</sup>
                     </li>
                     <li>
                       Prise souple et légère qui utilise 20 % moins de
                       plastique.
-                      <sup>13</sup>
+                      <sup>12</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -187,7 +187,7 @@ export default function BtcFlossers() {
                     <li>
                       Fil dentaire robuste conçu pour glisser facilement entre
                       les dents et résister à l'elochage ou à la rupture.
-                      <sup>5</sup>
+                      <sup>13</sup>
                     </li>
                   </ul>
                 </S.ListContainer>
@@ -209,8 +209,8 @@ export default function BtcFlossers() {
                     </li>
                     <li>
                       Fil dentaire torsadé du côté incliné qui élimine 2 fois
-                      plus de plaque2 et couvre 30 % plus de surface dentaire.
-                      <sup>3</sup>
+                      plus de plaque<sup>10</sup> et couvre 30 % plus de surface dentaire.
+                      <sup>11</sup>
                     </li>
                   </ul>
                 </S.ListContainer>

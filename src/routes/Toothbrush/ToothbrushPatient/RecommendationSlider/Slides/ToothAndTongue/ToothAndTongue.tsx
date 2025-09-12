@@ -27,7 +27,7 @@ export default function ToothAndTongueSlide() {
           >
             <li>
               <span>
-                40 % plus de soies<sup>22</sup>.
+                40 % plus de soies.<sup>22</sup>
               </span>
             </li>
             <li>

@@ -31,7 +31,7 @@ const Slide3 = () => (
           diciles à atteindre à l’arrière de la bouche.`,
         <>
           Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-          nettoyer sous la ligne gingivale.<sup>1,3</sup>
+          nettoyer sous la ligne gingivale.<sup>1, 3</sup>
         </>,
       ]}
       imprintColors={[["#fec60a"], ["#f1592a"], ["#8dc63e"], ["#00a2e4"]]}
@@ -68,7 +68,7 @@ const Slide3 = () => (
         <>
           Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
           nettoyer sous la ligne gingivale.
-          <sup>1,2</sup>
+          <sup>1, 2</sup>
         </>,
       ]}
       imprintColors={[["#ae2181"], ["#2f3192"], ["#f79633"], ["#f15157"]]}

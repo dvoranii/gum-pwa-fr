@@ -25,6 +25,7 @@ export const MainTitle = styled.h1`
     font-size: 12px;
     font-weight: 500;
     vertical-align: 22px;
+    letter-spacing: 0;
   }
 `;
 

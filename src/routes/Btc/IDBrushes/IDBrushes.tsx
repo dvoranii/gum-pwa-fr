@@ -50,7 +50,7 @@ export default function BtcIDBrushes() {
                         <li>
                           Les soies triangulaires délogent jusqu'à 25 % plus de
                           plaque que les soies rondes traditionnelles.
-                          <sup>1</sup>
+                          <sup>8</sup>
                         </li>
                         <li>
                           Nettoyage facile des dents arrière grâce au manche
@@ -63,7 +63,7 @@ export default function BtcIDBrushes() {
                         <li>
                           La brossette demeure propre entre les utilisations
                           grâce à ses soies antibactériennes.
-                          <sup>2</sup>
+                          <sup>9</sup>
                         </li>
                       </ul>
                     </S.ListContainer>
@@ -75,7 +75,7 @@ export default function BtcIDBrushes() {
                     <S.BristlesTextWrapper>
                       <p>
                         Les soies triangulaires délogent jusqu'à 25 % plus de
-                        plaque que les soies rondes traditionnelles<sup>1</sup>
+                        plaque que les soies rondes traditionnelles<sup>8</sup>
                       </p>
                     </S.BristlesTextWrapper>
                     <S.BristlesImagesContainer>
@@ -146,7 +146,7 @@ export default function BtcIDBrushes() {
                     <ul>
                       <li>
                         Les soies triangulaires délogent 25 % plus de plaque que
-                        les soies rondes traditionnelles.<sup>1</sup>
+                        les soies rondes traditionnelles.<sup>8</sup>
                       </li>
                       <li>
                         La tête à angle aide les patients à atteindre les
@@ -240,7 +240,7 @@ export default function BtcIDBrushes() {
                         <li>
                           Les soies triangulaires délogent jusqu'à 25 % plus de
                           plaque que les soies rondes traditionnelles.
-                          <sup>1</sup>
+                          <sup>8</sup>
                         </li>
                       </ul>
                     </S.ListContainer>
@@ -330,7 +330,7 @@ export default function BtcIDBrushes() {
                     </li>
                     <li>
                       Soies antibactériennes souples qui procurent un nettoyage
-                      ecace et tout en douceur.<sup>2</sup>
+                      ecace et tout en douceur.<sup>9</sup>
                     </li>
                     <li>
                       Les deux têtes à angle facilitent l’accès à toutes les

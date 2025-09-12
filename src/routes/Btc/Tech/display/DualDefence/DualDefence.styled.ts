@@ -33,7 +33,7 @@ export const MainTitle = styled.h1`
   padding-left: 16px;
 
   sup {
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: 22px;
   }
 `;

@@ -10,6 +10,7 @@ export default function TwistedMintFlosser() {
           PORTE-FIL DENTAIRE Twisted Mint<sup>MD</sup>
         </>
       }
+      superScriptAlign="28px"
       subtitle="Menthe torsadée"
       subtitleSize="2rem"
       sideImage={FlosserImage}
@@ -33,7 +34,7 @@ export default function TwistedMintFlosser() {
           text: (
             <>
               Prise souple et légère qui utilise 20% moins de plastique.
-              <sup>13</sup>
+              <sup>12</sup>
             </>
           ),
         },

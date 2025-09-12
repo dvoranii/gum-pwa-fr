@@ -26,8 +26,9 @@ export const MainTitle = styled.h1`
   padding-right: 32px;
 
   sup {
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: 24px;
+    letter-spacing: 0.25px;
   }
 `;
 

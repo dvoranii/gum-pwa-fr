@@ -13,6 +13,8 @@ type FlosserSlideProps = {
   bottomImage?: string;
   bottomImageWidth?: string;
   bullets: BulletPoint[];
+  superScriptAlign?: string;
+  superScriptSize?: string;
 };
 
 export default function FlosserSlide({
@@ -26,6 +28,8 @@ export default function FlosserSlide({
   bottomImage,
   bullets,
   bottomImageWidth,
+  superScriptAlign,
+  superScriptSize
 }: FlosserSlideProps) {
   return (
     <S.Container>
@@ -38,7 +42,7 @@ export default function FlosserSlide({
       </S.ImgWrapper>
 
       <S.ImgAndTextWrapper>
-        <S.Title $fontSize={titleSize}>{title}</S.Title>
+        <S.Title $fontSize={titleSize} $superscriptAlign={superScriptAlign} $superscriptSize={superScriptSize}>{title}</S.Title>
         <S.Subtitle $fontSize={subtitleSize} $marginTop={subtitleMarginTop}>
           {subtitle}
         </S.Subtitle>

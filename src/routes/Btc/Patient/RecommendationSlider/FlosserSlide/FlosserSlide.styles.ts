@@ -29,6 +29,8 @@ export const MainImage = styled.img<{ $height?: string }>`
 
 interface TitleProps {
   $fontSize?: string;
+  $superscriptSize?: string;
+  $superscriptAlign?: string;
 }
 
 export const Title = styled.h2<TitleProps>`
@@ -42,8 +44,9 @@ export const Title = styled.h2<TitleProps>`
   line-height: 1;
 
   sup {
-    font-size: 12px;
-    vertical-align: 20px;
+    font-size: ${(props) => props.$superscriptSize || "12px"};
+    vertical-align: ${(props) => props.$superscriptAlign || "20px"};
+    letter-spacing: 0;
   }
 `;
 

@@ -27,7 +27,7 @@ export default function EcoCleanFlosser() {
         {
           text: (
             <>
-              Conçu pour résister à l’effilochage ou au bris.<sup>12</sup>
+              Conçu pour résister à l’effilochage ou au bris.<sup>13</sup>
             </>
           ),
         },

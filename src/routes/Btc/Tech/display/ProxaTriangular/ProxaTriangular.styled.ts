@@ -24,7 +24,7 @@ export const MainTitle = styled.h1`
   margin-bottom: 12px;
 
   sup {
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: 22px;
   }
 `;

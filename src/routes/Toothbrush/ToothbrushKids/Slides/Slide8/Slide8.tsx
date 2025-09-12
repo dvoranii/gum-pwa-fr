@@ -39,7 +39,7 @@ const Slide8 = () => (
         </>,
         <>
           Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-          nettoyer sous la gencive<sup>1,2</sup>
+          nettoyer sous la gencive<sup>1, 2</sup>
         </>,
       ]}
       imprintColors={[["#784097"], ["#f26a2b"], ["#008ed0"], ["#00af86"]]}
@@ -91,7 +91,7 @@ const Slide8 = () => (
         </>,
         <>
           Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-          nettoyer sous la gencive<sup>1,2</sup>
+          nettoyer sous la gencive<sup>1, 2</sup>
         </>,
       ]}
       imprintColors={[["#a1227f"], ["#395fab"], ["#e71d26"], ["#43ae48"]]}

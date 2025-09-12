@@ -43,7 +43,7 @@ export default function BrightCareSlide() {
             <li>
               <span>
                 Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-                nettoyer sous la ligne gingivale.<sup>18,19</sup>
+                nettoyer sous la ligne gingivale.<sup>18, 19</sup>
               </span>
             </li>
           </S.BulletList>
