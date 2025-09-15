@@ -22,9 +22,9 @@ export default function BtcIDBrushes() {
     <S.IDBrushesContainer>
       <FlickityCarousel
         $customStyles={{
-          viewportHeight: "80vh",
+          viewportHeight: "83vh",
           dotPosition: {
-            bottom: "-28px",
+            bottom: "-18px",
             right: "44px",
           },
         }}
@@ -210,7 +210,7 @@ export default function BtcIDBrushes() {
                 </S.InfoGridRow>
                 <ShopifyIcon
                   href="https://www.shopify.com/ca"
-                  width="30px"
+                  width="25px"
                   marginTop="0px"
                 />
               </S.InfoGrid>
@@ -307,7 +307,7 @@ export default function BtcIDBrushes() {
                 </S.InfoGridRow>
                 <ShopifyIcon
                   href="https://www.shopify.com/ca"
-                  width="30px"
+                  width="25px"
                   marginTop="0px"
                 />
               </S.InfoGrid>
@@ -367,7 +367,7 @@ export default function BtcIDBrushes() {
               </S.InfoGridRow>
               <ShopifyIcon
                 href="https://www.shopify.com/ca"
-                width="30px"
+                width="25px"
                 marginTop="8px"
               />
             </S.InfoGrid2>

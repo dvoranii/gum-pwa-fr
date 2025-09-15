@@ -27,8 +27,12 @@ export const SlideRow1 = styled.div`
 `;
 
 export const SlideRow2 = styled.div`
-  padding-top: 0.8rem;
+  padding-top: 0.4rem;
   position: relative;
+
+  @media screen and (max-width: 1080px) {
+    padding-top: 0.2rem;
+  }
 `;
 
 interface ColumnProps {
@@ -65,11 +69,12 @@ export const InfoGridRow2 = styled.div`
   color: ${colors.black};
 `;
 
-export const Row1WrapperInner = styled.div``;
+export const Row1WrapperInner = styled.div`
+  min-width: 400px;
+`;
 
 export const Row1WrapperOuter = styled.div`
   display: flex;
-  gap: 1.4rem;
   padding-bottom: 0.6rem;
   border-bottom: 1px solid ${colors.black};
 `;
@@ -100,6 +105,10 @@ export const TextWrapper = styled.div`
     font-family: "Gotham", sans-serif;
     font-weight: 500;
     color: ${colors.black};
+  }
+
+  @media screen and (max-width: 1080px) {
+    font-size: 14px;
   }
 `;
 
@@ -142,17 +151,14 @@ export const ImgWrapper = styled.div`
 `;
 
 export const ImgWrapper1 = styled.div`
-  width: 64%;
+  width: 70%;
+  min-width: 478px;
   display: flex;
   justify-content: center;
 
   img {
-    width: 105%;
+    width: 90%;
     object-fit: contain;
-  }
-
-  @media screen and (max-width: 1080px) {
-    width: 70%;
   }
 `;
 
@@ -226,12 +232,12 @@ export const ImgWrapper5 = styled.div`
 
 export const DiagramSection = styled.div`
   width: 100%;
-  max-width: 420px;
-  padding-top: 2rem;
-  padding-right: 3.2rem;
+  padding-top: 1.2rem;
+  padding-right: 2.5rem;
 
   @media screen and (max-width: 1080px) {
-    padding-top: 1.2rem;
+    padding-top: 0.8rem;
+    padding-right: 0;
   }
 `;
 
@@ -303,7 +309,7 @@ export const FeatureCallouts = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 14px;
-  gap: 20px;
+  gap: 12px;
 `;
 
 interface NylonCalloutProps {
@@ -366,10 +372,10 @@ export const AntibacterialBadge = styled.div<AntibacterialBadgeProps>`
   aspect-ratio: 1;
 
   span:nth-of-type(2) {
-    font-size: 10px;
+    font-size: 9px;
   }
   span {
-    font-size: ${(props) => props.$fontSize || "10px"};
+    font-size: ${(props) => props.$fontSize || "9px"};
     display: block;
     letter-spacing: 0.4px;
 
@@ -393,9 +399,9 @@ export const ListContainer = styled.div<ListContainerProps>`
     font-family: "Gotham", sans-serif;
     font-size: clamp(0.8rem, 0.9vw, 1.4rem);
     color: ${colors.black};
-    padding-bottom: ${(props) => props.$paddingBottom || "1.2rem"};
+    padding-bottom: ${(props) => props.$paddingBottom || "0.8rem"};
     list-style: none;
-    line-height: 1.2;
+    line-height: 1.1;
 
     li {
       position: relative;
@@ -497,12 +503,12 @@ export const InfoGrid = styled.div<InfoGridProps>`
   margin-top: auto;
   column-gap: 1rem;
   font-family: "Gotham", sans-serif;
-  padding-top: 0.8rem;
+  padding-top: 0.6rem;
   font-size: clamp(12px, 1vw, 1.4rem);
   color: #666666;
 
   @media screen and (max-width: 1080px) {
-    gap: 0.25rem;
+    padding-top: 0.4rem;
   }
 `;
 
