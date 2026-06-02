@@ -91,7 +91,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/124-orthodontic-toothbrush"
                     width="30px"
                     marginTop="0"
                   />
@@ -152,7 +152,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/308-end-tuft-toothbrush"
                     width="30px"
                     marginTop="0"
                   />
@@ -214,7 +214,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/317-post-operation-toothbrush"
                     width="30px"
                     marginTop="0"
                   />
@@ -286,7 +286,7 @@ export default function ToothbrushAdult() {
                     <br />
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/153-travel-toothbrush-soft-multi-level-trim"
                     width="30px"
                     marginTop="0"
                   />
@@ -353,7 +353,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/201-denture-brush"
                     width="30px"
                     marginTop="0"
                   />

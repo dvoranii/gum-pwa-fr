@@ -127,7 +127,7 @@ export default function BtcFlossers() {
               <S.ImgWrapper>
                 <img src={Slide1Graphic} />
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                  href="https://www.professionalsunstargum.com/fr/products/831-gum%C2%AE-eco-clean%E2%84%A2-flossers"
                   absolute
                   width="30px"
                   bottom="35px"
@@ -239,7 +239,7 @@ export default function BtcFlossers() {
                   <S.Column>48 sachets de 2</S.Column>
                 </S.Row>
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                  href="https://www.professionalsunstargum.com/fr/products/821-dual-technique-flossers-mint-48-packets-of-2"
                   width="30px"
                   marginTop="4px"
                 />

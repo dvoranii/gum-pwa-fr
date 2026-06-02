@@ -209,7 +209,7 @@ export default function BtcIDBrushes() {
                   <S.Column>36/box</S.Column>
                 </S.InfoGridRow>
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                  href="https://www.professionalsunstargum.com/fr/products/3012-proxabrush-r-angle-cleaners-tight-cylindrical"
                   width="25px"
                   marginTop="0px"
                 />
@@ -306,7 +306,7 @@ export default function BtcIDBrushes() {
                   <S.Column>18 sachets de 2</S.Column>
                 </S.InfoGridRow>
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                  href="https://www.professionalsunstargum.com/fr/products/605-proxabrush-r-original-handle"
                   width="25px"
                   marginTop="0px"
                 />
@@ -366,7 +366,7 @@ export default function BtcIDBrushes() {
                 <S.Column>12/boite</S.Column>
               </S.InfoGridRow>
               <ShopifyIcon
-                href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                href="https://www.professionalsunstargum.com/fr/products/642-sulcus-brush"
                 width="25px"
                 marginTop="8px"
               />
@@ -379,7 +379,6 @@ export default function BtcIDBrushes() {
           </S.Slide3WrapperOuter>
         </BaseCarouselSlide>
       </FlickityCarousel>
-      {/* <ShopifyIcon />                                                     */}
     </S.IDBrushesContainer>
   );
 }
