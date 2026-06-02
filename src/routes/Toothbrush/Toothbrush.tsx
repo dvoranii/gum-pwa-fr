@@ -3,12 +3,12 @@ import InnerNav from "../../components/InnerNav/InnerNav";
 import { Outlet, useLocation } from "react-router-dom";
 import ModuleContainer from "../../components/ModuleContainer/ModuleContainer";
 
-import Col1Row2 from "../../assets/toothbrush/crest.webp";
 import PatientNeeds2 from "../../assets/toothbrush/PN.png";
 import Technology2 from "../../assets/toothbrush/Tech.png";
 import Brushes from "../../assets/toothbrush/toothbrush-new.webp";
 
 import PatientBG from "../../assets/toothbrush/patient/PatientBG.webp";
+import BrushesCrest from "../../assets/toothbrush/brushes-crest.png";
 
 const toothbrushNavItems = [
   {
@@ -51,14 +51,7 @@ export default function Toothbrush() {
                 </S.IntroTitle>
               </S.IntroTitleWrapper>
               <S.RecommendedWrapper>
-                <S.Recommended src={Col1Row2} />
-                <h3>
-                  Recommandée
-                  <br /> au&nbsp;Canada&nbsp;par&nbsp;les
-                  <br />
-                  hygiénistes&nbsp;dentaires
-                  <sup>7</sup>
-                </h3>
+                <S.Recommended src={BrushesCrest} alt="Recommandée au Canada" />
               </S.RecommendedWrapper>
 
               <S.LinksWrapper>
