@@ -162,11 +162,7 @@ export default function Recommend() {
                     </S.ThreeCirclesWrapper>
                   </S.RecommendBG>
                 )}
-                <S.RecommendBG $bgImage={BG3}>
-                  <S.RecommendText>
-                    Par les hygiénistes dentaires<sup>7</sup>
-                  </S.RecommendText>
-                </S.RecommendBG>
+                <S.RecommendBG $bgImage={BG3}></S.RecommendBG>
               </Flickity>
             </S.CarouselWrapper>
 

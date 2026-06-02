@@ -26,23 +26,6 @@ export const RecommendBG = styled.div<RecommendBGProps>`
   align-items: ${(props) => (props.$isFullWidthImage ? "center" : "normal")};
 `;
 
-export const RecommendText = styled.cite`
-  font-family: "Gotham", sans-serif;
-  font-weight: 300;
-  font-size: 1.285rem;
-  color: ${colors.primary};
-  margin: 0;
-  position: absolute;
-  bottom: 3.6rem;
-  left: 5.4%;
-  line-height: 1.2;
-  font-style: normal;
-
-  sup {
-    font-size: 8px;
-  }
-`;
-
 export const FullWidthImage = styled.img`
   max-width: 76.8%;
   max-height: 80vh;
