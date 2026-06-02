@@ -5,7 +5,7 @@ import { BaseCarouselSlide } from "../../../styles/shared-styles";
 
 import ShopifyIcon from "../../../components/ShopifyIcon/ShopifyIcon";
 
-import Slide1Floss1 from "../../../assets/btc/floss/Slide1Floss1.webp";
+import Slide1Floss1 from "../../../assets/btc/floss/Slide1Floss1-2.png";
 import Slide1Floss2 from "../../../assets/btc/floss/Slide1Floss2.webp";
 
 import Slide2Floss1 from "../../../assets/btc/floss/Slide2Floss1.webp";
@@ -33,7 +33,7 @@ export default function BtcFloss() {
         <BaseCarouselSlide>
           <S.SlideWrapper>
             <S.SlideColumn1>
-              <S.ImgWrapper $width={"85%"}>
+              <S.ImgWrapper $width={"65%"} $minHeight="226px">
                 <img src={Slide1Floss1} />
               </S.ImgWrapper>
               <S.ColumnTitle>FIL DENTAIRE Comfort Slide</S.ColumnTitle>
@@ -78,7 +78,7 @@ export default function BtcFloss() {
               </S.ListContainer>
             </S.SlideColumn1>
             <S.SlideColumn2>
-              <S.ImgWrapper $width={"85%"}>
+              <S.ImgWrapper $width={"90%"}>
                 <img src={Slide1Floss2} />
               </S.ImgWrapper>
               <S.ColumnTitle>

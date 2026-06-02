@@ -30,9 +30,11 @@ export const SlideWrapper = styled.div<SlideWrapperProps>`
 interface ImgWrapperProps {
   $width: string;
   $marginLeft?: string;
+  $minHeight?: string;
 }
 
 export const ImgWrapper = styled.div<ImgWrapperProps>`
+  min-height: ${(props) => props.$minHeight};
   img {
     width: ${(props) => props.$width};
     margin-left: ${(props) => (props.$marginLeft ? props.$marginLeft : "0")};
