@@ -23,7 +23,7 @@ export const PartnersBG = styled.div<PartnersBGProps>`
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
   background-color: #ffffff;
-  padding: 2rem 2rem 0 2rem;
+  padding: ${(props) => (props.$isFullWidthImage ? "0" : "2rem")};
   width: 100%;
   height: 60vh;
   box-sizing: border-box;
