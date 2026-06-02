@@ -11,7 +11,7 @@ const Slide1 = () => (
       diagramImage={Slide1Col1TopImg}
       diagramWidth="80%"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/213-monsterz-baby-ages-0",
         width: "30px",
         marginTop: "0",
       }}
@@ -41,8 +41,9 @@ const Slide1 = () => (
       brushImage={Brush1_MonsterzKids}
       diagramImage={Slide1Col2TopImg}
       diagramWidth="80%"
+      imprintAndBadgeWrapperPaddingTop="3.6rem"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/901-monsterz-kids-ages-2",
         width: "30px",
         marginTop: "0",
       }}

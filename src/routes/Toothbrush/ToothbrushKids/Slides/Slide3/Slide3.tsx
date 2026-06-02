@@ -1,54 +1,22 @@
-import Brush1_CrayolaPipSqueaks from "../../../../../assets/toothbrush/Kids/Slide3/Brush-Crayola-Pipsqueaks.webp";
+import * as S from "./Slide3.styles";
 import Brush1_CrayolaMarker from "../../../../../assets/toothbrush/Kids/Slide3/Brush-Crayola-Markers.webp";
-import Slide3Col1TopImg from "../../../../../assets/toothbrush/Kids/Slide3/Slide3Col1-topImg.webp";
+import Slide5Col2TopImg from "../../../../../assets/toothbrush/Kids/Slide5/Slide5Col2Img.webp";
 import Slide3Col2TopImg from "../../../../../assets/toothbrush/Kids/Slide3/Slide3Col2-topImg.webp";
+import Slide5Col2BottomImg from "../../../../../assets/toothbrush/Kids/Slide5/Slide5Col2Fruits.webp";
 import { ProductSlide } from "../../../components/ProductSlide/ProductSlide";
-import { TitleLight } from "../../../components/ProductSlide/ProductSlide.styles";
+import {
+  TitleLight,
+  Container,
+} from "../../../components/ProductSlide/ProductSlide.styles";
+import ShopifyIcon from "../../../../../components/ShopifyIcon/ShopifyIcon";
 
 const Slide3 = () => (
-  <>
-    <ProductSlide
-      brushImage={Brush1_CrayolaPipSqueaks}
-      diagramImage={Slide3Col1TopImg}
-      shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
-        width: "30px",
-        marginTop: "0",
-      }}
-      diagramWidth="86%"
-      minHeight="246px"
-      colGap="0.8rem"
-      textWrapperPaddingRight="2rem"
-      diagramMarginBottom="0"
-      useBulletPoints={true}
-      showImprintText={false}
-      title={
-        <>
-          <TitleLight>Brosse à dents</TitleLight>
-          <br />
-          Crayola<sup>MC</sup> PIP-SQUEAKS<sup>MC</sup>
-        </>
-      }
-      description={[
-        "Les soies souples de cette brosse sont douces pour les dents et les gencives des enfants",
-        "La tête étroite et effilée de la brosse est conçue pour faciliter le maniement dans les petites bouches",
-        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
-      ]}
-      imprintColors={[["#fcb041"], ["#c91690"], ["#00aeee"], ["#22b785"]]}
-      specs={[
-        [
-          { label: "Article", value: "232" },
-          { label: "Texture", value: "Souple" },
-          { label: "Taille", value: "Compacte" },
-          { label: "Touffes", value: "19" },
-        ],
-      ]}
-    />
+  <Container>
     <ProductSlide
       brushImage={Brush1_CrayolaMarker}
       diagramImage={Slide3Col2TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/crayola-marker",
         width: "30px",
         marginTop: "0",
       }}
@@ -89,7 +57,45 @@ const Slide3 = () => (
         ],
       ]}
     />
-  </>
+    <S.SecondColumnWrapper>
+      <S.TopImageWrapper>
+        <img src={Slide5Col2TopImg} alt="Crayola Twistables Flossers" />
+      </S.TopImageWrapper>
+
+      <S.ContentWrapper>
+        <S.TextContent>
+          <h2>
+            Crayola<TitleLight>™</TitleLight> TWISTABLES
+            <TitleLight>™</TitleLight> FLOSSERS
+          </h2>
+          <ul>
+            <li>Extra-strong, twisted fluoride coated floss.</li>
+            <li>Longer handle makes it easy for parents to help kids floss.</li>
+            <li>
+              3 Twisted fruit flavours to choose from, to vary the fun and keep
+              them flossing.
+            </li>
+          </ul>
+        </S.TextContent>
+        <S.BottomImageWrapper>
+          <img src={Slide5Col2BottomImg} alt="Fruit flavors" />
+        </S.BottomImageWrapper>
+      </S.ContentWrapper>
+
+      <S.SpecsSection>
+        <S.SpecsGrid>
+          <S.SpecItem>853 Crayola™ Twistables™ Flossers</S.SpecItem>
+          <S.SpecItem>48 packs of 3</S.SpecItem>
+        </S.SpecsGrid>
+      </S.SpecsSection>
+
+      <ShopifyIcon
+        href="https://www.professionalsunstargum.com/fr/products/crayola-twistables-flossers"
+        width="30px"
+        marginTop="0"
+      />
+    </S.SecondColumnWrapper>
+  </Container>
 );
 
 export default Slide3;

@@ -1,52 +1,17 @@
-import Brush1_TimerLight from "../../../../../assets/toothbrush/Kids/Slide2/Brush-Monsterz-TimerLight.webp";
+import Brush1_CrayolaPipSqueaks from "../../../../../assets/toothbrush/Kids/Slide3/Brush-Crayola-Pipsqueaks.webp";
 import Brush1_MonsterzJunior from "../../../../../assets/toothbrush/Kids/Slide2/Brush-Monsterz-Junior.webp";
-import Slide1Col1TopImg from "../../../../../assets/toothbrush/Kids/Slide2/Slide2Col1-topImg.webp";
+import Slide2Col2TopImg from "../../../../../assets/toothbrush/Kids/Slide3/Slide3Col1-topImg.webp";
 import Slide1Col2TopImg from "../../../../../assets/toothbrush/Kids/Slide2/Slide2Col2-topImg.webp";
 import { ProductSlide } from "../../../components/ProductSlide/ProductSlide";
+import { TitleLight } from "../../../components/ProductSlide/ProductSlide.styles";
 
 const Slide2 = () => (
   <>
     <ProductSlide
-      brushImage={Brush1_TimerLight}
-      diagramImage={Slide1Col1TopImg}
-      shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
-        width: "30px",
-        marginTop: "0",
-      }}
-      textWrapperMarginTop="-24px"
-      textWrapperPaddingRight="2.2rem"
-      minHeight="190px"
-      brushImgWidth="90%"
-      listPaddingLeft="1.8rem"
-      useBulletPoints={true}
-      showImprintText={false}
-      colGap="0.8rem"
-      diagramWidth="93%"
-      description={[
-        "La brosse à dents clignote pendant une minute pour aider les enfants à savoir quand il est temps de changer d'arche de dents et les encourager à se brosser les dents plus longtemps",
-        <>
-          Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-          nettoyer sous la gencive<sup>1, 2</sup>
-        </>,
-        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
-        "Pile à DEL non remplaçable",
-      ]}
-      imprintColors={[["#bdd62e"], ["#f0548f"], ["#c7a1cb"], ["#24a1db"]]}
-      specs={[
-        [
-          { label: "Article", value: "903" },
-          { label: "Texture", value: "Souple" },
-          { label: "Taille", value: "Compacte" },
-          { label: "Touffes", value: "24" },
-        ],
-      ]}
-    />
-    <ProductSlide
       brushImage={Brush1_MonsterzJunior}
       diagramImage={Slide1Col2TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/902-monsterz-junior-ages-5",
         width: "30px",
         marginTop: "0",
       }}
@@ -71,6 +36,44 @@ const Slide2 = () => (
           { label: "Texture", value: "Souple" },
           { label: "Taille", value: "Compacte" },
           { label: "Touffes", value: "29" },
+        ],
+      ]}
+    />
+
+    <ProductSlide
+      brushImage={Brush1_CrayolaPipSqueaks}
+      diagramImage={Slide2Col2TopImg}
+      shopifyIconProps={{
+        href: "https://www.professionalsunstargum.com/fr/products/crayola-pip-squeaks",
+        width: "30px",
+        marginTop: "0",
+      }}
+      diagramWidth="86%"
+      minHeight="246px"
+      colGap="0.8rem"
+      textWrapperPaddingRight="2rem"
+      diagramMarginBottom="0"
+      useBulletPoints={true}
+      showImprintText={false}
+      title={
+        <>
+          <TitleLight>Brosse à dents</TitleLight>
+          <br />
+          Crayola<sup>MC</sup> PIP-SQUEAKS<sup>MC</sup>
+        </>
+      }
+      description={[
+        "Les soies souples de cette brosse sont douces pour les dents et les gencives des enfants",
+        "La tête étroite et effilée de la brosse est conçue pour faciliter le maniement dans les petites bouches",
+        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
+      ]}
+      imprintColors={[["#fcb041"], ["#c91690"], ["#00aeee"], ["#22b785"]]}
+      specs={[
+        [
+          { label: "Article", value: "232" },
+          { label: "Texture", value: "Ultrasouple" },
+          { label: "Taille", value: "Compacte" },
+          { label: "Touffes", value: "19" },
         ],
       ]}
     />

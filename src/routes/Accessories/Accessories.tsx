@@ -72,7 +72,7 @@ export default function Accessories() {
                     <p>24/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/723-orthodontic-wax-with-vitamin-e"
                     width="30px"
                     marginTop="6px"
                   />
@@ -108,7 +108,7 @@ export default function Accessories() {
                     <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/152-travel-caps"
                     width="30px"
                     marginTop="6px"
                   />
@@ -149,7 +149,7 @@ export default function Accessories() {
                     <p>12 paquets avec 3 recharges</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/600-stimulator-handle-tip"
                     width="30px"
                     marginTop="6px"
                   />
@@ -189,7 +189,7 @@ export default function Accessories() {
                     <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
+                    href="https://www.professionalsunstargum.com/fr/products/760-2-in-1-tongue-cleaner"
                     width="30px"
                     marginTop="6px"
                   />

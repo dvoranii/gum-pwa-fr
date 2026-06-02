@@ -11,7 +11,7 @@ const Slide3 = () => (
       brushImage={Brush1_CompleteCare}
       diagramImage={Diagrams_CompleteCare}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/591-complete-care-technique-r-soft-compact",
         width: "30px",
         marginTop: "0",
       }}
@@ -43,8 +43,8 @@ const Slide3 = () => (
           { label: "Touffes", value: "30" },
         ],
         [
-          { value: "559" },
-          { value: "Ultra Soft" },
+          { value: "595" },
+          { value: "Ultrasouple" },
           { value: "Compact" },
           { value: "30" },
         ],
@@ -54,7 +54,7 @@ const Slide3 = () => (
       brushImage={Brush1_DomeTrim}
       diagramImage={Diagrams_DomeTrim}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/457-dome-trim-r-soft-compact",
         width: "30px",
         marginTop: "0",
       }}
@@ -79,12 +79,6 @@ const Slide3 = () => (
           { label: "Texture", value: "Souple" },
           { label: "Taille", value: "Compacte" },
           { label: "Touffes", value: "30" },
-        ],
-        [
-          { value: "459" },
-          { value: "Ultrasouple" },
-          { value: "Compacte" },
-          { value: "30" },
         ],
       ]}
     />

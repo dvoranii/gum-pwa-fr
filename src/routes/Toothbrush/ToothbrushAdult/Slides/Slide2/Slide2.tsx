@@ -14,7 +14,7 @@ const Slide2 = () => (
       brushImage={Brush1_EnamelClean}
       diagramImage={Diagrams_EnamelClean}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/4471-enamel-clean-technique%C2%AE-dozen",
         width: "30px",
         marginTop: "0",
       }}
@@ -55,7 +55,7 @@ const Slide2 = () => (
       brushImage={Brush1_SensitiveCare}
       diagramImage={Diagrams_SensitiveCare}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/517-sensitive-care-technique-r",
         width: "30px",
         marginTop: "0",
       }}
@@ -66,7 +66,7 @@ const Slide2 = () => (
           <TitleLight>
             TECHNIQUE<sup>MD</sup>
           </TitleLight>{" "}
-          SENSITIVE CLEAN
+          ULTRA SENSITIVE CLEAN
         </>
       }
       description={[

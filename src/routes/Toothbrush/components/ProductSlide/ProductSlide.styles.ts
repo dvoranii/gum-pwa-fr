@@ -208,11 +208,16 @@ export const ImprintLine = styled.div`
   }
 `;
 
-export const ImprintAndBadgeWrapper = styled.div`
+interface ImprintAndBadgeWrapperProps {
+  $paddingTop?: string;
+}
+
+export const ImprintAndBadgeWrapper = styled.div<ImprintAndBadgeWrapperProps>`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   padding-top: 1.2rem;
+  ${({ $paddingTop }) => ($paddingTop ? `padding-top: ${$paddingTop}` : "")};
 `;
 
 interface ImprintLeftColumnProps {

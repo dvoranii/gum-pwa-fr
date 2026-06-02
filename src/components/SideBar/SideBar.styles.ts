@@ -61,3 +61,14 @@ export const NavButton = styled(NavLink)`
     background-color: #e0e0e0;
   }
 `;
+
+export const NavButtonDisabled = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: not-allowed;
+`;

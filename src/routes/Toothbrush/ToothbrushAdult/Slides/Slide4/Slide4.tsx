@@ -8,7 +8,7 @@ const Slide4 = () => (
       brushImage={Brush1_ToothAndTongue}
       diagramImage={Diagrams_ToothAndTongue}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/394-gum-r-tooth-tongue-toothbrush-soft-full-dozen",
         width: "30px",
         marginTop: "0",
       }}

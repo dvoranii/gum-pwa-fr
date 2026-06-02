@@ -1,107 +1,61 @@
 import * as S from "./Slide5.styles";
-import Brush1_CrayolaPower from "../../../../../assets/toothbrush/Kids/Slide5/Brush-Crayola-Power.webp";
-import Slide5Col1TopImg from "../../../../../assets/toothbrush/Kids/Slide5/circle-diagram-crayolaPower.webp";
-import Slide5Col2TopImg from "../../../../../assets/toothbrush/Kids/Slide5/Slide5Col2Img.webp";
-import Slide5Col2BottomImg from "../../../../../assets/toothbrush/Kids/Slide5/Slide5Col2Fruits.webp";
+import SpongeBobBrush from "../../../../../assets/toothbrush/Kids/Slide6/Brush-SpongeBob.webp";
+import SpongeBobDiagram from "../../../../../assets/toothbrush/Kids/Slide6/Slide6Col1Circle.webp";
+import SpongeBobVariants from "../../../../../assets/toothbrush/Kids/Slide6/SpongeBobBrushVariants.webp";
 import { ProductSlide } from "../../../components/ProductSlide/ProductSlide";
-import {
-  TitleLight,
-  Container,
-} from "../../../components/ProductSlide/ProductSlide.styles";
-import ShopifyIcon from "../../../../../components/ShopifyIcon/ShopifyIcon";
+import { Container } from "../../../components/ProductSlide/ProductSlide.styles";
+import { TitleLight } from "../../../components/ProductSlide/ProductSlide.styles";
 
-const Slide5 = () => (
+const Slide6 = () => (
   <Container>
     <ProductSlide
-      brushImage={Brush1_CrayolaPower}
-      diagramImage={Slide5Col1TopImg}
+      brushImage={SpongeBobBrush}
+      diagramImage={SpongeBobDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
+        href: "https://www.professionalsunstargum.com/fr/products/4060-gum%C2%AE-spongebob-tb",
         width: "30px",
         marginTop: "0",
       }}
       useBulletPoints={true}
       showImprintText={false}
-      minHeight="226px"
+      minHeight="250px"
       diagramWidth="90%"
-      diagramMarginBottom="0.2rem"
-      paddingRight="1.4rem"
-      brushImgWidth="95%"
+      diagramMarginBottom="0.8rem"
+      paddingRight="0"
+      textWrapperPaddingRight="4.5rem"
+      brushImgWidth="90%"
       colGap="0.8rem"
+      colMargLeft="39px"
       textWrapperH2MarginBottom="0.4rem"
-      textWrapperPaddingRight="1.2rem"
       title={
         <>
-          <TitleLight>Brosse à dents</TitleLight>
-          <br />
-          DE VOYAGE Crayola<sup>MC</sup>
+          <TitleLight>Brosse à dents</TitleLight> Bob L'éponge<sup>MC</sup>
         </>
       }
       description={[
-        "L'action rotative des soies souples nettoie doucement les dents et les gencives",
-        "Vient avec un capuchon pour maintenir la propreté de la tête de la brosse à dents, qui est aussi pratique pour le voyage",
-        "Ventouse pour que la brosse à dents tienne à la verticale, ce qui aide à garder les soies propres",
-        "Pile non remplaçable",
+        <>
+          Le nettoyeur de langue qui aide à éliminer les bactéries sur la langue
+        </>,
+        "Les soies centrales servent d’aide visuelle pour enseigner aux enfants la bonne quantité de dentifrice à utiliser",
+        "Base à ventouse gardant la brosse propre et verticale",
       ]}
-      imprintColors={[["#c2519e"], ["#f67f1e"], ["#00aeee"], ["#39b549"]]}
+      imprintColors={[["#ffff00"], ["#ff1493"]]}
       specs={[
         [
-          { label: "Article", value: "2272" },
-          { label: "Texture", value: "Souple" },
+          { label: "Article", value: "4060" },
+          { label: "Texture", value: "Ultrasouple" },
           { label: "Taille", value: "Compacte" },
-          { label: "Touffes", value: "23" },
+          { label: "Touffes", value: "29" },
         ],
       ]}
     />
 
     <S.SecondColumnWrapper>
-      <S.TopImageWrapper>
-        <img src={Slide5Col2TopImg} />
-      </S.TopImageWrapper>
-
-      <S.ContentWrapper>
-        <S.TextContent>
-          <h2>
-            PORTE-FIL Crayola
-            <TitleLight>
-              <sup>MC</sup>
-            </TitleLight>{" "}
-            TWISTABLES
-            <TitleLight>
-              <sup>MC</sup>
-            </TitleLight>
-          </h2>
-          <ul>
-            <li>Fil dentaire robuste, torsadé et enduit de fluorure</li>
-            <li>
-              Le manche plus long permet aux parents d'aider leur enfant à
-              passer le fil dentaire
-            </li>
-            <li>
-              Possibilité de choisir parmi 3 saveurs fruitées agréables afin de
-              varier les plaisirs et d’encourager les enfants à passer le fil
-            </li>
-          </ul>
-        </S.TextContent>
-        <S.BottomImageWrapper>
-          <img src={Slide5Col2BottomImg} alt="Fruit flavors" />
-        </S.BottomImageWrapper>
-      </S.ContentWrapper>
-      <S.SpecsSection>
-        <S.SpecsGrid>
-          <S.SpecItem>
-            853 Porte-file Crayola<sup>MC</sup> Twistables<sup>MC</sup>
-          </S.SpecItem>
-          <S.SpecItem>48 emballages de 3</S.SpecItem>
-        </S.SpecsGrid>
-      </S.SpecsSection>
-      <ShopifyIcon
-        href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
-        width="30px"
-        marginTop="0"
-      />
+      <S.ImageWrapper>
+        <img src={SpongeBobVariants} alt="SpongeBob Toothbrush Variants" />
+      </S.ImageWrapper>
     </S.SecondColumnWrapper>
   </Container>
 );
 
-export default Slide5;
+export default Slide6;

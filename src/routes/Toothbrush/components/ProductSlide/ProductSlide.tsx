@@ -12,6 +12,7 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
   showAntibacterialBadge = false,
   imprintColors = [],
   imprintPaddingTop,
+  imprintAndBadgeWrapperPaddingTop,
   specs = [],
   brushSpecsWrapperWidth,
   brushSpecsGridCols,
@@ -101,7 +102,9 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
           </S.TextWrapper>
 
           <S.ImprintSection>
-            <S.ImprintAndBadgeWrapper>
+            <S.ImprintAndBadgeWrapper
+              $paddingTop={imprintAndBadgeWrapperPaddingTop}
+            >
               <S.ImprintLeftColumn $paddingTop={imprintPaddingTop}>
                 {showImprintText ? (
                   <S.ImprintTextWrapper>

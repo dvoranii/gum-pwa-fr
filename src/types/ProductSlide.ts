@@ -17,6 +17,7 @@ export type ProductSlideProps = {
   showAntibacterialBadge?: boolean;
   imprintColors: ColorPair[];
   imprintPaddingTop?: string;
+  imprintAndBadgeWrapperPaddingTop?: string;
   specs: SpecItem[][];
   brushSpecsWrapperWidth?: string;
   brushSpecsGridCols?: string;
