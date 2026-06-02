@@ -3,12 +3,12 @@ import InnerNav from "../../components/InnerNav/InnerNav";
 import { Outlet, useLocation } from "react-router-dom";
 import ModuleContainer from "../../components/ModuleContainer/ModuleContainer";
 
-import Col1Row2 from "../../assets/btc/crest.webp";
 import PatientNeeds2 from "../../assets/btc/PatientNeeds.png";
 import Technology2 from "../../assets/btc/Technology.png";
 import Flossers from "../../assets/btc/column2-flossers.webp";
-
 import PatientBG from "../../assets/btc/patient/PatientBG.webp";
+
+import BtcCrest from "../../assets/btc/btc-crest.png";
 
 const btcNavItems = [
   {
@@ -52,14 +52,7 @@ export default function Toothbrush() {
                 </S.IntroTitle>
               </S.IntroTitleWrapper>
               <S.RecommendedWrapper>
-                <S.Recommended src={Col1Row2} />
-                <h3>
-                  Recommandée
-                  <br /> au&nbsp;Canada&nbsp;par&nbsp;les
-                  <br />
-                  hygiénistes&nbsp;dentaires
-                  <sup>7</sup>
-                </h3>
+                <S.Recommended src={BtcCrest} />
               </S.RecommendedWrapper>
               <S.LinksWrapper>
                 <S.StyledLink to="/btc/tech">

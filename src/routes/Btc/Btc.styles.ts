@@ -79,24 +79,12 @@ export const RecommendedWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-
-  h3 {
-    font-family: "Gotham", sans-serif;
-    color: ${colors.primary};
-    font-weight: 300;
-    font-size: clamp(28px, 1.6vw, 3.2rem);
-    margin-top: 1.2rem;
-    margin-left: 1.2rem;
-  }
-
-  sup {
-    font-size: 10px;
-  }
 `;
 
 export const Recommended = styled.img`
-  width: 41.8%;
+  width: 92%;
   height: auto;
+  margin-bottom: -12px;
 `;
 
 export const LinksWrapper = styled.div`
