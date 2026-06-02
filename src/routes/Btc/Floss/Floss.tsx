@@ -9,7 +9,7 @@ import Slide1Floss1 from "../../../assets/btc/floss/Slide1Floss1-2.png";
 import Slide1Floss2 from "../../../assets/btc/floss/Slide1Floss2.webp";
 
 import Slide2Floss1 from "../../../assets/btc/floss/Slide2Floss1.webp";
-import Slide2Floss2 from "../../../assets/btc/floss/Slide2Floss2.png";
+import Slide2Floss2 from "../../../assets/btc/floss/Slide2Floss2-updated.png";
 
 import Slide3Floss1 from "../../../assets/btc/floss/Slide3Floss.webp";
 import Slide3Floss2 from "../../../assets/btc/floss/Slide3Floss2.webp";
@@ -174,7 +174,7 @@ export default function BtcFloss() {
               </S.ListContainer>
             </S.SlideColumn1>
             <S.SlideColumn2>
-              <S.ImgWrapper $width={"100%"}>
+              <S.ImgWrapper $width={"80%"}>
                 <img src={Slide2Floss2} />
               </S.ImgWrapper>
               <S.ColumnTitle>
