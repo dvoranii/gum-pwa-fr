@@ -11,7 +11,7 @@ const Slide3 = () => (
       brushImage={Brush1_CompleteCare}
       diagramImage={Diagrams_CompleteCare}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -54,7 +54,7 @@ const Slide3 = () => (
       brushImage={Brush1_DomeTrim}
       diagramImage={Diagrams_DomeTrim}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

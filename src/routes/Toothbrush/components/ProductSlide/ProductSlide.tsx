@@ -1,10 +1,11 @@
 import ShopifyIcon from "../../../../components/ShopifyIcon/ShopifyIcon";
 import * as S from "./ProductSlide.styles";
-import { ProductSlideProps, SpecItem } from "./ProductSlide.types";
+import { ProductSlideProps, SpecItem } from "../../../../types/ProductSlide";
 
 export const ProductSlide: React.FC<ProductSlideProps> = ({
   brushImage,
   diagramImage,
+  bannerImage,
   title,
   description,
   highlightText,
@@ -27,6 +28,7 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
   minHeight,
   diagramMarginBottom,
   brushImgWidth,
+  brushImgHeight,
   colGap,
   listPaddingLeft,
   colMargLeft,
@@ -44,6 +46,7 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
       <S.BrushImgWrapper
         $brushImgWidth={brushImgWidth}
         $imgMinWidth={imgMinWidth}
+        $brushImgHeight={brushImgHeight}
       >
         <img
           src={brushImage}
@@ -60,6 +63,9 @@ export const ProductSlide: React.FC<ProductSlideProps> = ({
             $diagramWidth={diagramWidth}
             $diagramMarginBottom={diagramMarginBottom}
           >
+            {bannerImage && (
+              <S.BannerImg src={bannerImage} alt="Brand recommendation badge" />
+            )}
             <img
               src={diagramImage}
               alt={

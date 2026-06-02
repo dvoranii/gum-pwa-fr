@@ -72,7 +72,7 @@ export default function Accessories() {
                     <p>24/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="6px"
                   />
@@ -108,7 +108,7 @@ export default function Accessories() {
                     <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="6px"
                   />
@@ -149,7 +149,7 @@ export default function Accessories() {
                     <p>12 paquets avec 3 recharges</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="6px"
                   />
@@ -189,7 +189,7 @@ export default function Accessories() {
                     <p>12/boite</p>
                   </S.MetaDataWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="6px"
                   />

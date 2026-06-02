@@ -1,20 +1,24 @@
 import Brush1_DeepClean from "../../../../../assets/toothbrush/Adult/Slide1/Brush-DeepClean.webp";
 import Brush1_SensitiveClean from "../../../../../assets/toothbrush/Adult/Slide1/Brush-SensitiveClean.webp";
-import Diagrams_DeepClean from "../../../../../assets/toothbrush/Adult/Slide1/circle-diagrams-deepclean.webp";
-import Diagrams_SensitiveClean from "../../../../../assets/toothbrush/Adult/Slide1/circle-diagrams-sensitiveclean.webp";
+import Diagrams_DeepClean from "../../../../../assets/toothbrush/Adult/Slide1/diagram-1.png";
+import Diagrams_SensitiveClean from "../../../../../assets/toothbrush/Adult/Slide1/diagram-2.png";
 import { ProductSlide } from "../../../components/ProductSlide/ProductSlide";
 import {
   DescriptionBold,
   TitleLight,
 } from "../../../components/ProductSlide/ProductSlide.styles";
+import ManualBadge from "../../../../../assets/toothbrush/brushes-crest.png";
 
 const Slide1 = () => (
   <>
     <ProductSlide
       brushImage={Brush1_DeepClean}
       diagramImage={Diagrams_DeepClean}
+      bannerImage={ManualBadge}
+      diagramWidth="72%"
+      brushImgHeight="90%"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -53,8 +57,11 @@ const Slide1 = () => (
     <ProductSlide
       brushImage={Brush1_SensitiveClean}
       diagramImage={Diagrams_SensitiveClean}
+      bannerImage={ManualBadge}
+      diagramWidth="72%"
+      brushImgHeight="90%"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

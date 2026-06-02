@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide1/Brush-DeepClean.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/525-DeepClean-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/525-DeepClean-BottomImg.webp";
 
 export default function DeepCleanSlide() {
   return (

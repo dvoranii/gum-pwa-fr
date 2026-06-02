@@ -11,7 +11,7 @@ const Slide3 = () => (
       brushImage={Brush1_CrayolaPipSqueaks}
       diagramImage={Slide3Col1TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -48,7 +48,7 @@ const Slide3 = () => (
       brushImage={Brush1_CrayolaMarker}
       diagramImage={Slide3Col2TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

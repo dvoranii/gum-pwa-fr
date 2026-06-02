@@ -8,7 +8,7 @@ const Slide4 = () => (
       brushImage={Brush1_ToothAndTongue}
       diagramImage={Diagrams_ToothAndTongue}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -16,10 +16,10 @@ const Slide4 = () => (
       title={<>DENTS et LANGUE</>}
       description={[
         <>
-          Avec 40 % de poils en plus<sup>3</sup>, pour nettoyer ecacement et en douceur les
-          espaces interdentaires sans irriter les gencives. Un nettoyeur de
-          langue avec grattoirs striés pour améliorer le nettoyage et aider à
-          réduire la mauvaise haleine.
+          Avec 40 % de poils en plus<sup>3</sup>, pour nettoyer ecacement et en
+          douceur les espaces interdentaires sans irriter les gencives. Un
+          nettoyeur de langue avec grattoirs striés pour améliorer le nettoyage
+          et aider à réduire la mauvaise haleine.
         </>,
       ]}
       imprintColors={[

@@ -110,8 +110,8 @@ export default function BtcFlossers() {
                   <ul>
                     <li>
                       Le fil dentaire texturé élimine ecacement 2 fois plus de
-                      plaque<sup>10</sup> et est conçu pour résister à l'effilochage et au
-                      bris.
+                      plaque<sup>10</sup> et est conçu pour résister à
+                      l'effilochage et au bris.
                       <sup>13</sup>
                     </li>
                     <li>
@@ -127,7 +127,7 @@ export default function BtcFlossers() {
               <S.ImgWrapper>
                 <img src={Slide1Graphic} />
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca"
+                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                   absolute
                   width="30px"
                   bottom="35px"
@@ -209,7 +209,8 @@ export default function BtcFlossers() {
                     </li>
                     <li>
                       Fil dentaire torsadé du côté incliné qui élimine 2 fois
-                      plus de plaque<sup>10</sup> et couvre 30 % plus de surface dentaire.
+                      plus de plaque<sup>10</sup> et couvre 30 % plus de surface
+                      dentaire.
                       <sup>11</sup>
                     </li>
                   </ul>
@@ -238,7 +239,7 @@ export default function BtcFlossers() {
                   <S.Column>48 sachets de 2</S.Column>
                 </S.Row>
                 <ShopifyIcon
-                  href="https://www.shopify.com/ca"
+                  href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                   width="30px"
                   marginTop="4px"
                 />

@@ -10,7 +10,7 @@ const Slide2 = () => (
       brushImage={Brush1_TimerLight}
       diagramImage={Slide1Col1TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -46,7 +46,7 @@ const Slide2 = () => (
       brushImage={Brush1_MonsterzJunior}
       diagramImage={Slide1Col2TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

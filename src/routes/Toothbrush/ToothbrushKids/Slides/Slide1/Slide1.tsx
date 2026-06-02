@@ -11,7 +11,7 @@ const Slide1 = () => (
       diagramImage={Slide1Col1TopImg}
       diagramWidth="80%"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -42,7 +42,7 @@ const Slide1 = () => (
       diagramImage={Slide1Col2TopImg}
       diagramWidth="80%"
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

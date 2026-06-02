@@ -6,7 +6,7 @@ export const ContentWrapper = styled.div`
 
 export const ColumnLeft = styled.div`
   max-width: 62%;
-  padding: 40px 0 40px 50px;
+  padding: 20px 0 40px 50px;
 `;
 
 export const MainTitle = styled.h1`

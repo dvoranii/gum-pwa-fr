@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide3/Brush-CompleteCare.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/591-CompleteCare-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/591-CompleteCare-BottomImg.webp";
 
 export default function CompleteCare595Slide() {
   return (

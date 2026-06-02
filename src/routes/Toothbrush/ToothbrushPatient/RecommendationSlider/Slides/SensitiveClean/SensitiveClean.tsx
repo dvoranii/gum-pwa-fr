@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide1/Brush-SensitiveClean.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/528-SensitiveClean-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/528-SensitiveClean-BottomImg.webp";
 
 export default function SensitiveCleanSlide() {
   return (

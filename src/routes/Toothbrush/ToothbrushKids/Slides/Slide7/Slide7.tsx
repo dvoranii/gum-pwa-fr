@@ -11,7 +11,7 @@ const Slide7 = () => (
       brushImage={TechniqueKidsBrush}
       diagramImage={TechniqueKidsDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -61,7 +61,7 @@ const Slide7 = () => (
       brushImage={TechniqueClassicBrush}
       diagramImage={TechniqueClassicDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

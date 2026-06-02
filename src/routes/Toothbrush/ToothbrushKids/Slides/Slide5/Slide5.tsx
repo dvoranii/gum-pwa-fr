@@ -16,7 +16,7 @@ const Slide5 = () => (
       brushImage={Brush1_CrayolaPower}
       diagramImage={Slide5Col1TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -96,7 +96,7 @@ const Slide5 = () => (
         </S.SpecsGrid>
       </S.SpecsSection>
       <ShopifyIcon
-        href="https://www.shopify.com/ca"
+        href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
         width="30px"
         marginTop="0"
       />

@@ -14,7 +14,7 @@ const Slide2 = () => (
       brushImage={Brush1_EnamelClean}
       diagramImage={Diagrams_EnamelClean}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -55,7 +55,7 @@ const Slide2 = () => (
       brushImage={Brush1_SensitiveCare}
       diagramImage={Diagrams_SensitiveCare}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

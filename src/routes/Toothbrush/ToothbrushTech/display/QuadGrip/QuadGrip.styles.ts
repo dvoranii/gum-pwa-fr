@@ -7,7 +7,7 @@ export const ContentWrapper = styled.div`
 `;
 
 export const HeaderRight = styled.div`
-  padding: 60px 40px 40px 60px;
+  padding: 40px 40px 40px 60px;
   flex: 2.8;
   min-width: 0;
 `;
@@ -25,7 +25,6 @@ export const MainTitle = styled.h1`
     vertical-align: 20px;
   }
 `;
-
 
 export const Description = styled.ul`
   font-family: "Gotham", sans-serif;

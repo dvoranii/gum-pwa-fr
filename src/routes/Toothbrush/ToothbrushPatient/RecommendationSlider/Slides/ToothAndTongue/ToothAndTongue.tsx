@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide4/Brush-toothAndTongue.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/394-T&T-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/394-T&T-BottomImg.webp";
 
 export default function ToothAndTongueSlide() {
   return (

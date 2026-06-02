@@ -74,12 +74,17 @@ export const TextAndImgWrapper = styled.div<TextAndImgWrapperProps>`
   }
 `;
 
+export const BannerImg = styled.img`
+  width: 90%;
+  object-fit: contain;
+  align-self: flex-start;
+`;
 interface DiagramsWrapperProps {
   $diagramWidth?: string;
   $diagramMarginBottom?: string;
 }
 export const DiagramsWrapper = styled.div<DiagramsWrapperProps>`
-  img {
+  img:not(${BannerImg}) {
     margin-bottom: ${(props) =>
       props.$diagramMarginBottom ? props.$diagramMarginBottom : "1.2rem"};
     width: ${(props) => (props.$diagramWidth ? props.$diagramWidth : "100%")};

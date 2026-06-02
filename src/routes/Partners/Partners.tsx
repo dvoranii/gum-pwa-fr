@@ -138,7 +138,6 @@ export default function Partners() {
                 <>
                   Mériter chaque jour notre statut de la marque la plus
                   recommandée<sup>7</sup>;
-                  {/* change font size to 10px */}
                 </>,
                 "voilà notre raison d’être.",
               ]}

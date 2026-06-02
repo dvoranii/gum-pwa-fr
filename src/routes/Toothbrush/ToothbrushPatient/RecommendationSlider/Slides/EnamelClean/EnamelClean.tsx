@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide2/Brush-Enamel.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/4471-EnamelClean-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/4471-EnamelClean-BottomImg.webp";
 
 export default function EnamelCleanSlide() {
   return (

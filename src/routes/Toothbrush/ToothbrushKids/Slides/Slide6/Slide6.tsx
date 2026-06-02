@@ -12,7 +12,7 @@ const Slide6 = () => (
       brushImage={SpongeBobBrush}
       diagramImage={SpongeBobDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

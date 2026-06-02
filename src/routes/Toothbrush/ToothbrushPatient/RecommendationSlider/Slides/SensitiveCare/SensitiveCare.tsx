@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide2/Brush-SensitiveCare.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/DeepClean/517-SensitiveCare-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/517-SensitiveCare-BottomImg.webp";
 
 export default function SensitiveCareSlide() {
   return (
@@ -27,8 +27,8 @@ export default function SensitiveCareSlide() {
           >
             <li>
               <span>
-                Manche Quad-Grip<sup>MD</sup> unique et soies Dome Trim<sup>MD</sup>{" "}
-                combinés aux soies ultra-souples.
+                Manche Quad-Grip<sup>MD</sup> unique et soies Dome Trim
+                <sup>MD</sup> combinés aux soies ultra-souples.
               </span>
             </li>
             <li>

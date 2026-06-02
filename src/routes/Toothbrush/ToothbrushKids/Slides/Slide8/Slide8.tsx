@@ -11,7 +11,7 @@ const Slide8 = () => (
       brushImage={SuperTipBrush}
       diagramImage={SuperTipDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -56,7 +56,7 @@ const Slide8 = () => (
       brushImage={BrightCareBrush}
       diagramImage={BrightCareDiagram}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}

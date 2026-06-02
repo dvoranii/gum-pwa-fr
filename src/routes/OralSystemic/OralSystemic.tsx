@@ -111,7 +111,7 @@ export default function OralSystemicLink() {
 
             <S.OralSystemicImgWrapperOuter>
               <S.ImagesWrapperInner
-                showResults={
+                $showResults={
                   !showCarousel && (activeHeart || activeBrain || activeBlood)
                 }
               >
@@ -249,9 +249,7 @@ export default function OralSystemicLink() {
                           <S.SlideCitation
                             $paddingLeft="0.4rem"
                             $paddingTop="1.2rem"
-                          >
-                           
-                          </S.SlideCitation>
+                          ></S.SlideCitation>
                         </S.SlideTextContent>
                       </S.SlideContent>
                     </S.CarouselSlide>

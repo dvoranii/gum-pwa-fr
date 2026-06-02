@@ -69,7 +69,6 @@ export default function ToothbrushAdult() {
                     <br />
                     <br />
                     <br />
-                    
                   </S.TextWrapper>
                   <BrushSpecsWrapper $width="100%">
                     <S.BrushSpecsGrid>
@@ -92,7 +91,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="0"
                   />
@@ -153,7 +152,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="0"
                   />
@@ -215,7 +214,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="0"
                   />
@@ -299,7 +298,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="0"
                   />
@@ -342,9 +341,8 @@ export default function ToothbrushAdult() {
                         personnes ayant une dextérité limitée
                       </li>
                     </ul>
-                    <br/>
-                    <br/>
-                    
+                    <br />
+                    <br />
                   </S.TextWrapper>
                   <BrushSpecsWrapper $width="85%">
                     <S.BrushSpecsGrid $gap="0">
@@ -367,7 +365,7 @@ export default function ToothbrushAdult() {
                     </S.BrushSpecsGrid>
                   </BrushSpecsWrapper>
                   <ShopifyIcon
-                    href="https://www.shopify.com/ca"
+                    href="https://www.shopify.com/ca-fr?country=ca&lang=fr"
                     width="30px"
                     marginTop="0"
                   />

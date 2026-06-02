@@ -11,7 +11,7 @@ const Slide4 = () => (
       brushImage={Brush1_CrayolaTimerLight}
       diagramImage={Slide4Col1TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
@@ -54,7 +54,7 @@ const Slide4 = () => (
       brushImage={Brush1_CrayolaDeepClean}
       diagramImage={Slide4Col2TopImg}
       shopifyIconProps={{
-        href: "https://www.shopify.com/ca",
+        href: "https://www.shopify.com/ca-fr?country=ca&lang=fr",
         width: "30px",
         marginTop: "0",
       }}
