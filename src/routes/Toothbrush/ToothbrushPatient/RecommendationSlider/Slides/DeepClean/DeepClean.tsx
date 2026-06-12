@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide1/Brush-DeepClean.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/525-DeepClean-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/525-DeepClean-BottomImg-updated.png";
 
 export default function DeepCleanSlide() {
   return (
@@ -26,7 +26,7 @@ export default function DeepCleanSlide() {
             </li>
             <li>
               <span>
-                Élimination de plaque 10x plus efficace.<sup>15</sup>
+                Élimination de plaque.<sup>15</sup>
               </span>
             </li>
             <li>
@@ -38,7 +38,7 @@ export default function DeepCleanSlide() {
 
           <S.ContentImageWrapper $marginTop="0.8rem" $marginLeft="1.2rem">
             <S.ContentImage
-              $width="70%"
+              $width="88%"
               src={ContentImage}
               alt="Deep Clean Technique features and benefits"
             />

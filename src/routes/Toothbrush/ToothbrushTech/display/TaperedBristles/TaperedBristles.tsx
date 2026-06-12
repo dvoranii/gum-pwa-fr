@@ -12,11 +12,12 @@ export default function TaperedBristles() {
         <S.Description>
           <li>
             La conception de précision des soies extrêmement effilées leur
-            permet de pénétrer profondément pour nettoyer jusqu&#39;à 2,7 mm
+            permet de pénétrer profondément pour nettoyer jusqu&#39;à 3,1 mm
             dans le sillon gingival et jusqu&#39;à 1,4 cm le long de la gencive
             et entre les dents1. Les 6 mm à l&#39;extrémité des soies sont
             effilés jusqu&#39;à une pointe arrondie de 0,01 mm. Normalement, les
-            soies arrondies font moins de 0,5 mm et sont effilées à 0,02 mm.<sup>14</sup>
+            soies arrondies font moins de 0,5 mm et sont effilées à 0,02 mm.
+            <sup>14</sup>
           </li>
         </S.Description>
         <S.ColLeftImgWrapper>

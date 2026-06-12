@@ -17,7 +17,7 @@ export default function SensitiveCareSlide() {
             <S.Title $fontSize="clamp(24px, 6vw, 3.2rem)" $letterSpacing="-2px">
               TECHNIQUE<sup>MD</sup>
             </S.Title>
-            <S.Subtitle>Sensitive Care</S.Subtitle>
+            <S.Subtitle>Ultra Sensitive Clean</S.Subtitle>
           </S.TitlesWrapper>
 
           <S.BulletList

@@ -40,7 +40,7 @@ export default function EnamelCleanSlide() {
             <li>
               <span>
                 Les soies Dome Trim<sup>MD</sup> sont cliniquement conçues pour
-                nettoyer souse.<sup>18, 19</sup>
+                nettoyer sous la gencive.<sup>18, 19</sup>
               </span>
             </li>
           </S.BulletList>

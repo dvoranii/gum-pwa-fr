@@ -107,7 +107,7 @@ const Slide6 = () => (
           { label: "Article", value: "4591" },
           { label: "Texture", value: "Souple" },
           { label: "Taille", value: "Compacte" },
-          { label: "Touffes", value: "23" },
+          { label: "Touffes", value: "30" },
         ],
       ]}
     />

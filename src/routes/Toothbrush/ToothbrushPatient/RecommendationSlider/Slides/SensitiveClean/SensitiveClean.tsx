@@ -1,6 +1,6 @@
 import * as S from "../ToothbrushSlide.styles";
 import ToothbrushImage from "../../../../../../assets/toothbrush/Adult/Slide1/Brush-SensitiveClean.webp";
-import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/528-SensitiveClean-BottomImg.webp";
+import ContentImage from "../../../../../../assets/toothbrush/patient/recommendations/528-SensitiveClean-BottomImg-updated.png";
 
 export default function SensitiveCleanSlide() {
   return (
@@ -27,7 +27,7 @@ export default function SensitiveCleanSlide() {
           >
             <li>
               <span>
-                Nettoyage 6x plus efficace avec des soies ultra-souples.
+                Nettoyage 6x plus propre avec des soies ultra-souples.
                 <sup>17</sup>
               </span>
             </li>
@@ -41,14 +41,14 @@ export default function SensitiveCleanSlide() {
             </li>
             <li>
               <span>
-                Maintenant avec des brins antibactériens.<sup>16</sup>
+                Maintenant avec des soies antibactériens.<sup>16</sup>
               </span>
             </li>
           </S.BulletList>
 
           <S.ContentImageWrapper $marginTop="1.2rem" $marginLeft="0.2rem">
             <S.ContentImage
-              $width="90%"
+              $width="98%"
               src={ContentImage}
               alt="Sensitive Clean Technique features and benefits"
             />

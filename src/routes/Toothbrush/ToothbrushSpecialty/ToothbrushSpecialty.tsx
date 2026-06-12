@@ -294,7 +294,6 @@ export default function ToothbrushAdult() {
               </S.TextAndImgWrapperOuter>
             </S.Column>
 
-            {/* Right Column - Denture Brush */}
             <S.Column $gap="1.2rem">
               <BrushImgWrapper
                 $containerWidth="50%"

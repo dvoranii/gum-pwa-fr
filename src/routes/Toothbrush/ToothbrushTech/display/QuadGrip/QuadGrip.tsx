@@ -9,7 +9,7 @@ export default function QuadGripDisplay() {
     <S.ContentWrapper>
       <S.HeaderRight>
         <S.MainTitle>
-          GUM<sup>MD</sup> Appuie-pouce Quad-Grip<sup>MD</sup> Thumb Pad
+          GUM<sup>MD</sup> Repose-pouce Quad-Grip<sup>MD</sup>
         </S.MainTitle>
         <S.Description>
           <li>

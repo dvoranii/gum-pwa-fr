@@ -10,7 +10,7 @@ export default function Proxabrush1614() {
           Proxabrush<sup>MD</sup>
         </>
       }
-      subtitle="WIDE"
+      subtitle="LARGE"
       sideImage={Proxabrush1614Img}
       bottomImage={BottomImg1614}
       bullets={[

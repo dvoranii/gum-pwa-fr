@@ -97,7 +97,7 @@ export default function Partners() {
                         <h4>Patient</h4>
                         <p>
                           Création d’expériences qui peuvent transformer la
-                          relation des patients avec l’hygiène.
+                          relation des patients avec l’hygiène bucco-dentaire.
                         </p>
                       </S.ColTextWrapper>
                     </S.ImgTextWrapper>
