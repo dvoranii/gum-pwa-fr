@@ -210,13 +210,7 @@ export default function BtcFloss() {
                     <S.Column>3.6m</S.Column>
                     <S.Column>144/boite</S.Column>
                   </S.InfoGridRow>
-                  <S.InfoGridRow>
-                    <S.Column>
-                      1415 PRO-WEAVE<sup>MD</sup> Ciré Tutti Frutti
-                    </S.Column>
-                    <S.Column>3.6m</S.Column>
-                    <S.Column>144/boite</S.Column>
-                  </S.InfoGridRow>
+
                   <S.InfoGridRow>
                     <S.Column>
                       1140 PRO-WEAVE<sup>MD</sup> Ciré
